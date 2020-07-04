@@ -23,7 +23,7 @@
         
         #yearbook {
             margin-top: 5%;
-            width: 50%;
+            width: 40%;
         }
         
         @media only screen and (max-width: 600px) {
@@ -32,7 +32,7 @@
             }
             #yearbook {
                 margin-top: 5%;
-                width: 100%;
+                width: 80%;
             }
         }
     </style>
@@ -40,10 +40,11 @@
         function buttonPrint() {
             buttonPrintArea = document.getElementById('buttonprintarea');
             studentNames = ['Abhishek C', 'Adarsh R', 'Adarsh S', 'Adheep George Paul', 'Adithya Nair', 'Adrian Gabriel Mathew', 'Akshay Prasannakumar', 'Allen Iype Sibi', 'Amruth Chand T', 'Ancy Sebastian', 'Anusree S', 'Aparna P Menon', 'Aravind R Nair', 'Arshaad Muhsin', 'Ashik Ameer', 'Ashwin B Nair', 'Asish Pulacherry', 'Betty Mary Thomas', 'Bhairavi Sameer Shah', 'Bindya Bhaskaran', 'Devasish Verma', 'Diya Liza Varghese', 'Don Alex', 'Francis Aldrick', 'Gayathri R Nair', 'Hariraj K', 'Jisha Varghese', 'Jithin James', 'Joel Vilanilam Zachariah', 'Jos Paul Shajan', 'Krishnaprasad K', 'Kuriakose Eldho', 'Kurian Benoy', 'L Bharath Kumar', 'Leon Joe Koithara', 'Michelle Elizabeth', 'Midhun Madhusoodhanan', 'Midu Mohan', 'Nihal Usman', 'Nikita Davies', 'Nithin Suresh', 'Noel Sebastian', 'Parvathy A N', 'Pooja C S', 'Renjith R Kartha', 'Sarah Jacob', 'Satyalekha Akula', 'Shahul ES', 'Shawn Mathew', 'Shruti Krishnan', 'Silpa T M', 'S Meenakshi', 'Sneha Achamma Cherian', 'Sophus Stein George', 'Sreelakshmi T D', 'Steve Premjith Chacko', 'Theres Mary Jose', 'Thomas Joseph', 'Tino Max Thayil', 'Vishnu V', 'Akhil Seshan', 'Jimmy Jose', 'Navya C R', 'Sreekumar']
+            studentFirstNames = ['Abhishek', 'Adarsh', 'Adarsh', 'Adheep', 'Adithya', 'Adrian', 'Akshay', 'Allen', 'Amruth', 'Ancy', 'Anusree', 'Aparna', 'Aravind', 'Arshaad', 'Ashik', 'Ashwin', 'Asish', 'Betty', 'Bhairavi', 'Bindya', 'Devasish', 'Diya', 'Don', 'Francis', 'Gayathri', 'Hariraj', 'Jisha', 'Jithin', 'Joel', 'Jos', 'Krishnaprasad', 'Kuriakose', 'Kurian', 'Bharath', 'Leon', 'Michelle', 'Midhun', 'Midu', 'Nihal', 'Nikita', 'Nithin', 'Noel', 'Parvathy', 'Pooja', 'Renjith', 'Sarah', 'Satyalekha', 'Shahul', 'Shawn', 'Shruti', 'Silpa', 'Meenakshi', 'Sneha', 'Sophus', 'Sreelakshmi', 'Steve', 'Theres', 'Thomas', 'Tino', 'Vishnu', 'Akhil', 'Jimmy', 'Navya', 'Sreekumar']
             buttonColors = ['btn-primary', 'btn-success', 'btn-danger', 'btn-warning', 'btn-info']
-            studentNames.forEach(name => {
+            studentFirstNames.forEach(name => {
                 buttons = document.createElement('button');
-                buttons.className = ("btn btn-sm ").concat(buttonColors[Math.floor(Math.random() * 5)])
+                buttons.className = ("btn ").concat(buttonColors[Math.floor(Math.random() * 5)])
                 buttons.textContent = name
                 console.log(name)
                 buttonPrintArea.appendChild(buttons);
@@ -56,7 +57,7 @@
 <body onload="buttonPrint()">
     <div class="container text-center">
         <img id="yearbook" class="text-center" src="yearbooktext.png" />
-        <p>Click to see what classmates said about you!</p>
+        <p>Click to see what your classmates said about you!</p>
     </div>
     <div class="container text-center" id="buttonprintarea" style="margin-top: 5%;">
     </div>
