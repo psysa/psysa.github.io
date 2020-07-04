@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSYSA 2020 Yearbook</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: black;
+        }
+        
+        p {
+            font-family: 'Nunito', sans-serif;
+            color: white;
+        }
+        
+        button {
+            margin: 0.5%;
+        }
+    </style>
+    <script type="text/javascript">
+        function buttonPrint() {
+            buttonPrintArea = document.getElementById('buttonprintarea');
+            studentNames = ['Abhishek C', 'Adarsh R', 'Adarsh S', 'Adheep George Paul', 'Adithya Nair', 'Adrian Gabriel Mathew', 'Akshay Prasannakumar', 'Allen Iype Sibi', 'Amruth Chand T', 'Ancy Sebastian', 'Anusree S', 'Aparna P Menon', 'Aravind R Nair', 'Arshaad Muhsin', 'Ashik Ameer', 'Ashwin B Nair', 'Asish Pulacherry', 'Betty Mary Thomas', 'Bhairavi Sameer Shah', 'Bindya Bhaskaran', 'Devasish Verma', 'Diya Liza Varghese', 'Don Alex', 'Francis Aldrick', 'Gayathri R Nair', 'Hariraj K', 'Jisha Varghese', 'Jithin James', 'Joel Vilanilam Zachariah', 'Jos Paul Shajan', 'Krishnaprasad K', 'Kuriakose Eldho', 'Kurian Benoy', 'L Bharath Kumar', 'Leon Joe Koithara', 'Michelle Elizabeth', 'Midhun Madhusoodhanan', 'Midu Mohan', 'Nihal Usman', 'Nikita Davies', 'Nithin Suresh', 'Noel Sebastian', 'Parvathy A N', 'Pooja C S', 'Renjith R Kartha', 'Sarah Jacob', 'Satyalekha Akula', 'Shahul ES', 'Shawn Mathew', 'Shruti Krishnan', 'Silpa T M', 'S Meenakshi', 'Sneha Achamma Cherian', 'Sophus Stein George', 'Sreelakshmi T D', 'Steve Premjith Chacko', 'Theres Mary Jose', 'Thomas Joseph', 'Tino Max Thayil', 'Vishnu V', 'Akhil Seshan', 'Jimmy Jose', 'Navya C R', 'Sreekumar']
+            buttonColors = ['btn-primary', 'btn-success', 'btn-danger', 'btn-warning', 'btn-info']
+            studentNames.forEach(name => {
+                buttons = document.createElement('button');
+                buttons.className = ("btn ").concat(buttonColors[Math.floor(Math.random() * 5)])
+                buttons.textContent = name
+                console.log(name)
+                buttonPrintArea.appendChild(buttons);
+            });
+
+        }
+    </script>
+</head>
+
+<body onload="buttonPrint()">
+    <div class="container text-center">
+        <img class="text-center" src="yearbooktext.png" style="margin-top: 5%; width: 50%;" />
+        <p>Click to see what classmates said about you!</p>
+    </div>
+    <div class="container text-center" id="buttonprintarea" style="margin-top: 5%;">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
