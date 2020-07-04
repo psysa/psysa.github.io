@@ -20,6 +20,21 @@
         button {
             margin: 0.5%;
         }
+        
+        #yearbook {
+            margin-top: 5%;
+            width: 50%;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            button {
+                margin: 1%;
+            }
+            #yearbook {
+                margin-top: 5%;
+                width: 100%;
+            }
+        }
     </style>
     <script type="text/javascript">
         function buttonPrint() {
@@ -28,7 +43,7 @@
             buttonColors = ['btn-primary', 'btn-success', 'btn-danger', 'btn-warning', 'btn-info']
             studentNames.forEach(name => {
                 buttons = document.createElement('button');
-                buttons.className = ("btn ").concat(buttonColors[Math.floor(Math.random() * 5)])
+                buttons.className = ("btn btn-sm ").concat(buttonColors[Math.floor(Math.random() * 5)])
                 buttons.textContent = name
                 console.log(name)
                 buttonPrintArea.appendChild(buttons);
@@ -40,7 +55,7 @@
 
 <body onload="buttonPrint()">
     <div class="container text-center">
-        <img class="text-center" src="yearbooktext.png" style="margin-top: 5%; width: 50%;" />
+        <img id="yearbook" class="text-center" src="yearbooktext.png" />
         <p>Click to see what classmates said about you!</p>
     </div>
     <div class="container text-center" id="buttonprintarea" style="margin-top: 5%;">
