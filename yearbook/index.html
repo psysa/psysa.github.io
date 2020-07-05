@@ -10,6 +10,7 @@
     <style>
         body {
             background-color: black;
+            z-index: 1;
         }
         
         p {
@@ -26,6 +27,16 @@
             width: 40%;
         }
         
+        #modalprintarea {
+            z-index: 999;
+            width: 100%;
+            height: 1000px;
+            position: absolute;
+            background: #009FFF;
+            display: none;
+            top: 0em;
+        }
+        
         @media only screen and (max-width: 600px) {
             button {
                 margin: 1%;
@@ -37,19 +48,40 @@
         }
     </style>
     <script type="text/javascript">
+        function closeModal() {
+            document.getElementById('modalprintarea').style.display = 'none'
+        }
+
         function buttonPrint() {
             buttonPrintArea = document.getElementById('buttonprintarea');
             studentNames = ['Abhishek C', 'Adarsh R', 'Adarsh S', 'Adheep George Paul', 'Adithya Nair', 'Adrian Gabriel Mathew', 'Akshay Prasannakumar', 'Allen Iype Sibi', 'Amruth Chand T', 'Ancy Sebastian', 'Anusree S', 'Aparna P Menon', 'Aravind R Nair', 'Arshaad Muhsin', 'Ashik Ameer', 'Ashwin B Nair', 'Asish Pulacherry', 'Betty Mary Thomas', 'Bhairavi Sameer Shah', 'Bindya Bhaskaran', 'Devasish Verma', 'Diya Liza Varghese', 'Don Alex', 'Francis Aldrick', 'Gayathri R Nair', 'Hariraj K', 'Jisha Varghese', 'Jithin James', 'Joel Vilanilam Zachariah', 'Jos Paul Shajan', 'Krishnaprasad K', 'Kuriakose Eldho', 'Kurian Benoy', 'L Bharath Kumar', 'Leon Joe Koithara', 'Michelle Elizabeth', 'Midhun Madhusoodhanan', 'Midu Mohan', 'Nihal Usman', 'Nikita Davies', 'Nithin Suresh', 'Noel Sebastian', 'Parvathy A N', 'Pooja C S', 'Renjith R Kartha', 'Sarah Jacob', 'Satyalekha Akula', 'Shahul ES', 'Shawn Mathew', 'Shruti Krishnan', 'Silpa T M', 'S Meenakshi', 'Sneha Achamma Cherian', 'Sophus Stein George', 'Sreelakshmi T D', 'Steve Premjith Chacko', 'Theres Mary Jose', 'Thomas Joseph', 'Tino Max Thayil', 'Vishnu V', 'Akhil Seshan', 'Jimmy Jose', 'Navya C R', 'Sreekumar']
             studentFirstNames = ['Abhishek', 'Adarsh', 'Adarsh', 'Adheep', 'Adithya', 'Adrian', 'Akshay', 'Allen', 'Amruth', 'Ancy', 'Anusree', 'Aparna', 'Aravind', 'Arshaad', 'Ashik', 'Ashwin', 'Asish', 'Betty', 'Bhairavi', 'Bindya', 'Devasish', 'Diya', 'Don', 'Francis', 'Gayathri', 'Hariraj', 'Jisha', 'Jithin', 'Joel', 'Jos', 'Krishnaprasad', 'Kuriakose', 'Kurian', 'Bharath', 'Leon', 'Michelle', 'Midhun', 'Midu', 'Nihal', 'Nikita', 'Nithin', 'Noel', 'Parvathy', 'Pooja', 'Renjith', 'Sarah', 'Satyalekha', 'Shahul', 'Shawn', 'Shruti', 'Silpa', 'Meenakshi', 'Sneha', 'Sophus', 'Sreelakshmi', 'Steve', 'Theres', 'Thomas', 'Tino', 'Vishnu', 'Akhil', 'Jimmy', 'Navya', 'Sreekumar']
             buttonColors = ['btn-primary', 'btn-success', 'btn-danger', 'btn-warning', 'btn-info']
+            gradientColors = [
+                ['#c31432', '#240b36'],
+                ['#11998e', '#38ef7d'],
+                ['#a8ff78', '#78ffd6'],
+                ['#8a2387', '#e94057', '#f27121']
+            ]
             studentFirstNames.forEach(name => {
-                buttons = document.createElement('button');
+                buttons = document.createElement('button')
                 buttons.className = ("btn ").concat(buttonColors[Math.floor(Math.random() * 5)])
                 buttons.textContent = name
                 console.log(name)
-                buttonPrintArea.appendChild(buttons);
+                buttonPrintArea.appendChild(buttons)
+                buttons.addEventListener("click", function() {
+                    modals = document.getElementById('modalprintarea')
+                    gradientColor = "linear-gradient(45deg, "
+                    gradient = gradientColors[Math.floor(Math.random() * 4)]
+                    gradient.forEach(g => {
+                        gradientColor = gradientColor.concat(g).concat(", ")
+                    });
+                    gradientColor = gradientColor.slice(0, -2)
+                    gradientColor = gradientColor.concat(" )")
+                    modals.style.background = gradientColor
+                    modals.style.display = 'block'
+                })
             });
-
         }
     </script>
 </head>
@@ -61,6 +93,16 @@
     </div>
     <div class="container text-center" id="buttonprintarea" style="margin-top: 5%;">
     </div>
+
+    <div id="modalprintarea">
+        <button type="button" class="close" aria-label="Close" onclick="closeModal()">
+            <span aria-hidden="true">&times;</span>
+            <div class="container">
+                
+            </div>
+        </button>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
