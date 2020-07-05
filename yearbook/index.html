@@ -36,6 +36,29 @@
             top: 0em;
         }
         
+        .card {
+            border-radius: 1em;
+            margin-bottom: 3.25em !important;
+            border: 0px !important;
+        }
+        
+        .cards-container {
+            margin: auto;
+        }
+        
+        #cardsColumns {
+            width: 100%;
+            padding: 5%;
+        }
+        
+        .card-columns {
+            column-gap: 3.25em;
+        }
+        
+        .blockquote {
+            padding: 0em;
+        }
+        
         @media only screen and (max-width: 600px) {
             button {
                 margin: 1%;
@@ -70,7 +93,6 @@
                 buttons = document.createElement('button')
                 buttons.className = ("btn ").concat(buttonColors[Math.floor(Math.random() * 5)])
                 buttons.textContent = name
-                console.log(name)
                 buttonPrintArea.appendChild(buttons)
                 buttons.addEventListener("click", function() {
                     modals = document.getElementById('modalprintarea')
@@ -86,15 +108,16 @@
                     cardColumns = document.getElementById('cardsColumns')
                     for (i = 0; i < 20; i++) {
                         card = document.createElement('div')
-                        card.className = "card bg-light text-center p-3"
+                        card.className = "card bg-light p-3"
                         blockQuote = document.createElement('blockquote')
-                        blockQuote.className = "blockquote mb-0"
+                        blockQuote.className = "blockquote mb-0 card-body"
                         quote = document.createElement('p')
                         quote.style.color = "black"
                         quote.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat."
                         footer = document.createElement('footer')
-                        footer.className = "blockquote mb-0"
+                        footer.className = "blockquote mb-0 text-right"
                         small = document.createElement('small')
+                        small.className = "text-muted"
                         cite = document.createElement('cite')
                         cite.titleName = "Source Title"
                         cite.textContent = "Source Title"
@@ -120,18 +143,19 @@
     </div>
 
     <div id="modalprintarea">
-        <button type="button" class="close" aria-label="Close" onclick="closeModal()">
-            <span aria-hidden="true">&times;</span>
+        <button type="button" class="close" aria-label="Close" onclick="closeModal()" style="position: fixed; right:0em; filter:invert(1)">
+            <span aria-hidden="true"><i class="fa fa-times fa-light fa-2x" aria-hidden="true"></i></span>
         </button>
         <div class="container" id="imageContainer">
 
         </div>
-        <div class="container">
+        <div class="cards-container" id="cardsContainer">
             <div class="card-columns" id="cardsColumns">
             </div>
         </div>
     </div>
 
+    <script src="https://use.fontawesome.com/7caa203050.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
