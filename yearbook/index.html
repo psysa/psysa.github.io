@@ -30,7 +30,6 @@
         #modalprintarea {
             z-index: 999;
             width: 100%;
-            height: 1000px;
             position: absolute;
             background: #009FFF;
             display: none;
@@ -50,6 +49,10 @@
     <script type="text/javascript">
         function closeModal() {
             document.getElementById('modalprintarea').style.display = 'none'
+            cardColumns = document.getElementById('cardsColumns')
+            if (cardColumns.hasChildNodes()) {
+                cardColumns.innerHTML = ""
+            }
         }
 
         function buttonPrint() {
@@ -71,7 +74,7 @@
                 buttonPrintArea.appendChild(buttons)
                 buttons.addEventListener("click", function() {
                     modals = document.getElementById('modalprintarea')
-                    gradientColor = "linear-gradient(45deg, "
+                    gradientColor = "linear-gradient(-45deg, "
                     gradient = gradientColors[Math.floor(Math.random() * 4)]
                     gradient.forEach(g => {
                         gradientColor = gradientColor.concat(g).concat(", ")
@@ -80,6 +83,28 @@
                     gradientColor = gradientColor.concat(" )")
                     modals.style.background = gradientColor
                     modals.style.display = 'block'
+                    cardColumns = document.getElementById('cardsColumns')
+                    for (i = 0; i < 20; i++) {
+                        card = document.createElement('div')
+                        card.className = "card bg-light text-center p-3"
+                        blockQuote = document.createElement('blockquote')
+                        blockQuote.className = "blockquote mb-0"
+                        quote = document.createElement('p')
+                        quote.style.color = "black"
+                        quote.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat."
+                        footer = document.createElement('footer')
+                        footer.className = "blockquote mb-0"
+                        small = document.createElement('small')
+                        cite = document.createElement('cite')
+                        cite.titleName = "Source Title"
+                        cite.textContent = "Source Title"
+                        small.appendChild(cite)
+                        footer.appendChild(small)
+                        blockQuote.appendChild(quote)
+                        blockQuote.appendChild(footer)
+                        card.appendChild(blockQuote)
+                        cardColumns.appendChild(card)
+                    }
                 })
             });
         }
@@ -97,10 +122,14 @@
     <div id="modalprintarea">
         <button type="button" class="close" aria-label="Close" onclick="closeModal()">
             <span aria-hidden="true">&times;</span>
-            <div class="container">
-                
-            </div>
         </button>
+        <div class="container" id="imageContainer">
+
+        </div>
+        <div class="container">
+            <div class="card-columns" id="cardsColumns">
+            </div>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
