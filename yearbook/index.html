@@ -49,7 +49,7 @@
             border: 0px !important;
             font-size: 0.9em !important;
             line-height: 1.5em !important;
-            background-color: rgba(0,0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.5);
         }
         
         .cards-container {
@@ -70,7 +70,6 @@
         }
         
         #imageContainer {
-            background-color: rgba(0, 0, 0, 0.5);
             margin-left: 5%;
             padding-top: 5%;
         }
@@ -103,6 +102,11 @@
             font-family: 'Nunito', sans-serif;
         }
         
+        #imageContainerOuter {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding-bottom: 5%;
+        }
+        
         @media only screen and (max-width: 600px) {
             button {
                 margin: 1%;
@@ -117,6 +121,10 @@
             }
             #imageContainer {
                 margin-left: 0%;
+                padding-top: 10%;
+            }
+            #imageContainerOuter {
+                padding-bottom: 10%;
             }
             #imageCircle {
                 width: 80px;
@@ -134,9 +142,8 @@
             #closeButton {
                 position: relative;
             }
-            #imageContainer {
-                padding-top: 10%;
-                padding-bottom: 10%;
+            #imageCircleDiv {
+                padding-left: 10%;
             }
         }
     </style>
@@ -240,13 +247,15 @@
                     </path>
                 </svg></span>
         </button>
-        <div class="container text-center" id="imageContainer">
-            <div class="row">
-                <div class="col-auto" id="imageCircleDiv">
-                </div>
-                <div class="col" id="nameField">
-                    <h1 class="text-left" id="name"></h1>
-                    <h3 class="text-left" id="aka"></h3>
+        <div id="imageContainerOuter">
+            <div class="container text-center" id="imageContainer">
+                <div class="row">
+                    <div class="col-auto" id="imageCircleDiv">
+                    </div>
+                    <div class="col" id="nameField">
+                        <h1 class="text-left" id="name"></h1>
+                        <h3 class="text-left" id="aka"></h3>
+                    </div>
                 </div>
             </div>
         </div>
