@@ -49,6 +49,7 @@
             border: 0px !important;
             font-size: 0.9em !important;
             line-height: 1.5em !important;
+            background-color: rgba(0,0, 0, 0.5);
         }
         
         .cards-container {
@@ -69,6 +70,7 @@
         }
         
         #imageContainer {
+            background-color: rgba(0, 0, 0, 0.5);
             margin-left: 5%;
             padding-top: 5%;
         }
@@ -193,18 +195,20 @@
                     cardColumns = document.getElementById('cardsColumns')
                     for (i = 0; i < 20; i++) {
                         card = document.createElement('div')
-                        card.className = "card bg-light p-3"
+                        card.className = "card p-3"
                         blockQuote = document.createElement('blockquote')
                         blockQuote.className = "blockquote mb-0 card-body"
                         quote = document.createElement('p')
-                        quote.style.color = "black"
+                        quote.style.color = "white"
                         quote.textContent = quoteData[0]["quotes"][0]["quote"]
                         footer = document.createElement('footer')
+                        footer.style.color = "white"
                         footer.className = "blockquote-footer mb-0 text-right"
                         small = document.createElement('small')
                         small.className = "text-muted bold"
                         cite = document.createElement('cite')
                         cite.setAttribute("title", "Source Title")
+                        cite.style.color = "white"
                         cite.textContent = quoteData[0]["quotes"][0]["name"]
                         small.appendChild(cite)
                         footer.appendChild(small)
