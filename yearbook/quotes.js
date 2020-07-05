@@ -1,4 +1,4 @@
-quotes = {
+quotes = [{
     "name": "Abishek C",
     "quotes": [
         {
@@ -10,4 +10,4 @@ quotes = {
             "quote": "abhishek is a good boy"
         }
     ]
-};
+}];
