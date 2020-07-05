@@ -27,6 +27,10 @@
             width: 40%;
         }
         
+        #buttonprintarea {
+            margin-top: 5%;
+        }
+        
         #modalprintarea {
             z-index: 999;
             width: 100%;
@@ -40,6 +44,8 @@
             border-radius: 1em;
             margin-bottom: 3.25em !important;
             border: 0px !important;
+            font-size: 0.9em !important;
+            line-height: 1.5em !important;
         }
         
         .cards-container {
@@ -61,6 +67,35 @@
         
         #imageContainer {
             margin-left: 5%;
+            padding-top: 5%;
+        }
+        
+        #imageCircle {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+        }
+        
+        small {
+            font-weight: 600;
+        }
+        
+        #closeButton {
+            position: fixed;
+            right: 0em;
+            filter: invert(1);
+            z-index: 9999;
+        }
+        
+        #nameField {
+            margin-top: auto;
+            margin-bottom: auto;
+            color: white;
+            padding-left: 0%;
+        }
+        
+        #nameField h3 {
+            font-family: 'Nunito', sans-serif;
         }
         
         @media only screen and (max-width: 600px) {
@@ -78,26 +113,53 @@
             #imageContainer {
                 margin-left: 0%;
             }
+            #imageCircle {
+                width: 80px;
+                height: 80px;
+            }
+            #nameField h1 {
+                font-size: 1.3em;
+            }
+            #nameField h3 {
+                font-size: 1.0em;
+            }
+            .card {
+                margin-bottom: 1.25em !important;
+            }
+            #closeButton {
+                position: relative;
+            }
+            #imageContainer {
+                padding-top: 10%;
+                padding-bottom: 10%;
+            }
         }
     </style>
     <script type="text/javascript">
         function closeModal() {
             document.getElementById('modalprintarea').style.display = 'none'
             cardColumns = document.getElementById('cardsColumns')
+            imageCircle = document.getElementById('imageCircleDiv')
             if (cardColumns.hasChildNodes()) {
                 cardColumns.innerHTML = ""
             }
+            if (imageCircle.hasChildNodes()) {
+                imageCircle.innerHTML = ""
+            }
+            document.getElementById('name').innerText = ""
+            document.getElementById('aka').innerText = ""
         }
 
         function buttonPrint() {
+            console.log(quoteData)
             buttonPrintArea = document.getElementById('buttonprintarea');
-            studentNames = ['Abhishek C', 'Adarsh R', 'Adarsh S', 'Adheep George Paul', 'Adithya Nair', 'Adrian Gabriel Mathew', 'Akshay Prasannakumar', 'Allen Iype Sibi', 'Amruth Chand T', 'Ancy Sebastian', 'Anusree S', 'Aparna P Menon', 'Aravind R Nair', 'Arshaad Muhsin', 'Ashik Ameer', 'Ashwin B Nair', 'Asish Pulacherry', 'Betty Mary Thomas', 'Bhairavi Sameer Shah', 'Bindya Bhaskaran', 'Devasish Verma', 'Diya Liza Varghese', 'Don Alex', 'Francis Aldrick', 'Gayathri R Nair', 'Hariraj K', 'Jisha Varghese', 'Jithin James', 'Joel Vilanilam Zachariah', 'Jos Paul Shajan', 'Krishnaprasad K', 'Kuriakose Eldho', 'Kurian Benoy', 'L Bharath Kumar', 'Leon Joe Koithara', 'Michelle Elizabeth', 'Midhun Madhusoodhanan', 'Midu Mohan', 'Nihal Usman', 'Nikita Davies', 'Nithin Suresh', 'Noel Sebastian', 'Parvathy A N', 'Pooja C S', 'Renjith R Kartha', 'Sarah Jacob', 'Satyalekha Akula', 'Shahul ES', 'Shawn Mathew', 'Shruti Krishnan', 'Silpa T M', 'S Meenakshi', 'Sneha Achamma Cherian', 'Sophus Stein George', 'Sreelakshmi T D', 'Steve Premjith Chacko', 'Theres Mary Jose', 'Thomas Joseph', 'Tino Max Thayil', 'Vishnu V', 'Akhil Seshan', 'Jimmy Jose', 'Navya C R', 'Sreekumar']
-            studentFirstNames = ['Abhishek', 'Adarsh', 'Adarsh', 'Adheep', 'Adithya', 'Adrian', 'Akshay', 'Allen', 'Amruth', 'Ancy', 'Anusree', 'Aparna', 'Aravind', 'Arshaad', 'Ashik', 'Ashwin', 'Asish', 'Betty', 'Bhairavi', 'Bindya', 'Devasish', 'Diya', 'Don', 'Francis', 'Gayathri', 'Hariraj', 'Jisha', 'Jithin', 'Joel', 'Jos', 'Krishnaprasad', 'Kuriakose', 'Kurian', 'Bharath', 'Leon', 'Michelle', 'Midhun', 'Midu', 'Nihal', 'Nikita', 'Nithin', 'Noel', 'Parvathy', 'Pooja', 'Renjith', 'Sarah', 'Satyalekha', 'Shahul', 'Shawn', 'Shruti', 'Silpa', 'Meenakshi', 'Sneha', 'Sophus', 'Sreelakshmi', 'Steve', 'Theres', 'Thomas', 'Tino', 'Vishnu', 'Akhil', 'Jimmy', 'Navya', 'Sreekumar']
+            studentNames = ['Abhishek C Nair', 'Adarsh R', 'Adarsh S', 'Adheep George Paul', 'Adithya Nair', 'Adrian Gabriel Mathew', 'Akshay Prasannakumar', 'Allen Iype Sibi', 'Amruth Chand T', 'Ancy Sebastian', 'Anusree S', 'Aparna P Menon', 'Aravind R Nair', 'Arshaad Muhsin', 'Ashik Ameer', 'Ashwin B Nair', 'Asish Pulacherry', 'Betty Mary Thomas', 'Bhairavi Sameer Shah', 'Bindya Bhaskaran', 'Devasish Verma', 'Diya Liza Varghese', 'Don Alex', 'Francis Aldrick', 'Gayathri R Nair', 'Hariraj K', 'Jisha Varghese', 'Jithin James', 'Joel Vilanilam Zachariah', 'Jos Paul Shajan', 'Krishnaprasad K', 'Kuriakose Eldho', 'Kurian Benoy', 'L Bharath Kumar', 'Leon Joe Koithara', 'Michelle Elizabeth', 'Midhun Madhusoodhanan', 'Midu Mohan', 'Nihal Usman', 'Nikita Davies', 'Nithin Suresh', 'Noel Sebastian', 'Parvathy A N', 'Pooja C S', 'Renjith R Kartha', 'Sarah Jacob', 'Satyalekha Akula', 'Shahul ES', 'Shawn Mathew', 'Shruti Krishnan', 'Silpa T M', 'S Meenakshi', 'Sneha Achamma Cherian', 'Sophus Stein George', 'Sreelakshmi T D', 'Steve Premjith Chacko', 'Theres Mary Jose', 'Thomas Joseph', 'Tino Max Thayil', 'Vishnu V', 'Akhil Seshan', 'Jimmy Jose', 'Navya C R', 'Sreekumar']
+            studentFirstNames = ['Abhishek', 'Adarsh R', 'Adarsh S', 'Adheep', 'Adithya', 'Adrian', 'Akshay', 'Allen', 'Amruth', 'Ancy', 'Anusree', 'Aparna', 'Aravind', 'Arshaad', 'Ashik', 'Ashwin', 'Asish', 'Betty', 'Bhairavi', 'Bindya', 'Devasish', 'Diya', 'Don', 'Francis', 'Gayathri', 'Hariraj', 'Jisha', 'Jithin', 'Joel', 'Jos', 'Krishnaprasad', 'Kuriakose', 'Kurian', 'Bharath', 'Leon', 'Michelle', 'Midhun', 'Midu', 'Nihal', 'Nikita', 'Nithin', 'Noel', 'Parvathy', 'Pooja', 'Renjith', 'Sarah', 'Satyalekha', 'Shahul', 'Shawn', 'Shruti', 'Silpa', 'Meenakshi', 'Sneha', 'Sophus', 'Sreelakshmi', 'Steve', 'Theres', 'Thomas', 'Tino', 'Vishnu', 'Akhil', 'Jimmy', 'Navya', 'Sreekumar']
             buttonColors = ['btn-primary', 'btn-success', 'btn-danger', 'btn-warning', 'btn-info']
             gradientColors = [
                 ['#c31432', '#240b36'],
                 ['#11998e', '#38ef7d'],
-                ['#a8ff78', '#78ffd6'],
+                ['#ff9966', '#ff5e62'],
                 ['#8a2387', '#e94057', '#f27121']
             ]
             studentFirstNames.forEach(name => {
@@ -116,6 +178,13 @@
                     gradientColor = gradientColor.concat(" )")
                     modals.style.background = gradientColor
                     modals.style.display = 'block'
+                    imageCircle = document.getElementById('imageCircleDiv')
+                    image = document.createElement('img')
+                    image.setAttribute("id", "imageCircle")
+                    image.setAttribute("src", "images/kuri.jpg")
+                    imageCircle.appendChild(image)
+                    document.getElementById('name').textContent = studentNames[studentFirstNames.indexOf(name)]
+                    document.getElementById('aka').textContent = "some name"
                     cardColumns = document.getElementById('cardsColumns')
                     for (i = 0; i < 20; i++) {
                         card = document.createElement('div')
@@ -128,7 +197,7 @@
                         footer = document.createElement('footer')
                         footer.className = "blockquote-footer mb-0 text-right"
                         small = document.createElement('small')
-                        small.className = "text-muted"
+                        small.className = "text-muted bold"
                         cite = document.createElement('cite')
                         cite.setAttribute("title", "Source Title")
                         cite.textContent = "Source Title"
@@ -150,21 +219,20 @@
         <img id="yearbook" class="text-center" src="yearbooktext.png" />
         <p>Click to see what your classmates said about you!</p>
     </div>
-    <div class="container text-center" id="buttonprintarea" style="margin-top: 5%;">
+    <div class="container text-center" id="buttonprintarea">
     </div>
 
     <div id="modalprintarea">
-        <button type="button" class="close" aria-label="Close" onclick="closeModal()" style="position: fixed; right:0em; filter:invert(1); z-index:9999;">
-            <span aria-hidden="true"><i class="fa fa-times fa-light fa-2x" aria-hidden="true"></i></span>
+        <button id="closeButton" type="button" class="close" aria-label="Close" onclick="closeModal()">
+            <span data-testid="x-viewer" data-icon="x-viewer" class=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M19.8 5.8l-1.6-1.6-6.2 6.2-6.2-6.2-1.6 1.6 6.2 6.2-6.2 6.2 1.6 1.6 6.2-6.2 6.2 6.2 1.6-1.6-6.2-6.2 6.2-6.2z"></path></svg></span>
         </button>
-        <div class="container text-center" id="imageContainer" style="padding-top: 5%;">
+        <div class="container text-center" id="imageContainer">
             <div class="row">
-                <div class="col-auto">
-                    <img src="yearbooktext.png" style="border-radius:50%;" width="180" height="180" />
+                <div class="col-auto" id="imageCircleDiv">
                 </div>
-                <div class="col-auto" style="margin-top: auto; margin-bottom:auto; color:white;">
-                    <h1 class="text-left">FULL NAME</h1>
-                    <h3 class="text-left">AKA someone</h3>
+                <div class="col" id="nameField">
+                    <h1 class="text-left" id="name"></h1>
+                    <h3 class="text-left" id="aka"></h3>
                 </div>
             </div>
         </div>
