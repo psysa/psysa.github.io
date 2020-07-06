@@ -105,6 +105,7 @@
         #imageContainerOuter {
             background-color: rgba(0, 0, 0, 0.5);
             padding-bottom: 5%;
+            width: 100%;
         }
         
         @media only screen and (max-width: 600px) {
@@ -148,6 +149,12 @@
         }
     </style>
     <script type="text/javascript">
+        function setTopMargin() {
+            imageContainer = document.getElementById('imageContainerOuter')
+            cardsContainer = document.getElementById('cardsContainer')
+            console.log(cardsContainer.offsetHeight)
+        }
+
         function closeModal() {
             document.getElementById('modalprintarea').style.display = 'none'
             cardColumns = document.getElementById('cardsColumns')
