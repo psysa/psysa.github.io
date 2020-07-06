@@ -183,6 +183,7 @@
                 buttons.textContent = name
                 buttonPrintArea.appendChild(buttons)
                 buttons.addEventListener("click", function() {
+                    document.documentElement.scrollTop = 0
                     modals = document.getElementById('modalprintarea')
                     gradientColor = "linear-gradient(-45deg, "
                     gradient = gradientColors[Math.floor(Math.random() * 4)]
