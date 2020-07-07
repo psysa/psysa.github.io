@@ -8,11 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="../style.css" rel="stylesheet" />
-    <script src="./quotes.js" type="text/javascript"></script>
+    <script src="./confessions.js" type="text/javascript"></script>
     <title>PSYSA2020</title>
     <style>
         body {
-            background: linear-gradient(-45deg, rgb(239, 65, 54), rgb(46, 49, 146), rgb(0, 174, 239));
+            background: linear-gradient(-45deg, rgb(195, 20, 50), rgb(36, 11, 54));
         }
         
         .header-container {
@@ -33,6 +33,16 @@
             background-color: rgba(0, 0, 0, 0.5);
         }
         
+        .card h4 {
+            font-size: 1.3em !important;
+            font-weight: 700 !important;
+            margin-bottom: 0em;
+        }
+        
+        .card p {
+            margin-bottom: 0.5em;
+        }
+        
         .cards-container {
             margin: auto;
             color: white;
@@ -50,25 +60,14 @@
         .blockquote {
             font-family: 'Nunito', sans-serif;
             font-style: italic;
-            padding: 0.75em 0em 0em 0em;
+            padding: 0.5em 0em 0em 0em;
         }
         
-        .blockquote p {
-            margin-bottom: 0.5em;
+        small {
+            font-weight: 600;
         }
         
-        #imageCircleDiv img {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-        }
-        
-        #fullName {
-            padding-top: 15%;
-            font-weight: 400;
-        }
-        
-        #ourteachers {
+        #confessions {
             width: 40%;
         }
         
@@ -76,49 +75,46 @@
             .card {
                 margin-bottom: 1.25em !important;
             }
+            #confessions {
+                width: 80%;
+            }
             .header-container {
                 padding: 3% 3% 10% 3%;
-            }
-            #ourteachers {
-                width: 80%;
             }
         }
     </style>
     <script>
         function cardDisplay() {
-            console.log(quotes)
             cardColumns = document.getElementById('cardsColumns')
             for (i = 0; i < 20; i++) {
                 card = document.createElement('div')
                 card.className = "card p-3"
-                imageContainer = document.createElement('div')
-                imageContainer.className = "text-center"
-                imageContainer.setAttribute("id", "imageContainer")
-                row = document.createElement('div')
-                row.className = "row"
-                imageCircleDiv = document.createElement('div')
-                imageCircleDiv.className = "col-auto"
-                imageCircleDiv.setAttribute("id", "imageCircleDiv")
-                image = document.createElement('img')
-                image.setAttribute("src", "../yearbook/assets/images/kuri.jpg")
-                imageCircleDiv.appendChild(image)
-                nameField = document.createElement('div')
-                nameField.setAttribute("id", "nameField")
-                fullName = document.createElement('h4')
-                fullName.className = "text-left"
-                fullName.setAttribute("id", "fullName")
-                fullName.textContent = quotes[0]["name"]
-                nameField.appendChild(fullName)
-                row.appendChild(imageCircleDiv)
-                row.appendChild(nameField)
-                imageContainer.appendChild(row)
+                titleField = document.createElement('div')
+                titleField.setAttribute("id", "titleField")
+                title = document.createElement('h4')
+                title.className = "text-left"
+                title.setAttribute("id", "title")
+                title.textContent = "CONFESSION #".concat(i + 1)
+                titleField.appendChild(title)
                 blockQuote = document.createElement('blockquote')
                 blockQuote.className = "blockquote mb-0 card-body"
                 quote = document.createElement('p')
                 quote.style.color = "white"
-                quote.textContent = quotes[0]["quote"]
+                quote.textContent = "njan oru mandan aanu"
+                footer = document.createElement('footer')
+                footer.style.color = "white"
+                footer.className = "blockquote-footer mb-0 text-right"
+                small = document.createElement('small')
+                small.className = "text-muted bold"
+                cite = document.createElement('cite')
+                cite.setAttribute("title", "Source Title")
+                cite.style.color = "white"
+                cite.textContent = "Anonymous"
+                small.appendChild(cite)
+                footer.appendChild(small)
                 blockQuote.appendChild(quote)
-                card.appendChild(imageContainer)
+                blockQuote.appendChild(footer)
+                card.appendChild(titleField)
                 card.appendChild(blockQuote)
                 cardColumns.appendChild(card)
             }
@@ -144,10 +140,10 @@
                         <a class="nav-link" href="/yearbook/"><span class="double-tab-space">&emsp;&emsp;</span>YEARBOOK<span class="double-tab-space">&emsp;&emsp;</span></a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="/teachers/"><span class="double-tab-space">&emsp;&emsp;</span>TEACHERS<span class="double-tab-space">&emsp;&emsp;</span><span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/teachers/"><span class="double-tab-space">&emsp;&emsp;</span>TEACHERS<span class="double-tab-space">&emsp;&emsp;</span></a>
                     </li>
                     <li class="nav-item ml-auto">
-                        <a class="nav-link" href="/confessions/"><span class="double-tab-space">&emsp;&emsp;</span>CONFESSIONS<span class="double-tab-space">&emsp;&emsp;</span></a>
+                        <a class="nav-link" href="/confessions/"><span class="double-tab-space">&emsp;&emsp;</span>CONFESSIONS<span class="double-tab-space">&emsp;&emsp;</span><span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -156,7 +152,7 @@
 
         <div>
             <div class="header-container text-center">
-                <img id="ourteachers" class="text-center" src="./ourteachers.png" />
+                <img id="confessions" src="./confessions.png" />
             </div>
         </div>
     </div>

@@ -58,7 +58,7 @@ button {
 
 #imageContainer {
     margin-left: 5%;
-    padding-top: 5%;
+    padding-top: 2.5%;
 }
 
 #imageCircle {
@@ -91,7 +91,7 @@ small {
 
 #imageContainerOuter {
     background-color: rgba(0, 0, 0, 0.5);
-    padding-bottom: 5%;
+    padding-bottom: 2.5%;
     width: 100%;
 }
 
@@ -120,15 +120,17 @@ small {
     }
     #nameField h1 {
         font-size: 1.3em;
+        margin-bottom: 0em;
     }
     #nameField h3 {
-        font-size: 1.0em;
+        font-size: 1.2em;
+        margin-bottom: 0em;
     }
     .card {
         margin-bottom: 1.25em !important;
     }
     #closeButton {
-        position: relative;
+        position: fixed;
     }
     #imageCircleDiv {
         padding-left: 10%;
