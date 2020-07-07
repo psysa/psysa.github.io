@@ -1,0 +1,136 @@
+body {
+    background-color: black;
+    z-index: 1;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+button {
+    margin: 0.5%;
+}
+
+#yearbook {
+    margin-top: 5%;
+    width: 40%;
+}
+
+#buttonprintarea {
+    margin-top: 5%;
+}
+
+#modalprintarea {
+    z-index: 999;
+    width: 100%;
+    position: absolute;
+    background: #009FFF;
+    display: none;
+    top: 0em;
+}
+
+.card {
+    border-radius: 1em;
+    margin-bottom: 3.25em !important;
+    border: 0px !important;
+    font-size: 0.9em !important;
+    line-height: 1.5em !important;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cards-container {
+    margin: auto;
+}
+
+#cardsColumns {
+    width: 100%;
+    padding: 5%;
+}
+
+.card-columns {
+    column-gap: 3.25em;
+}
+
+.blockquote {
+    padding: 0em;
+}
+
+#imageContainer {
+    margin-left: 5%;
+    padding-top: 5%;
+}
+
+#imageCircle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+small {
+    font-weight: 600;
+}
+
+#closeButton {
+    position: fixed;
+    right: 0em;
+    filter: invert(1);
+    z-index: 9999;
+}
+
+#nameField {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    padding-left: 0%;
+}
+
+#nameField h3 {
+    font-family: 'Nunito', sans-serif;
+}
+
+#imageContainerOuter {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+        margin: 1%;
+    }
+    #yearbook {
+        margin-top: 5%;
+        width: 80%;
+    }
+    .col-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #imageContainer {
+        margin-left: 0%;
+        padding-top: 10%;
+    }
+    #imageContainerOuter {
+        padding-bottom: 10%;
+    }
+    #imageCircle {
+        width: 80px;
+        height: 80px;
+    }
+    #nameField h1 {
+        font-size: 1.3em;
+    }
+    #nameField h3 {
+        font-size: 1.0em;
+    }
+    .card {
+        margin-bottom: 1.25em !important;
+    }
+    #closeButton {
+        position: relative;
+    }
+    #imageCircleDiv {
+        padding-left: 10%;
+    }
+}

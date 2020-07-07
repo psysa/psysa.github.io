@@ -8,240 +8,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script type="text/javascript" src="quotes.js"></script>
+    <link href="../style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="text/javascript" src="./assets/js/quotes.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <style>
-        body {
-            background-color: black;
-            z-index: 1;
-        }
-        
-        p {
-            font-family: 'Nunito', sans-serif;
-            color: white;
-        }
-        
-        button {
-            margin: 0.5%;
-        }
-        
-        #yearbook {
-            margin-top: 10%;
-            width: 40%;
-        }
-        
-        #buttonprintarea {
-            margin-top: 5%;
-        }
-        
-        #modalprintarea {
-            z-index: 999;
-            width: 100%;
-            position: absolute;
-            background: #009FFF;
-            display: none;
-            top: 0em;
-        }
-        
-        .card {
-            border-radius: 1em;
-            margin-bottom: 3.25em !important;
-            border: 0px !important;
-            font-size: 0.9em !important;
-            line-height: 1.5em !important;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-        
-        .cards-container {
-            margin: auto;
-        }
-        
-        #cardsColumns {
-            width: 100%;
-            padding: 5%;
-        }
-        
-        .card-columns {
-            column-gap: 3.25em;
-        }
-        
-        .blockquote {
-            padding: 0em;
-        }
-        
-        #imageContainer {
-            margin-left: 5%;
-            padding-top: 5%;
-        }
-        
-        #imageCircle {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-        }
-        
-        small {
-            font-weight: 600;
-        }
-        
-        #closeButton {
-            position: fixed;
-            right: 0em;
-            filter: invert(1);
-            z-index: 9999;
-        }
-        
-        #nameField {
-            margin-top: auto;
-            margin-bottom: auto;
-            color: white;
-            padding-left: 0%;
-        }
-        
-        #nameField h3 {
-            font-family: 'Nunito', sans-serif;
-        }
-        
-        #imageContainerOuter {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding-bottom: 5%;
-            width: 100%;
-        }
-        
-        @media only screen and (max-width: 600px) {
-            button {
-                margin: 1%;
-            }
-            #yearbook {
-                margin-top: 5%;
-                width: 80%;
-            }
-            .col-auto {
-                margin-left: auto;
-                margin-right: auto;
-            }
-            #imageContainer {
-                margin-left: 0%;
-                padding-top: 10%;
-            }
-            #imageContainerOuter {
-                padding-bottom: 10%;
-            }
-            #imageCircle {
-                width: 80px;
-                height: 80px;
-            }
-            #nameField h1 {
-                font-size: 1.3em;
-            }
-            #nameField h3 {
-                font-size: 1.0em;
-            }
-            .card {
-                margin-bottom: 1.25em !important;
-            }
-            #closeButton {
-                position: relative;
-            }
-            #imageCircleDiv {
-                padding-left: 10%;
-            }
-        }
-    </style>
-    <script type="text/javascript">
-        function setTopMargin() {
-            imageContainer = document.getElementById('imageContainerOuter')
-            cardsContainer = document.getElementById('cardsContainer')
-            console.log(cardsContainer.offsetHeight)
-        }
-
-        function closeModal() {
-            document.getElementById('modalprintarea').style.display = 'none'
-            cardColumns = document.getElementById('cardsColumns')
-            imageCircle = document.getElementById('imageCircleDiv')
-            if (cardColumns.hasChildNodes()) {
-                cardColumns.innerHTML = ""
-            }
-            if (imageCircle.hasChildNodes()) {
-                imageCircle.innerHTML = ""
-            }
-            document.getElementById('name').innerText = ""
-            document.getElementById('aka').innerText = ""
-        }
-
-        function buttonPrint() {
-            AOS.init();
-            var quoteData = quotes
-            console.log(quoteData)
-            AOS.init();
-            buttonPrintArea = document.getElementById('buttonprintarea');
-            studentNames = ['Abhishek C Nair', 'Adarsh R', 'Adarsh S', 'Adheep George Paul', 'Adithya Nair', 'Adrian Gabriel Mathew', 'Akshay Prasannakumar', 'Allen Iype Sibi', 'Amruth Chand T', 'Ancy Sebastian', 'Anusree S', 'Aparna P Menon', 'Aravind R Nair', 'Arshaad Muhsin', 'Ashik Ameer', 'Ashwin B Nair', 'Asish Pulacherry', 'Betty Mary Thomas', 'Bhairavi Sameer Shah', 'Bindya Bhaskaran', 'Devasish Verma', 'Diya Liza Varghese', 'Don Alex', 'Francis Aldrick C V', 'Gayathri R Nair', 'Hariraj K', 'Jisha Varghese', 'Jithin James', 'Joel Vilanilam Zachariah', 'Jos Paul Shajan', 'Krishnaprasad K', 'Kuriakose Eldho', 'Kurian Benoy', 'L Bharath Kumar', 'Leon Joe Koithara', 'Michelle Elizabeth', 'Midhun Madhusoodhanan', 'Midu Mohan', 'Nihal Usman', 'Nikita Davies', 'Nithin Suresh', 'Noel Sebastian', 'Parvathy A N', 'Pooja C S', 'Renjith R Kartha', 'Sarah Jacob', 'Satyalekha Akula', 'Shahul ES', 'Shawn Mathew', 'Shruti Krishnan', 'Silpa T M', 'S Meenakshi', 'Sneha Achamma Cherian', 'Sophus Stein George', 'Sreelakshmi T D', 'Steve Premjith Chacko', 'Theres Mary Jose', 'Thomas Joseph', 'Tino Max Thayil', 'Vishnu V', 'Akhil Seshan', 'Jimmy Jose', 'Navya C R', 'Sreekumar T H']
-            studentFirstNames = ['Abhishek', 'Adarsh R', 'Adarsh S', 'Adheep', 'Adithya', 'Adrian', 'Akshay', 'Allen', 'Amruth', 'Ancy', 'Anusree', 'Aparna', 'Aravind', 'Arshaad', 'Ashik', 'Ashwin', 'Asish', 'Betty', 'Bhairavi', 'Bindya', 'Devasish', 'Diya', 'Don', 'Francis', 'Gayathri', 'Hariraj', 'Jisha', 'Jithin', 'Joel', 'Jos', 'Krishnaprasad', 'Kuriakose', 'Kurian', 'Bharath', 'Leon', 'Michelle', 'Midhun', 'Midu', 'Nihal', 'Nikita', 'Nithin', 'Noel', 'Parvathy', 'Pooja', 'Renjith', 'Sarah', 'Satyalekha', 'Shahul', 'Shawn', 'Shruti', 'Silpa', 'Meenakshi', 'Sneha', 'Sophus', 'Sreelakshmi', 'Steve', 'Theres', 'Thomas', 'Tino', 'Vishnu', 'Akhil', 'Jimmy', 'Navya', 'Sreekumar']
-            buttonColors = ['btn-primary', 'btn-success', 'btn-danger', 'btn-warning', 'btn-info']
-            gradientColors = [
-                ['#c31432', '#240b36'],
-                ['#00a777', '#003f68'],
-                ['#f27121', '#e94057', '#8a2387'],
-                ['#ef4136', '#2e3192', '#00aeef']
-            ]
-            studentFirstNames.forEach(name => {
-                buttons = document.createElement('button')
-                buttons.className = ("btn ").concat(buttonColors[Math.floor(Math.random() * 5)])
-                buttons.textContent = name
-                buttonPrintArea.appendChild(buttons)
-                buttons.addEventListener("click", function() {
-                    document.documentElement.scrollTop = 0
-                    modals = document.getElementById('modalprintarea')
-                    gradientColor = "linear-gradient(-45deg, "
-                    gradient = gradientColors[Math.floor(Math.random() * 4)]
-                    gradient.forEach(g => {
-                        gradientColor = gradientColor.concat(g).concat(", ")
-                    });
-                    gradientColor = gradientColor.slice(0, -2)
-                    gradientColor = gradientColor.concat(" )")
-                    modals.style.background = gradientColor
-                    modals.style.display = 'block'
-                    imageCircle = document.getElementById('imageCircleDiv')
-                    image = document.createElement('img')
-                    image.setAttribute("id", "imageCircle")
-                    image.setAttribute("src", "images/kuri.jpg")
-                    imageCircle.appendChild(image)
-                    document.getElementById('name').textContent = studentNames[studentFirstNames.indexOf(name)]
-                    document.getElementById('aka').textContent = "some name"
-                    cardColumns = document.getElementById('cardsColumns')
-                    for (i = 0; i < quoteData[0]["quotes"].length; i++) {
-                        card = document.createElement('div')
-                        card.className = "card p-3"
-                        blockQuote = document.createElement('blockquote')
-                        blockQuote.className = "blockquote mb-0 card-body"
-                        quote = document.createElement('p')
-                        quote.style.color = "white"
-                        quote.textContent = quoteData[0]["quotes"][i]["quote"]
-                        footer = document.createElement('footer')
-                        footer.style.color = "white"
-                        footer.className = "blockquote-footer mb-0 text-right"
-                        small = document.createElement('small')
-                        small.className = "text-muted bold"
-                        cite = document.createElement('cite')
-                        cite.setAttribute("title", "Source Title")
-                        cite.style.color = "white"
-                        cite.textContent = quoteData[0]["quotes"][i]["name"]
-                        small.appendChild(cite)
-                        footer.appendChild(small)
-                        blockQuote.appendChild(quote)
-                        blockQuote.appendChild(footer)
-                        card.appendChild(blockQuote)
-                        cardColumns.appendChild(card)
-                    }
-                })
-            });
-        }
-    </script>
+    <script type="text/javascript" src="./assets/js/index.js"></script>
 </head>
 
 <body onload="buttonPrint()">
+
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-auto" id="navbarText">
+            <ul class="navbar-nav ml-auto mr-auto">
+                <li class="nav-item ml-auto active">
+                    <a class="nav-link" href="/index.html"><span class="double-tab-space">&emsp;&emsp;</span>HOME<span class="double-tab-space">&emsp;&emsp;</span></a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#"><span class="double-tab-space">&emsp;&emsp;</span>GALLERY<span class="double-tab-space">&emsp;&emsp;</span></a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="/yearbook/index.html"><span class="double-tab-space">&emsp;&emsp;</span>YEARBOOK<span class="double-tab-space">&emsp;&emsp;</span><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#"><span class="double-tab-space">&emsp;&emsp;</span>TEACHERS<span class="double-tab-space">&emsp;&emsp;</span></a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#"><span class="double-tab-space">&emsp;&emsp;</span>CONFESSIONS<span class="double-tab-space">&emsp;&emsp;</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container text-center">
-        <img id="yearbook" class="text-center" src="yearbooktext.png" />
+        <img id="yearbook" class="text-center" src="./assets/images/yearbooktext.png" />
         <p>Click to see what your classmates said about you!</p>
     </div>
     <div class="container text-center" id="buttonprintarea">
