@@ -1,6 +1,6 @@
 function cardDisplay() {
     cardColumns = document.getElementById('cardsColumns')
-    for (i = 0; i < 20; i++) {
+    for (i = 0; i < confessions.length; i++) {
         card = document.createElement('div')
         card.className = "card p-3"
         titleField = document.createElement('div')
@@ -14,7 +14,7 @@ function cardDisplay() {
         blockQuote.className = "blockquote mb-0 card-body"
         quote = document.createElement('p')
         quote.style.color = "white"
-        quote.textContent = confessions[0]["confession"]
+        quote.textContent = confessions[i]["confession"]
         footer = document.createElement('footer')
         footer.style.color = "white"
         footer.className = "blockquote-footer mb-0 text-right"
