@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(-45deg, rgb(195, 20, 50), rgb(36, 11, 54));
+}
+
+.header-container {
+    width: 100%;
+    padding: 3%;
+}
+
+.top-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    border-radius: 1em;
+    margin-bottom: 3.25em !important;
+    border: 0px !important;
+    font-size: 0.9em !important;
+    line-height: 1.5em !important;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card h4 {
+    font-size: 1.3em !important;
+    font-weight: 700 !important;
+    margin-bottom: 0em;
+}
+
+.card p {
+    margin-bottom: 0.5em;
+}
+
+.cards-container {
+    margin: auto;
+    color: white;
+}
+
+#cardsColumns {
+    width: 100%;
+    padding: 5%;
+}
+
+.card-columns {
+    column-gap: 3.25em;
+}
+
+.blockquote {
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    padding: 0.5em 0em 0em 0em;
+}
+
+small {
+    font-weight: 600;
+}
+
+#confessions {
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin-bottom: 1.25em !important;
+    }
+    #confessions {
+        width: 80%;
+    }
+    .header-container {
+        padding: 3% 3% 10% 3%;
+    }
+}

@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(-45deg, rgb(239, 65, 54), rgb(46, 49, 146), rgb(0, 174, 239));
+}
+
+.header-container {
+    width: 100%;
+    padding: 3%;
+}
+
+.top-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    border-radius: 1em;
+    margin-bottom: 3.25em !important;
+    border: 0px !important;
+    font-size: 0.9em !important;
+    line-height: 1.5em !important;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cards-container {
+    margin: auto;
+    color: white;
+}
+
+#cardsColumns {
+    width: 100%;
+    padding: 5%;
+}
+
+.card-columns {
+    column-gap: 3.25em;
+}
+
+.blockquote {
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    padding: 0.75em 0em 0em 0em;
+}
+
+.blockquote p {
+    margin-bottom: 0.5em;
+}
+
+#imageCircleDiv img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#fullName {
+    padding-top: 15%;
+    font-weight: 400;
+}
+
+#ourteachers {
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        margin-bottom: 1.25em !important;
+    }
+    .header-container {
+        padding: 3% 3% 10% 3%;
+    }
+    #ourteachers {
+        width: 80%;
+    }
+}
