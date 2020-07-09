@@ -19,10 +19,6 @@ function closeModal() {
 }
 
 function buttonPrint() {
-    AOS.init();
-    var quoteData = quotes
-    console.log(quoteData)
-    AOS.init();
     buttonPrintArea = document.getElementById('buttonprintarea');
     studentNames = ['Abhishek C Nair', 'Adarsh R', 'Adarsh S', 'Adheep George Paul', 'Adithya Nair', 'Adrian Gabriel Mathew', 'Akshay Prasannakumar', 'Allen Iype Sibi', 'Amruth Chand T', 'Ancy Sebastian', 'Anusree S', 'Aparna P Menon', 'Aravind R Nair', 'Arshaad Muhsin', 'Ashik Ameer', 'Ashwin B Nair', 'Asish Pulacherry', 'Betty Mary Thomas', 'Bhairavi Sameer Shah', 'Bindya Bhaskaran', 'Devasish Verma', 'Diya Liza Varghese', 'Don Alex', 'Francis Aldrick C V', 'Gayathri R Nair', 'Hariraj K', 'Jisha Varghese', 'Jithin James', 'Joel Vilanilam Zachariah', 'Jos Paul Shajan', 'Krishnaprasad K', 'Kuriakose Eldho', 'Kurian Benoy', 'L Bharath Kumar', 'Leon Joe Koithara', 'Michelle Elizabeth', 'Midhun Madhusoodhanan', 'Midu Mohan', 'Nihal Usman', 'Nikita Davies', 'Nithin Suresh', 'Noel Sebastian', 'Parvathy A N', 'Pooja C S', 'Renjith R Kartha', 'Sarah Jacob', 'Satyalekha Akula', 'Shahul ES', 'Shawn Mathew', 'Shruti Krishnan', 'Silpa T M', 'S Meenakshi', 'Sneha Achamma Cherian', 'Sophus Stein George', 'Sreelakshmi T D', 'Steve Premjith Chacko', 'Theres Mary Jose', 'Thomas Joseph', 'Tino Max Thayil', 'Vishnu V', 'Akhil Seshan', 'Jimmy Jose', 'Navya C R', 'Sreekumar T H']
     studentFirstNames = ['Abhishek', 'Adarsh R', 'Adarsh S', 'Adheep', 'Adithya', 'Adrian', 'Akshay', 'Allen', 'Amruth', 'Ancy', 'Anusree', 'Aparna', 'Aravind', 'Arshaad', 'Ashik', 'Ashwin', 'Asish', 'Betty', 'Bhairavi', 'Bindya', 'Devasish', 'Diya', 'Don', 'Francis', 'Gayathri', 'Hariraj', 'Jisha', 'Jithin', 'Joel', 'Jos', 'Krishnaprasad', 'Kuriakose', 'Kurian', 'Bharath', 'Leon', 'Michelle', 'Midhun', 'Midu', 'Nihal', 'Nikita', 'Nithin', 'Noel', 'Parvathy', 'Pooja', 'Renjith', 'Sarah', 'Satyalekha', 'Shahul', 'Shawn', 'Shruti', 'Silpa', 'Meenakshi', 'Sneha', 'Sophus', 'Sreelakshmi', 'Steve', 'Theres', 'Thomas', 'Tino', 'Vishnu', 'Akhil', 'Jimmy', 'Navya', 'Sreekumar']
@@ -58,14 +54,14 @@ function buttonPrint() {
             document.getElementById('name').textContent = studentNames[studentFirstNames.indexOf(name)]
             document.getElementById('aka').textContent = "some name"
             cardColumns = document.getElementById('cardsColumns')
-            for (i = 0; i < quoteData[0]["quotes"].length; i++) {
+            for (i = 0; i < quotes[0]["quotes"].length; i++) {
                 card = document.createElement('div')
                 card.className = "card p-3"
                 blockQuote = document.createElement('blockquote')
                 blockQuote.className = "blockquote mb-0 card-body"
                 quote = document.createElement('p')
                 quote.style.color = "white"
-                quote.textContent = quoteData[0]["quotes"][i]["quote"]
+                quote.textContent = quotes[0]["quotes"][i]["quote"]
                 footer = document.createElement('footer')
                 footer.style.color = "white"
                 footer.className = "blockquote-footer mb-0 text-right"
@@ -74,7 +70,7 @@ function buttonPrint() {
                 cite = document.createElement('cite')
                 cite.setAttribute("title", "Source Title")
                 cite.style.color = "white"
-                cite.textContent = quoteData[0]["quotes"][i]["name"]
+                cite.textContent = quotes[0]["quotes"][i]["name"]
                 small.appendChild(cite)
                 footer.appendChild(small)
                 blockQuote.appendChild(quote)
