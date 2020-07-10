@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="./assets/js/gallery.json"></script>
+    <title>PSYSA2020</title>
+    <script>
+        function cardDisplay(id) {
+            cardColumns = document.getElementById('cardsColumns')
+            if (cardColumns != null) {
+                cardColumns.innerHTML = ''
+                var pics = ['./assets/images/1.jpeg', './assets/images/2.jpeg', './assets/images/3.jpeg', '../yearbook/assets/images/kuri.jpg']
+                for (i = 0; i < 20; i++) {
+                    card = document.createElement('div')
+                    card.className = "card p-3"
+                    image = document.createElement('img')
+                    image.className = 'card-img'
+                    image.setAttribute('src', pics[Math.floor(Math.random() * 4)])
+                    overlay = document.createElement('div')
+                    overlay.className = 'overlay'
+                    textArea = document.createElement('div')
+                    textArea.className = 'text'
+                    textArea.textContent = "hello world"
+                    overlay.appendChild(textArea)
+                    card.appendChild(image)
+                    card.appendChild(overlay)
+                    cardColumns.appendChild(card)
+                }
+            }
+        }
+
+        function clicked(id) {
+            var numbers = ['one', 'two', 'three', 'four', 'five']
+            if (window.matchMedia("(max-width: 991px)").matches) {
+                for (i = numbers.indexOf(id); i < numbers.length; i++) {
+                    var dot = document.getElementById('dot' + numbers[i])
+                    dot.style.backgroundColor = 'transparent'
+                    dot.style.boxShadow = 'none'
+                }
+                for (i = 0; i < numbers.indexOf(id); i++) {
+                    var dot = document.getElementById('dot' + numbers[i])
+                    dot.style.backgroundColor = 'transparent'
+                    dot.style.boxShadow = 'none'
+                }
+                var dot = document.getElementById('dot' + id)
+                dot.style.backgroundColor = 'goldenrod'
+                cardDisplay(id)
+            } else {
+                for (i = numbers.indexOf(id); i < numbers.length; i++) {
+                    var dot = document.getElementById('dot' + numbers[i])
+                    dot.style.boxShadow = 'none'
+                    dot.style.backgroundColor = 'white'
+                }
+                for (i = 0; i < numbers.indexOf(id); i++) {
+                    var dot = document.getElementById('dot' + numbers[i])
+                    dot.style.boxShadow = 'none'
+                    dot.style.backgroundColor = 'white'
+                }
+                var dot = document.getElementById('dot' + id)
+                dot.style.boxShadow = '0 0 0 5px goldenrod'
+                cardDisplay(id)
+            }
+        }
+
+        function drawLines() {
+            var lineCanvas = document.getElementById('lineCanvas')
+            var container = document.getElementsByClassName('container')
+            if (lineCanvas == null) {
+                var body = document.getElementsByTagName('body')
+                var lineCanvas = document.createElement('div')
+                lineCanvas.setAttribute('id', 'lineCanvas')
+                body[0].appendChild(lineCanvas)
+            } else {
+                lineCanvas.innerHTML = ''
+            }
+            var numbers = ['one', 'two', 'three', 'four', 'five']
+            var dot = document.getElementById('dot' + numbers[0])
+            width = 0
+            for (i = 1; i < 8; i += 2) {
+                var line = document.createElement('div')
+                line.className = 'line'
+                line.style.top = container[0].offsetTop + (dot.offsetHeight / 2) + dot.offsetTop + 'px'
+                line.style.left = container[0].offsetLeft + (dot.offsetLeft * i) + ((dot.offsetWidth / 2) * i) + 'px'
+                line.style.width = (dot.offsetLeft * 2) + (dot.offsetHeight - 2) + 'px'
+                lineCanvas.appendChild(line)
+            }
+            var dots = document.getElementsByClassName('dot')
+            if (window.matchMedia("(max-width: 991px)").matches) {
+                for (let i = 0; i < dots.length; i++) {
+                    dots[i].style.backgroundColor = 'transparent'
+                    dots[i].style.boxShadow = 'none'
+                }
+                clicked('one')
+            } else {
+                for (let i = 0; i < dots.length; i++) {
+                    dots[i].style.backgroundColor = 'white'
+                    dots[i].style.boxShadow = 'none'
+                }
+                clicked('one')
+            }
+        }
+    </script>
+</head>
+
+<body onresize="drawLines();">
+    <div class="top-container">
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id="navbarText">
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item ml-auto active">
+                        <a class="nav-link " href="/"><span class="double-tab-space">&emsp;&emsp;</span>HOME<span
+                                class="double-tab-space">&emsp;&emsp;</span></a>
+                    </li>
+                    <li class="nav-item ml-auto ">
+                        <a class="nav-link " href="/gallery/"><span class="double-tab-space">&emsp;&emsp;</span>GALLERY<span
+                                class="double-tab-space">&emsp;&emsp;</span></a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link " href="/yearbook/"><span
+                                class="double-tab-space">&emsp;&emsp;</span>YEARBOOK<span
+                                class="double-tab-space">&emsp;&emsp;</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link " href="/teachers/"><span
+                                class="double-tab-space">&emsp;&emsp;</span>TEACHERS<span
+                                class="double-tab-space">&emsp;&emsp;</span></a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link " href="/confessions/"><span
+                                class="double-tab-space">&emsp;&emsp;</span>CONFESSIONS<span
+                                class="double-tab-space">&emsp;&emsp;</span></a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link " href="/extra/"><span
+                                class="double-tab-space">&emsp;&emsp;</span>EXTRA<span
+                                class="double-tab-space">&emsp;&emsp;</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div>
+            <div class="header-container text-center">
+                <img id="gallery" src="./assets/images/gallery.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container year-bar">
+        <div class="row" id="row">
+            <div class="col year-tab">
+                <p class="text-center year-991-plus" onclick="clicked('one')">2016</p>
+                <div class="dot text-center" onclick="clicked('one')" id="dotone">
+                    <p class="text-center year-mobile" onclick="clicked('one')">2016</p>
+                </div>
+            </div>
+            <div class="col year-tab">
+                <p class="text-center year-991-plus" onclick="clicked('two')">2017</p>
+                <div class="dot text-center" onclick="clicked('two')" id="dottwo">
+                    <p class="text-center year-mobile" onclick="clicked('two')">2017</p>
+                </div>
+            </div>
+            <div class="col year-tab">
+                <p class="text-center year year-991-plus" onclick="clicked('three')">2018</p>
+                <div class="dot text-center" onclick="clicked('three')" id="dotthree">
+                    <p class="text-center year-mobile" onclick="clicked('three')">2018</p>
+                </div>
+            </div>
+            <div class="col year-tab">
+                <p class="text-center year year-991-plus" onclick="clicked('four')">2019</p>
+                <div class="dot text-center" onclick="clicked('four')" id="dotfour">
+                    <p class="text-center year-mobile" onclick="clicked('four')">2019</p>
+                </div>
+            </div>
+            <div class="col year-tab">
+                <p class="text-center year year-991-plus" onclick="clicked('five')">2020</p>
+                <div class="dot text-center" onclick="clicked('five')" id="dotfive">
+                    <p class="text-center year-mobile" onclick="clicked('five')">2020</p>
+                </div>
+            </div>
+            <script>
+                drawLines();
+            </script>
+        </div>
+    </div>
+    <div class="cards-container" id="cardsContainer">
+        <div class="card-columns" id="cardsColumns">
+            <script>
+                clicked('one');
+            </script>
+        </div>
+    </div>
+    <button onclick="backToTop()" class="btn" id="backTop">Back to top </button>
+
+    <script>
+        var topButton = document.getElementById("backTop");
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                topButton.style.display = "block";
+            } else {
+                topButton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+</body>
+
+</html>

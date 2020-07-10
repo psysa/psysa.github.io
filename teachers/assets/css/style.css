@@ -56,7 +56,7 @@ body {
 }
 
 #ourteachers {
-    width: 40%;
+    height: 50px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -67,6 +67,6 @@ body {
         padding: 3% 3% 10% 3%;
     }
     #ourteachers {
-        width: 80%;
+        height: 30px;
     }
 }

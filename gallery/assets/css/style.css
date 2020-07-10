@@ -1,0 +1,174 @@
+body {
+    background: black;
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-container {
+    width: 100%;
+    padding: 3%;
+}
+
+.top-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dot {
+    background-clip: content-box;
+    background-color: #fff;
+    height: 15px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 12;
+}
+
+#dotone {
+    box-shadow: 0 0 0 5px goldenrod;
+}
+
+.col {
+    width: 300px;
+    margin: auto;
+    z-index: 20;
+}
+
+.line {
+    background-color: goldenrod;
+    height: 2px;
+    position: absolute;
+    z-index: 11;
+}
+
+.year-tab p {
+    color: white;
+}
+
+.card {
+    border-radius: 1em;
+    margin-bottom: 0em !important;
+    border: 0px !important;
+    font-size: 0.9em !important;
+    line-height: 1.5em !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.25em !important;
+}
+
+.cards-container {
+    margin: auto;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#cardsColumns {
+    width: 100%;
+    padding: 5% 10% 10% 10%;
+}
+
+.card-columns {
+    column-gap: 0em;
+}
+
+#gallery {
+    height: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.card:hover .overlay {
+    opacity: 0.9;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#backTop {
+    display: none;
+    color: white;
+    background-color: rgba(50, 50, 50, 0.9);
+    border-radius: 20px;
+    position: fixed;
+    z-index: 999;
+    bottom: 10px;
+    padding: 4px 16px 4px 16px;
+    right: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.year-mobile {
+    display: none;
+}
+
+.year-991-plus {
+    display: block;
+}
+
+@media only screen and (max-width: 991px) {
+    .card {
+        margin-bottom: 0.25em !important;
+    }
+    .header-container {
+        padding: 3% 3% 10% 3%;
+    }
+    #cardsColumns {
+        padding: 2.5% 5% 5% 5%;
+    }
+    #gallery {
+        height: 30px;
+    }
+    #lineCanvas {
+        display: none;
+    }
+    .year-tab p {
+        /* position: absolute; */
+        z-index: 22;
+    }
+    .dot {
+        border-radius: 5px;
+        height: 100%;
+        width: 70%;
+        background-color: transparent;
+        box-shadow: transparent;
+        z-index: 10;
+    }
+    #dotone {
+        box-shadow: transparent;
+        background-color: goldenrod;
+    }
+    #row {
+        width: 100%;
+        margin: 0;
+    }
+    .year-tab {
+        padding: 0;
+    }
+    .year-991-plus {
+        display: none;
+    }
+    .year-mobile {
+        display: block;
+        color: white;
+        font-size: 1.1em;
+    }
+}

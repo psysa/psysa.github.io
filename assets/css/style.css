@@ -12,6 +12,7 @@
 
 .navbar {
     padding-top: 0.5%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
