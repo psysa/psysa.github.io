@@ -124,6 +124,16 @@ body {
     display: block;
 }
 
+.date-area {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+small {
+    font-weight: 900;
+}
+
 @media only screen and (max-width: 991px) {
     .card {
         margin-bottom: 0.25em !important;
