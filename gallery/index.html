@@ -18,10 +18,11 @@
             var $window = $(this)
             windowWidth = $window.width();
             console.log('resized', windowWidth, lastWindowWidth)
-            lastWindowWidth = windowWidth
             if (lastWindowWidth != windowWidth) {
+                console.log('width changed')
                 drawLines();
             }
+            lastWindowWidth = windowWidth
         });
 
         function cardDisplay(id) {
