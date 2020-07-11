@@ -7,11 +7,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="../assets/css/style.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="./assets/js/gallery.json"></script>
     <title>PSYSA2020</title>
     <script>
+        var lastWindowWidth;
+        $(window).resize(function() {
+            var $window = $(this)
+            windowWidth = $window.width();
+            console.log('resized', windowWidth, lastWindowWidth)
+            lastWindowWidth = windowWidth
+            if (lastWindowWidth != windowWidth) {
+                drawLines();
+            }
+        });
+
         function cardDisplay(id) {
             cardColumns = document.getElementById('cardsColumns')
             if (cardColumns != null) {
@@ -204,9 +216,6 @@
     <button onclick="backToTop()" class="btn" id="backTop">Back to top </button>
 
     <script>
-        $('year-bar').resize(function() {
-            drawLines();
-        });
         var topButton = document.getElementById("backTop");
         window.onscroll = function() {
             scrollFunction()
