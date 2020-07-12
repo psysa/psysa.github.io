@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.10.2/underscore.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./assets/js/graphs.js"></script>
+    <link href="../assets/css/navbar.css" rel="stylesheet">
+    <title>PSYSA 2020</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        
+        .header-container {
+            width: 100%;
+            padding: 3%;
+        }
+        
+        .top-container {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        #extra {
+            height: 50px;
+        }
+        
+        .pill-box .nav-link {
+            padding: 0;
+            background-color: transparent !important;
+        }
+        
+        a.nav-link {
+            color: white !important;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            border-bottom-color: goldenrod;
+            border-bottom-style: solid;
+            border-bottom-width: 2px;
+        }
+        
+        #accordion>.card {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 10px;
+            margin: 1%;
+        }
+        
+        #accordion button {
+            color: white;
+            font-weight: 600;
+        }
+        
+        .btn:focus {
+            box-shadow: none;
+        }
+        
+        hr {
+            margin: 1em;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+        }
+        
+        #pills-memes>#cardsColumns {
+            padding: 2.5% 5% 5% 5%;
+        }
+        
+        #pills-memes .card-columns {
+            column-gap: 0em !important;
+        }
+        
+        #pills-memes .card {
+            border-radius: 1em;
+            margin-bottom: 0em !important;
+            border: 0px !important;
+            font-size: 0.9em !important;
+            line-height: 1.5em !important;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 0.25em !important;
+        }
+        
+        #pills-awards .card {
+            border-radius: 40px 60px 60px 40px;
+            margin-bottom: 3.25em !important;
+            border: 0px !important;
+            font-size: 0.9em !important;
+            line-height: 1.5em !important;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 0 !important;
+        }
+        
+        #pills-awards .cards-container {
+            margin: auto;
+            color: white;
+        }
+        
+        #pills-awards #cardsColumns {
+            /* width: 100%;
+            padding: 5%; */
+            column-gap: 3.25em;
+        }
+        
+        #imageCircleDiv img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            padding: 0;
+        }
+        
+        #nameField {
+            margin: auto 3% auto auto;
+        }
+        
+        #imageContainer .row {
+            margin-left: auto !important;
+        }
+        
+        @media only screen and (max-width: 991px) {
+            .header-container {
+                padding: 3% 3% 10% 3%;
+            }
+            #pills-memes .card {
+                padding: 1rem 1rem 0 1rem !important;
+            }
+            #extra {
+                height: 30px;
+            }
+            .col {
+                padding: 0px !important;
+            }
+            .pill-box {
+                padding: 0em !important;
+            }
+            .ikka {
+                display: none;
+            }
+            #pills-tab {
+                margin: 0 10px 0 10px;
+            }
+            #pills-awards #cardsColumns {
+                padding: 5%;
+            }
+        }
+        
+        @media only screen and (max-width: 1201px) and (min-width: 992px) {
+            #pills-awards .card-columns {
+                column-count: 2;
+            }
+        }
+        
+        @media only screen and (max-width: 992px) and (min-width: 575px) {
+            #pills-awards .card-columns {
+                column-count: 1;
+            }
+        }
+    </style>
+    <script>
+        function awardsDisplay() {
+            pillsAwards = document.getElementById('pills-awards')
+            cardColumns = pillsAwards.querySelector('#cardsColumns')
+            for (i = 0; i < 20; i++) {
+                card = document.createElement('div')
+                card.className = "card p-3"
+                imageContainer = document.createElement('div')
+                imageContainer.className = "text-center"
+                imageContainer.setAttribute("id", "imageContainer")
+                row = document.createElement('div')
+                row.className = "row"
+                imageCircleDiv = document.createElement('div')
+                imageCircleDiv.className = "col-auto"
+                imageCircleDiv.setAttribute("id", "imageCircleDiv")
+                image = document.createElement('img')
+                image.setAttribute("src", "../yearbook/assets/images/kuri.jpg")
+                imageCircleDiv.appendChild(image)
+                nameField = document.createElement('div')
+                nameField.setAttribute("id", "nameField")
+                fullName = document.createElement('h4')
+                fullName.className = "text-right"
+                fullName.setAttribute("id", "fullName")
+                fullName.textContent = "Kuriakose Eldho"
+                awardName = document.createElement('h6')
+                awardName.className = 'text-right'
+                awardName.setAttribute("id", "awardName")
+                awardName.textContent = 'Best Kundithalayan'
+                nameField.appendChild(fullName)
+                nameField.appendChild(awardName)
+                row.appendChild(nameField)
+                row.appendChild(imageCircleDiv)
+                imageContainer.appendChild(row)
+                card.appendChild(imageContainer)
+                cardColumns.appendChild(card)
+            }
+        }
+
+        function questionsDisplay() {
+            questionPills = document.getElementById('pills-questions')
+            cardColumns = questionPills.querySelector('#cardsContainer')
+            if (cardColumns != null) {
+                cardColumns.innerHTML = ''
+                for (i = 0; i < 20; i++) {
+                    card = document.createElement('div')
+                    card.className = "card"
+                    cardHeader = document.createElement('card-header')
+                    cardHeader.className = 'card-header'
+                    cardHeader.textContent = "Quote"
+                    cardBody = document.createElement('card-body')
+                    cardBody.className = 'card-body'
+                    blockQuote = document.createElement('blockquote')
+                    blockQuote.className = 'blockquote mb-0'
+                    quote = document.createElement('p')
+                    quote.textContent = "somequote"
+                    blockQuote.appendChild(quote)
+                    cardBody.appendChild(blockQuote)
+                    card.appendChild(cardHeader)
+                    card.appendChild(cardBody)
+                    cardColumns.appendChild(card)
+                }
+            }
+        }
+
+        function memesDisplay() {
+            pillMemes = document.getElementById('pills-memes')
+            cardColumns = pillMemes.querySelector('#cardsColumns')
+            if (cardColumns != null) {
+                cardColumns.innerHTML = ''
+                for (i = 0; i < 20; i++) {
+                    card = document.createElement('div')
+                    card.className = "card p-3"
+                    image = document.createElement('img')
+                    image.className = 'card-img'
+                    image.setAttribute('src', '../yearbook/assets/images/kuri.jpg')
+                    card.appendChild(image)
+                    cardColumns.appendChild(card)
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="top-container">
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarText" HOME aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id="navbarText">
+                <ul class="navbar-nav ml-auto mr-auto">
+                    <li class="nav-item ml-auto active">
+                        <a class="nav-link" href="/"><span class="double-tab-space">&emsp;&emsp;</span>HOME<span
+                                class="double-tab-space">&emsp;&emsp;</span></a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="/gallery/"><span
+                                class="double-tab-space">&emsp;&emsp;</span>GALLERY<span
+                                class="double-tab-space">&emsp;&emsp;</span></a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="/yearbook/"><span
+                                class="double-tab-space">&emsp;&emsp;</span>YEARBOOK<span
+                                class="double-tab-space">&emsp;&emsp;</span></a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="/teachers/"><span
+                                class="double-tab-space">&emsp;&emsp;</span>TEACHERS<span
+                                class="double-tab-space">&emsp;&emsp;</span></a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="/confessions/"><span
+                                class="double-tab-space">&emsp;&emsp;</span>CONFESSIONS<span
+                                class="double-tab-space">&emsp;&emsp;</span><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <a class="nav-link" href="#"><span class="double-tab-space">&emsp;&emsp;</span>EXTRA<span
+                                class="double-tab-space">&emsp;&emsp;</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div>
+            <div class="header-container text-center">
+                <img id="extra" src="../yearbook/assets/images/yearbooktext.png" />
+            </div>
+        </div>
+    </div>
+    <div class="container text-center pill-box">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="col">
+                <a class="active nav-link" id="pills-awards-tab" data-toggle="pill" href="#pills-awards" role="tab" aria-controls="pills-awards" aria-selected="true">AWARDS</a>
+            </li>
+            <li class="col">
+                <a class="nav-link" id="pills-questions-tab" data-toggle="pill" href="#pills-questions" role="tab" aria-controls="pills-questions" aria-selected="false">QUESTIONS</a>
+            </li>
+            <li class="col">
+                <a class="nav-link" id="pills-memes-tab" data-toggle="pill" href="#pills-memes" role="tab" aria-controls="pills-memes" aria-selected="false">MEMES</a>
+            </li>
+            <li class="col">
+                <a class="nav-link" id="pills-analytics-tab" data-toggle="pill" href="#pills-analytics" role="tab" aria-controls="pills-analytics" aria-selected="false"><span class="ikka">IKKA'S </span>ANALYTICS</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-awards" role="tabpanel" aria-labelledby="pills-awards-tab">
+                <div class="cards-container" id="cardsContainer">
+                    <div class="card-columns" id="cardsColumns">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-questions" role="tabpanel" aria-labelledby="pills-questions-tab">
+                <div class="cards-container" id="cardsContainer">
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-memes" role="tabpanel" aria-labelledby="pills-memes-tab">
+                <div class="cards-container" id="cardsContainer">
+                    <div class="card-columns" id="cardsColumns">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="pills-analytics" role="tabpanel" aria-labelledby="pills-analytics-tab">
+                <div class="container">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Who has talked the most?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            someone has talked the most
+                                        </div>
+                                        <div class="col-sm">
+                                            <canvas id="mostTalked" width="400" height="400"></canvas>
+                                            <script>
+                                                mostTalked();
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Who is the Media lord ?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                            someone's the media lord
+                                        </div>
+                                        <div class="col-sm">
+                                            <canvas id="mediaLord" width="400" height="400"></canvas>
+                                            <script>
+                                                mediaLord();
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Oh,I said somthing wrong?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    Yeah, you said something wrong.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        questionsDisplay();
+        memesDisplay();
+        awardsDisplay();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
