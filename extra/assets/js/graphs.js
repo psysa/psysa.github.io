@@ -10,18 +10,34 @@ function analyticsDisplay() {
         cardHeader.className = 'card-header'
         cardHeader.setAttribute('id', 'heading' + numbers[i])
         heading = document.createElement('h5')
-        heading.className = 'mb-0'
+        heading.className = 'mb-0 text-left'
         collapse = document.createElement('button')
-        collapse.className = 'btn'
-        collapse.setAttribute('data-toggle', 'collapse')
-        collapse.setAttribute('data-target', '#collapse' + numbers[i])
-        collapse.setAttribute('aria-expanded', 'true')
-        collapse.setAttribute('aria-controls', 'collapse' + numbers[i])
+        if (i == 0) {
+            collapse.className = 'btn'
+        } else {
+            collapse.className = 'btn collapsed'
+        }
+        cardHeader.setAttribute('data-toggle', 'collapse')
+        cardHeader.setAttribute('data-target', '#collapse' + numbers[i])
+        if (i == 0) {
+            cardHeader.setAttribute('aria-expanded', 'true')
+        } else {
+            cardHeader.setAttribute('aria-expanded', 'false')
+        }
+        cardHeader.setAttribute('aria-controls', 'collapse' + numbers[i])
         collapse.textContent = values[i][0]
+        darrow = document.createElement('img')
+        darrow.setAttribute('id', 'darrow')
+        darrow.setAttribute('src', './assets/images/darrow.png')
         heading.appendChild(collapse)
+        heading.appendChild(darrow)
         cardHeader.appendChild(heading)
         collapseSection = document.createElement('div')
-        collapseSection.className = 'collapse show'
+        if (i == 0) {
+            collapseSection.className = 'collapse show'
+        } else {
+            collapseSection.className = 'collapse'
+        }
         collapseSection.setAttribute('id', 'collapse' + numbers[i])
         collapseSection.setAttribute('aria-labelledby', 'heading' + numbers[i])
         collapseSection.setAttribute('data-parent', '#accordion')
@@ -47,6 +63,10 @@ function analyticsDisplay() {
         card.appendChild(cardHeader)
         card.appendChild(collapseSection)
         accordion.appendChild(card)
+        // if (i >= 0 && i <= (numbers.length - 1)) {
+        //     hr = document.createElement('hr')
+        //     accordion.appendChild(hr)
+        // }
     }
 }
 
