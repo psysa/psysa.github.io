@@ -17,16 +17,12 @@ body {
 }
 
 .pill-box .nav-link {
+    color: white !important;
+    font-weight: 600;
     padding: 0;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: transparent !important;
-}
-
-a.nav-link {
-    color: white !important;
-    font-weight: 600;
-    font-size: 0.9rem;
 }
 
 .nav-pills .nav-link.active,
@@ -88,10 +84,6 @@ a.nav-link {
     font-weight: 600;
 }
 
-#pills-awards p {
-    font-weight: 400;
-}
-
 #pills-memes>#cardsColumns {
     padding: 2.5% 5% 5% 5%;
 }
@@ -135,6 +127,9 @@ a.nav-link {
     }
     .pill-box {
         padding: 0em !important;
+    }
+    .pill-box .nav-link {
+        font-size: 0.75rem;
     }
     .ikka {
         display: none;
