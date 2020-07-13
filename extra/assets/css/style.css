@@ -1,0 +1,148 @@
+body {
+    background-color: black;
+}
+
+.header-container {
+    width: 100%;
+    padding: 3%;
+}
+
+.top-container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#extra {
+    height: 50px;
+}
+
+.pill-box .nav-link {
+    padding: 0;
+    background-color: transparent !important;
+}
+
+a.nav-link {
+    color: white !important;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    border-bottom-color: goldenrod;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+#accordion>.card {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+#accordion button {
+    color: white;
+    font-weight: 600;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+hr {
+    margin: 1em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+#pills-memes>#cardsColumns {
+    padding: 2.5% 5% 5% 5%;
+}
+
+#pills-memes .card-columns {
+    column-gap: 0em !important;
+}
+
+#pills-memes .card {
+    border-radius: 1em;
+    margin-bottom: 0em !important;
+    border: 0px !important;
+    font-size: 0.9em !important;
+    line-height: 1.5em !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.25em !important;
+}
+
+#pills-awards .card {
+    border-radius: 40px 60px 60px 40px;
+    margin-bottom: 3.25em !important;
+    border: 0px !important;
+    font-size: 0.9em !important;
+    line-height: 1.5em !important;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0 !important;
+}
+
+#pills-awards .cards-container {
+    margin: auto;
+    color: white;
+}
+
+#pills-awards #cardsColumns {
+    /* width: 100%;
+    padding: 5%; */
+    column-gap: 3.25em;
+}
+
+#imageCircleDiv img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 0;
+}
+
+#nameField {
+    margin: auto 3% auto auto;
+}
+
+#imageContainer .row {
+    margin-left: auto !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .header-container {
+        padding: 3% 3% 10% 3%;
+    }
+    #pills-memes .card {
+        padding: 1rem 1rem 0 1rem !important;
+    }
+    #extra {
+        height: 30px;
+    }
+    .col {
+        padding: 0px !important;
+    }
+    .pill-box {
+        padding: 0em !important;
+    }
+    .ikka {
+        display: none;
+    }
+    #pills-tab {
+        margin: 0 10px 0 10px;
+    }
+    #pills-awards #cardsColumns {
+        padding: 5%;
+    }
+}
+
+@media only screen and (max-width: 1201px) and (min-width: 992px) {
+    #pills-awards .card-columns {
+        column-count: 2;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 575px) {
+    #pills-awards .card-columns {
+        column-count: 1;
+    }
+}
