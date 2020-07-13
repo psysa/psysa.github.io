@@ -4,36 +4,37 @@ function awardsDisplay() {
     if (cardColumns != null) {
         cardColumns.innerHTML = ''
         for (i = 0; i < 20; i++) {
-            card = document.createElement('div')
-            card.className = "card p-3"
-            imageContainer = document.createElement('div')
-            imageContainer.className = "text-center"
-            imageContainer.setAttribute("id", "imageContainer")
-            row = document.createElement('div')
-            row.className = "row"
-            imageCircleDiv = document.createElement('div')
-            imageCircleDiv.className = "col-auto"
-            imageCircleDiv.setAttribute("id", "imageCircleDiv")
-            image = document.createElement('img')
-            image.setAttribute("src", "../yearbook/assets/images/kuri.jpg")
-            imageCircleDiv.appendChild(image)
-            nameField = document.createElement('div')
-            nameField.setAttribute("id", "nameField")
-            fullName = document.createElement('h4')
-            fullName.className = "text-right"
-            fullName.setAttribute("id", "fullName")
-            fullName.textContent = "Kuriakose Eldho"
-            awardName = document.createElement('h6')
-            awardName.className = 'text-right'
-            awardName.setAttribute("id", "awardName")
-            awardName.textContent = 'Best Kundithalayan'
-            nameField.appendChild(fullName)
-            nameField.appendChild(awardName)
-            row.appendChild(nameField)
-            row.appendChild(imageCircleDiv)
-            imageContainer.appendChild(row)
-            card.appendChild(imageContainer)
-            cardColumns.appendChild(card)
+            for (i = 0; i < 20; i++) {
+                card = document.createElement('div')
+                card.className = "card p-3"
+                image = document.createElement('div')
+                image.className = 'image'
+                cardImage = document.createElement('img')
+                cardImage.className = 'card-img'
+                cardImage.setAttribute('src', './assets/images/wreath.png')
+                image.appendChild(cardImage)
+                overlay = document.createElement('div')
+                overlay.className = 'overlay'
+                cardImageOverlay = document.createElement('img')
+                cardImageOverlay.className = 'card-img'
+                cardImageOverlay.setAttribute('src', '../yearbook/assets/images/kuri.jpg')
+                overlay.appendChild(cardImageOverlay)
+                cardBody = document.createElement('div')
+                cardBody.className = 'card-body'
+                cardBody.style.color = 'white'
+                cardTitle = document.createElement('h5')
+                cardTitle.className = 'card-title'
+                cardTitle.textContent = 'Best Kundithalayan'
+                cardText = document.createElement('p')
+                cardText.className = 'card-text'
+                cardText.textContent = 'Kuriakose Eldho'
+                cardBody.appendChild(cardTitle)
+                cardBody.appendChild(cardText)
+                card.appendChild(overlay)
+                card.appendChild(image)
+                card.appendChild(cardBody)
+                cardColumns.appendChild(card)
+            }
         }
     }
 }

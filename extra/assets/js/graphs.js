@@ -1,8 +1,8 @@
 function analyticsDisplay() {
     accordion = document.getElementById('accordion')
     accordion.innerHTML = ''
-    numbers = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight']
-    values = [['mostTalked', 'bar'], ['mostEmoji', 'bar'], ['somethingWrong', 'bar'], ['mostMedia', 'bar'], ['popularWords', 'bar'], ['talkingDay', 'bar'], ['talkingHrs', 'bar'], ['talkingMonths', 'bar']]
+    numbers = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']
+    values = [['mostTalked', 'bar'], ['mostEmoji', 'bar'], ['somethingWrong', 'bar'], ['mostMedia', 'bar'], ['popularWords', 'bar'], ['talkingDay', 'bar'], ['talkingHrs', 'bar'], ['talkingMonths', 'bar'], ['semesterWise', 'pie']]
     for (i = 0; i < numbers.length; i++) {
         card = document.createElement('card')
         card.className = 'card'
@@ -10,7 +10,11 @@ function analyticsDisplay() {
         cardHeader.className = 'card-header'
         cardHeader.setAttribute('id', 'heading' + numbers[i])
         heading = document.createElement('h5')
-        heading.className = 'mb-0 text-left'
+        heading.className = 'mb-0'
+        headerRow = document.createElement('div')
+        headerRow.className = 'row justify-content-between'
+        titleDiv = document.createElement('div')
+        titleDiv.className = 'col-auto text-left'
         collapse = document.createElement('button')
         if (i == 0) {
             collapse.className = 'btn'
@@ -26,11 +30,17 @@ function analyticsDisplay() {
         }
         cardHeader.setAttribute('aria-controls', 'collapse' + numbers[i])
         collapse.textContent = values[i][0]
+        arrowDiv = document.createElement('div')
+        arrowDiv.className = 'col-auto text-right'
         darrow = document.createElement('img')
         darrow.setAttribute('id', 'darrow')
         darrow.setAttribute('src', './assets/images/darrow.png')
-        heading.appendChild(collapse)
-        heading.appendChild(darrow)
+        darrow.className = 'col-auto text-right'
+        arrowDiv.appendChild(darrow)
+        titleDiv.appendChild(collapse)
+        headerRow.appendChild(titleDiv)
+        headerRow.appendChild(arrowDiv)
+        heading.appendChild(headerRow)
         cardHeader.appendChild(heading)
         collapseSection = document.createElement('div')
         if (i == 0) {
@@ -79,7 +89,8 @@ function plotGraph(graphName, type) {
         'popularWords': 'popular_words',
         'talkingDay': 'talking_day',
         'talkingHrs': 'talking_hrs',
-        'talkingMonths': 'talking_months'
+        'talkingMonths': 'talking_months',
+        'semesterWise': 'semwise_talk'
     }
     $.getJSON("./assets/js/graph_data/" + graphNameMap[graphName] + ".json", function (json) {
         var ctx = document.getElementById(graphName).getContext('2d');
