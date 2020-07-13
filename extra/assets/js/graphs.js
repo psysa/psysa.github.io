@@ -1,5 +1,6 @@
 function analyticsDisplay() {
-    accordion = document.getElementById('accordion')
+    pillsAnalytics = document.getElementById('pills-analytics')
+    accordion = pillsAnalytics.querySelector('#accordion')
     accordion.innerHTML = ''
     numbers = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']
     values = [['mostTalked', 'bar'], ['mostEmoji', 'bar'], ['somethingWrong', 'bar'], ['mostMedia', 'bar'], ['popularWords', 'bar'], ['talkingDay', 'bar'], ['talkingHrs', 'bar'], ['talkingMonths', 'bar'], ['semesterWise', 'pie']]
