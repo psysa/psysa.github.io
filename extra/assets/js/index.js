@@ -104,7 +104,7 @@ function questionsDisplay() {
         collapse.style.fontWeight = '600'
         collapse.textContent = "Who's Kuriakose?"
         arrowDiv = document.createElement('div')
-        arrowDiv.className = 'col-auto text-right'
+        arrowDiv.className = 'col-auto text-right arrow-div'
         darrow = document.createElement('img')
         darrow.setAttribute('id', 'darrow')
         darrow.setAttribute('src', './assets/images/darrow.png')

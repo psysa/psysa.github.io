@@ -149,11 +149,26 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-#pills-analytics .card-header img,
-#pills-questions .card-header img {
+#pills-analytics .card-header img {
     width: 20px;
     padding: 0em;
     vertical-align: bottom;
+}
+
+#pills-questions .card-header img {
+    width: 20px;
+    padding: 0em;
+    vertical-align: baseline;
+}
+
+#pills-questions .arrow-div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#pills-questions .col-auto .text-right {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
 }
 
 #pills-questions #accordionContainer {
