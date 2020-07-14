@@ -24,7 +24,7 @@ function awardsDisplay() {
                 cardBody.style.color = 'white'
                 cardTitle = document.createElement('h5')
                 cardTitle.className = 'card-title'
-                cardTitle.textContent = 'Best Kundithalayan'
+                cardTitle.textContent = 'Best Student'
                 cardText = document.createElement('p')
                 cardText.className = 'card-text'
                 cardText.textContent = 'Kuriakose Eldho'
