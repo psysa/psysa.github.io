@@ -150,12 +150,12 @@ function memesDisplay() {
     cardColumns = pillMemes.querySelector('#cardsColumns')
     if (cardColumns != null) {
         cardColumns.innerHTML = ''
-        for (i = 0; i < 20; i++) {
+        for (i = 0; i < memes[0]['memes'].length; i++) {
             card = document.createElement('div')
             card.className = "card p-3"
             image = document.createElement('img')
             image.className = 'card-img'
-            image.setAttribute('src', '../yearbook/assets/images/kuri.jpg')
+            image.setAttribute('src', './assets/images/Memes/' + memes[0]['memes'][i]['meme'])
             card.appendChild(image)
             cardColumns.appendChild(card)
         }

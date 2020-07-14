@@ -1,7 +1,6 @@
 function cardDisplay() {
-    console.log(quotes)
     cardColumns = document.getElementById('cardsColumns')
-    for (i = 0; i < 20; i++) {
+    for (i = 0; i < teachers[0]['teachers'].length; i++) {
         card = document.createElement('div')
         card.className = "card p-3"
         imageContainer = document.createElement('div')
@@ -13,14 +12,14 @@ function cardDisplay() {
         imageCircleDiv.className = "col-auto"
         imageCircleDiv.setAttribute("id", "imageCircleDiv")
         image = document.createElement('img')
-        image.setAttribute("src", "../yearbook/assets/images/kuri.jpg")
+        image.setAttribute("src", './assets/images/Teacher Photos/' + teachers[0]['teachers'][i]['photo'])
         imageCircleDiv.appendChild(image)
         nameField = document.createElement('div')
         nameField.setAttribute("id", "nameField")
         fullName = document.createElement('h4')
         fullName.className = "text-left"
         fullName.setAttribute("id", "fullName")
-        fullName.textContent = quotes[0]["name"]
+        fullName.textContent = teachers[0]['teachers'][i]['teacher']
         nameField.appendChild(fullName)
         row.appendChild(imageCircleDiv)
         row.appendChild(nameField)
@@ -29,7 +28,7 @@ function cardDisplay() {
         blockQuote.className = "blockquote mb-0 card-body"
         quote = document.createElement('p')
         quote.style.color = "white"
-        quote.textContent = quotes[0]["quote"]
+        quote.textContent = teachers[0]['teachers'][i]['quote']
         blockQuote.appendChild(quote)
         card.appendChild(imageContainer)
         card.appendChild(blockQuote)

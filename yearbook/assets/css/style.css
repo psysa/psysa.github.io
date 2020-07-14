@@ -89,6 +89,10 @@ small {
     font-family: 'Nunito', sans-serif;
 }
 
+#nameField p {
+    margin-bottom: 0rem;
+}
+
 #imageContainerOuter {
     background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 2.5%;
