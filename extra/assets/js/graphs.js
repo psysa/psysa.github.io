@@ -1,6 +1,6 @@
 function analyticsDisplay() {
     pillsAnalytics = document.getElementById('pills-analytics')
-    accordion = pillsAnalytics.querySelector('#accordion')
+    accordion = pillsAnalytics.querySelector('#accordionAnalytics')
     accordion.innerHTML = ''
     numbers = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']
     values = [['mostTalked', 'bar'], ['mostEmoji', 'bar'], ['somethingWrong', 'bar'], ['mostMedia', 'bar'], ['popularWords', 'bar'], ['talkingDay', 'bar'], ['talkingHrs', 'bar'], ['talkingMonths', 'bar'], ['semesterWise', 'pie']]
@@ -51,7 +51,7 @@ function analyticsDisplay() {
         }
         collapseSection.setAttribute('id', 'collapse' + numbers[i])
         collapseSection.setAttribute('aria-labelledby', 'heading' + numbers[i])
-        collapseSection.setAttribute('data-parent', '#accordion')
+        collapseSection.setAttribute('data-parent', '#accordionAnalytics')
         cardBody = document.createElement('div')
         cardBody.className = 'card-body'
         row = document.createElement('div')

@@ -27,7 +27,7 @@ body {
 }
 
 #dotone {
-    box-shadow: 0 0 0 5px goldenrod;
+    box-shadow: 0 0 0 5px #FBB040;
 }
 
 .col {
@@ -37,7 +37,7 @@ body {
 }
 
 .line {
-    background-color: goldenrod;
+    background-color: #FBB040;
     height: 2px;
     position: absolute;
     z-index: 11;
@@ -165,7 +165,7 @@ small {
     }
     #dotone {
         box-shadow: transparent;
-        background-color: goldenrod;
+        background-color: #FBB040;
     }
     #row {
         width: 100%;

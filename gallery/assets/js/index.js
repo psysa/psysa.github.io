@@ -43,7 +43,7 @@ function clicked(id) {
             dot.style.boxShadow = 'none'
         }
         var dot = document.getElementById('dot' + id)
-        dot.style.backgroundColor = 'goldenrod'
+        dot.style.backgroundColor = '#FBB040'
         cardDisplay(id)
     } else {
         for (i = numbers.indexOf(id); i < numbers.length; i++) {
@@ -57,7 +57,7 @@ function clicked(id) {
             dot.style.backgroundColor = 'white'
         }
         var dot = document.getElementById('dot' + id)
-        dot.style.boxShadow = '0 0 0 5px goldenrod'
+        dot.style.boxShadow = '0 0 0 5px #FBB040'
         cardDisplay(id)
     }
 }

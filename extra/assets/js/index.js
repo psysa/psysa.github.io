@@ -47,17 +47,24 @@ function questionsDisplay() {
         for (i = 0; i < 5; i++) {
             card = document.createElement('div')
             card.className = "card"
-            cardHeader = document.createElement('card-header')
+            cardHeader = document.createElement('h5')
             cardHeader.className = 'card-header'
-            cardHeader.textContent = "Quote"
+            cardHeader.textContent = "Who's Kuriakose?"
+            cardHeader.style.fontWeight = '600'
             cardBody = document.createElement('card-body')
             cardBody.className = 'card-body'
-            blockQuote = document.createElement('blockquote')
-            blockQuote.className = 'blockquote mb-0'
-            quote = document.createElement('p')
-            quote.textContent = "somequote"
-            blockQuote.appendChild(quote)
-            cardBody.appendChild(blockQuote)
+            listGroup = document.createElement('ul')
+            listGroup.className = 'list-group list-group-flush'
+            listGroup.style.backgroundColor = 'transparent'
+            listGroup.style.fontWeight = '400'
+            for (j = 0; j < 5; j++) {
+                listItem = document.createElement('li')
+                listItem.className = 'list-group-item'
+                listItem.textContent = 'Kuriakose is a Good Boy'
+                listItem.style.backgroundColor = 'transparent'
+                listGroup.appendChild(listItem)
+            }
+            cardBody.appendChild(listGroup)
             card.appendChild(cardHeader)
             card.appendChild(cardBody)
             cardColumns.appendChild(card)
@@ -94,7 +101,8 @@ function questionsDisplay() {
             cardHeader.setAttribute('aria-expanded', 'false')
         }
         cardHeader.setAttribute('aria-controls', 'collapse' + numbers[i])
-        collapse.textContent = "quote"
+        collapse.style.fontWeight = '600'
+        collapse.textContent = "Who's Kuriakose?"
         arrowDiv = document.createElement('div')
         arrowDiv.className = 'col-auto text-right'
         darrow = document.createElement('img')
@@ -118,13 +126,18 @@ function questionsDisplay() {
         collapseSection.setAttribute('data-parent', '#accordion')
         cardBody = document.createElement('div')
         cardBody.className = 'card-body'
-        row = document.createElement('div')
-        row.className = 'row'
-        textCol = document.createElement('div')
-        textCol.className = 'col-sm'
-        textCol.textContent = "some quote"
-        row.appendChild(textCol)
-        cardBody.appendChild(row)
+        listGroup = document.createElement('ul')
+        listGroup.className = 'list-group list-group-flush'
+        listGroup.style.backgroundColor = 'transparent'
+        listGroup.style.fontWeight = '400'
+        for (j = 0; j < 5; j++) {
+            listItem = document.createElement('li')
+            listItem.className = 'list-group-item'
+            listItem.textContent = 'Kuriakose is a Good Boy'
+            listItem.style.backgroundColor = 'transparent'
+            listGroup.appendChild(listItem)
+        }
+        cardBody.appendChild(listGroup)
         collapseSection.appendChild(cardBody)
         card.appendChild(cardHeader)
         card.appendChild(collapseSection)

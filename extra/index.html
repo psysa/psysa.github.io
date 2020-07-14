@@ -17,12 +17,10 @@
     <title>PSYSA 2020</title>
     <script>
         $(document).ready(function() {
-            // Add minus icon for collapse element which is open by default
             $(".collapse.show").each(function() {
                 $(this).prev('.card-header').find('#darrow').css('transform', 'rotate(180deg)');
             });
 
-            // Toggle plus minus icon on show hide of collapse element
             $(".collapse").on('show.bs.collapse', function() {
                 $(this).prev('.card-header').find('#darrow').css('transform', 'rotate(180deg)');
             }).on('hide.bs.collapse', function() {
@@ -79,7 +77,7 @@
             </div>
         </div>
     </div>
-    <div class="container text-center pill-box">
+    <div class="extraContainer text-center pill-box">
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li class="col">
                 <a class="active nav-link" id="pills-awards-tab" data-toggle="pill" href="#pills-awards" role="tab" aria-controls="pills-awards" aria-selected="true">AWARDS</a>
@@ -107,7 +105,7 @@
                     <div class="card-columns" id="cardsColumns">
                     </div>
                 </div>
-                <div class="container" id="accordionContainer">
+                <div id="accordionContainer">
                     <div class="accordion" id="accordion">
                     </div>
                 </div>
@@ -121,8 +119,8 @@
             </div>
 
             <div class="tab-pane fade" id="pills-analytics" role="tabpanel" aria-labelledby="pills-analytics-tab">
-                <div class="container">
-                    <div class="accordion" id="accordion">
+                <div class="analyticsContainer">
+                    <div class="accordion" id="accordionAnalytics">
                     </div>
                 </div>
             </div>
