@@ -132,12 +132,12 @@ body {
 }
 
 #pills-memes .card-columns {
-    column-gap: 0em !important;
+    column-gap: 1.5em !important;
 }
 
 #pills-memes .card {
     border-radius: 1em;
-    margin-bottom: 0em !important;
+    margin-bottom: 2em !important;
     border: 0px !important;
     font-size: 0.9em !important;
     line-height: 1.5em !important;
@@ -179,8 +179,23 @@ body {
     text-align: left;
 }
 
+#pills-analytics #accordionAnalytics button {
+    text-align: left;
+}
+
 #pills-questions #cardsContainer {
     display: block;
+}
+
+.aboutIkka {
+    color: white;
+    padding: 2%;
+}
+
+#accordionAnalytics .col-sm {
+    font-weight: 400;
+    text-align: left;
+    padding-left: 2%;
 }
 
 @media only screen and (max-width: 991px) {
@@ -188,7 +203,7 @@ body {
         padding: 3% 3% 10% 3%;
     }
     #pills-memes .card {
-        padding: 1rem 1rem 0 1rem !important;
+        padding: 1.5rem 1rem 0 1rem !important;
     }
     #extra {
         height: 30px;
@@ -246,5 +261,8 @@ body {
     }
     #pills-questions #accordionContainer {
         display: block;
+    }
+    #accordionAnalytics .col-sm {
+        padding-left: 3%;
     }
 }

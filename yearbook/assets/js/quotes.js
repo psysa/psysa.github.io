@@ -1,5 +1,7 @@
 nicknames = ['Konashake', 'Pollu', 'Thundu', 'Vava', 'Memelord', 'Inbaraj', 'Butterfly', 'Kuttan', 'Iype', 'CPP', 'Delhiwali', 'Anusthree', 'Appu', 'Dope', 'Theevandi', 'Achan/Mon', 'Mayor', 'Pullz', 'Betz', 'Bhai', 'Chitti', 'Player', 'Chechi', 'Donn', 'Franco', 'Gayu', 'Pickle Hari', 'Aadu Abu', 'JJ Machan', 'JvZac', 'KSRTC', 'KP', 'Kuri', 'KB', 'WaduHek', 'Leon Bhai', 'Zuk', 'Michy', 'Ijj', 'Mottu', 'Boi', 'Nikki', 'Pada', 'Shebash', 'Paru', 'Pooch', 'Bombay', 'Theetz', 'Saty', 'Shullu', 'Hacker', 'Shru', 'Sipla', 'Meenu', 'Achamma', 'Manga', 'Pachalam', 'Achan/Mon', 'Thanimathan', 'Thomachan', 'Maxi', 'VishnuBro', 'Sheshan', 'JimmyChayan', 'Tubelight', 'Maaman'];
 
+dob = ['March 26', 'June 22', 'Sept 3', 'March 16', 'July 12', 'July 10', '31 July', '9 May', '23 April', '23 March', '18 May', 'Feb 9', 'May 9', 'Feb 19', 'Sept 9', 'Aug 26', 'Sept 15', 'March 27', 'April 7', 'April 17', 'Oct 26', 'Feb 5', 'Aug 16', 'Sept 29', 'Oct 5', 'Nov 11', 'Jan 18', 'Sept 23', 'Dec 6', 'August 29', 'April 3', 'July 6', 'Feb 19', 'Sept 25', 'Jan 1', 'June 11', 'June 28', 'July 15', 'May 14', 'Sept 16', 'Sept 12', 'July 28', 'April 17', 'July 21', 'May 7', 'Nov 1', 'Sept 28', 'June 13', 'June 21', 'Jan 24', 'Sept 11', 'Jan 23', 'July 28', 'Aug 16', 'July 8', 'Nov 25', 'Jan 22', 'June 10', 'Oct 15', 'July 22', 'April 24', 'Oct 4', 'Feb 2', 'July 31', 'Nov 3', 'May 23'];
+
 quotes = [
   {
     "name": "Jos",

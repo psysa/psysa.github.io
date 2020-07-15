@@ -1,1 +1,14 @@
-{ "August": 15585, "September": 12093, "October": 9389, "December": 8928, "November": 8481, "January": 7035, "February": 6685, "May": 5966, "March": 5660, "April": 5332, "June": 3635, "July": 2785 }
+{
+    "January": 7035,
+    "February": 6685,
+    "March": 5660,
+    "April": 5332,
+    "May": 5966,
+    "June": 3635,
+    "July": 2785,
+    "August": 15585,
+    "September": 12093,
+    "October": 9389,
+    "November": 8481,
+    "December": 8928
+}

@@ -1,7 +1,7 @@
 awards = [
   {
     "award": "Cutsest Couple",
-    "winner": "Midhun-Bindya",
+    "winner": "Midhun & Bindya",
     "rollno": "67"
   },
   {

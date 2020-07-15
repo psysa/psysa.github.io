@@ -1,1 +1,9 @@
-{ "Friday": 13842, "Wednesday": 13714, "Tuesday": 13269, "Saturday": 13086, "Sunday": 13000, "Monday": 12512, "Thursday": 12151 }
+{
+    "Monday": 12512,
+    "Tuesday": 13269,
+    "Wednesday": 13714,
+    "Thursday": 12151,
+    "Friday": 13842,
+    "Saturday": 13086,
+    "Sunday": 13000
+}

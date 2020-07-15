@@ -19,6 +19,10 @@ analysisContent = [{
     "content": "Over four years of CSA group chat, “happy” was the most used word, used approximately 6000 times. “Birthday is the second most often word that was sent. “Guys”, “thanks”, “the” and the rest of them follow."
 },
 {
+    "heading":"Which day of the week sees most activity?",
+    "content":"Fridays are usually when our group is most active, when compared to other days of the week. The least active day is Thursday."
+},
+{
     "heading": "During what hour of the day did we talk the most?",
     "content": "As indicated by the bars in the graph, our group was most active between 10am and 8pm, with fluctuating consistency, and 5 out clock being the peak hour."
 },

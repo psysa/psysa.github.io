@@ -106,7 +106,7 @@ function plotGraph(graphName, type, color) {
                 scales: {
                     yAxes: [{
                         ticks: {
-                            beginAtZero: true
+                            beginAtZero: false
                         }
                     }]
                 }
