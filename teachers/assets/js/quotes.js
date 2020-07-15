@@ -177,7 +177,7 @@ teachers = [
         "photo": "Jaimon.jpg"
       },
       {
-        "teacher": "Dr.Priya Miss",
+        "teacher": "Priya Miss",
         "quote": "Whatever you have gained by your honest labour whether it be technical,moral or spiritual knowledge that alone belongs to you and enjoy life with that",
         "photo": "Priya2.jpg"
       },
