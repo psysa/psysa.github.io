@@ -3,7 +3,7 @@ function analyticsDisplay() {
     accordion = pillsAnalytics.querySelector('#accordionAnalytics')
     accordion.innerHTML = ''
     numbers = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']
-    values = [['mostTalked', 'bar'], ['mostEmoji', 'bar'], ['somethingWrong', 'bar'], ['mostMedia', 'bar'], ['popularWords', 'bar'], ['talkingDay', 'bar'], ['talkingHrs', 'bar'], ['talkingMonths', 'bar'], ['semesterWise', 'pie']]
+    values = [['mostTalked', 'bar', 'rgb(218,165,32)'], ['mostEmoji', 'bar', 'rgb(218,165,32)'], ['somethingWrong', 'bar', 'rgb(218,165,32)'], ['mostMedia', 'bar', 'rgb(218,165,32)'], ['popularWords', 'bar', 'rgb(218,165,32)'], ['talkingDay', 'bar', 'rgb(218,165,32)'], ['talkingHrs', 'bar', 'rgb(218,165,32)'], ['talkingMonths', 'bar', 'rgb(218,165,32)'], ['semesterWise', 'pie', ['rgb(99, 110, 250)', 'rgb(239, 85, 59)', 'rgb(0, 204, 150)', 'rgb(171, 99, 250)', 'rgb(255, 161, 90)', 'rgb(25, 211, 243)', 'rgb(255, 102, 146)', 'rgb(182, 232, 128)']]]
     for (i = 0; i < numbers.length; i++) {
         card = document.createElement('card')
         card.className = 'card'
@@ -15,7 +15,7 @@ function analyticsDisplay() {
         headerRow = document.createElement('div')
         headerRow.className = 'row justify-content-between'
         titleDiv = document.createElement('div')
-        titleDiv.className = 'col-auto text-left'
+        titleDiv.className = 'col text-left'
         collapse = document.createElement('button')
         if (i == 0) {
             collapse.className = 'btn'
@@ -30,9 +30,9 @@ function analyticsDisplay() {
             cardHeader.setAttribute('aria-expanded', 'false')
         }
         cardHeader.setAttribute('aria-controls', 'collapse' + numbers[i])
-        collapse.textContent = values[i][0]
+        collapse.textContent = analysisContent[i]['heading']
         arrowDiv = document.createElement('div')
-        arrowDiv.className = 'col-auto text-right'
+        arrowDiv.className = 'col-2 text-right'
         darrow = document.createElement('img')
         darrow.setAttribute('id', 'darrow')
         darrow.setAttribute('src', './assets/images/darrow.png')
@@ -58,14 +58,14 @@ function analyticsDisplay() {
         row.className = 'row'
         textCol = document.createElement('div')
         textCol.className = 'col-sm'
-        textCol.textContent = values[i][0]
+        textCol.textContent = analysisContent[i]['content']
         graphCol = document.createElement('div')
         graphCol.className = 'col-sm'
         canvasArea = document.createElement('canvas')
         canvasArea.setAttribute('id', values[i][0])
         canvasArea.setAttribute('width', '400')
         canvasArea.setAttribute('height', '400')
-        plotGraph(values[i][0], values[i][1])
+        plotGraph(values[i][0], values[i][1], values[i][2])
         graphCol.appendChild(canvasArea)
         row.appendChild(textCol)
         row.appendChild(graphCol)
@@ -74,14 +74,10 @@ function analyticsDisplay() {
         card.appendChild(cardHeader)
         card.appendChild(collapseSection)
         accordion.appendChild(card)
-        // if (i >= 0 && i <= (numbers.length - 1)) {
-        //     hr = document.createElement('hr')
-        //     accordion.appendChild(hr)
-        // }
     }
 }
 
-function plotGraph(graphName, type) {
+function plotGraph(graphName, type, color) {
     graphNameMap = {
         'mostTalked': 'who_talked_most',
         'mostEmoji': 'most_emoji',
@@ -100,10 +96,9 @@ function plotGraph(graphName, type) {
             data: {
                 labels: _.keys(json),
                 datasets: [{
-                    label: '# of Votes',
+                    label: '# of Messages',
                     data: _.values(json),
-                    backgroundColor: 'rgb(218,165,32)',
-                    borderColor: 'rgb(218,165,32)',
+                    backgroundColor: color,
                     borderWidth: 0
                 }]
             },

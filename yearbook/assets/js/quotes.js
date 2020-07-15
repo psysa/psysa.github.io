@@ -1,7 +1,5 @@
 nicknames = ['Konashake', 'Pollu', 'Thundu', 'Vava', 'Memelord', 'Inbaraj', 'Butterfly', 'Kuttan', 'Iype', 'CPP', 'Delhiwali', 'Anusthree', 'Appu', 'Dope', 'Theevandi', 'Achan/Mon', 'Mayor', 'Pullz', 'Betz', 'Bhai', 'Chitti', 'Player', 'Chechi', 'Donn', 'Franco', 'Gayu', 'Pickle Hari', 'Aadu Abu', 'JJ Machan', 'JvZac', 'KSRTC', 'KP', 'Kuri', 'KB', 'WaduHek', 'Leon Bhai', 'Zuk', 'Michy', 'Ijj', 'Mottu', 'Boi', 'Nikki', 'Pada', 'Shebash', 'Paru', 'Pooch', 'Bombay', 'Theetz', 'Saty', 'Shullu', 'Hacker', 'Shru', 'Sipla', 'Meenu', 'Achamma', 'Manga', 'Pachalam', 'Achan/Mon', 'Thanimathan', 'Thomachan', 'Maxi', 'VishnuBro', 'Sheshan', 'JimmyChayan', 'Tubelight', 'Maaman'];
 
-dob = ['March 26', 'June 22', 'Sept 3', 'March 16', 'July 12', 'July 10', 'July 31', 'May 9', 'April 23', 'March 23', 'May 18', 'February 9', 'May 9', 'February 19', 'September 9', 'August 26', 'September 15', 'March 27', 'April 7', 'April 17', 'October 26', 'February 5', 'August 16', 'September 29', 'October 5', 'November 11', 'January 18', 'September 23', 'December 6', 'August 29', 'April 3', 'July 6', 'February 19', 'September 25', 'January 1', 'June 11', 'June 28', 'July 15', 'May 14', 'September 16', 'September 12', 'July 28', 'April 17', 'July 21', 'May 7', 'November 1', 'September 28', 'June 13', 'June 21', 'January 24', 'September 11', 'January 23', 'July 28', 'August 16', 'July 8', 'November 25', 'January 22', 'June 10', 'October 15', 'July 22', 'April 24', 'October 4', 'February 2', 'July 31', 'November 3', 'May 23'];
-
 quotes = [
   {
     "name": "Jos",
@@ -207,7 +205,7 @@ quotes = [
         "quote": "Paavam. Never got to know you on a personal level, but your very soft-spoken. Never have I ever heard you shout even once."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "1st benchil irunn nyz aayit orangum😂"
       },
       {
@@ -223,7 +221,7 @@ quotes = [
         "quote": "Very silent person. But so friendly too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "jos paul brother, one of the most funniest (unintentionally or intentionally) guys. I feel he has good discipline too when it comes to academics."
       },
       {
@@ -237,6 +235,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "KSRTC il maathram othukkan ullathalla ninte kazhivu... Ini vere state pidikk.... All the best mwone....."
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Jos."
+      },
+      {
+        "name": "Asish",
+        "quote": "Jos is a member of my family, Kanimangalam and i ve known him so long and spend so much time with him, He is a one of a kind person , i bet you cannot find someone like him, he always goes by his principles and never attempts to break them. Sadly , I could'nt give him a cheers in college but someday in the future i will."
+      },
+      {
+        "name": "Sarah",
+        "quote": "At Least there is one person in the class who can challenge me in lagging, keep up the good work. :P  You are kind and sweet, hope this world doesn't change that."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "KSRTC Joseeee, it's only in 2nd or 3rd year I started getting to know him, as in started interacting with him. But now when looking back you where one of the few people in college which I wanted to get to know better, but couldn't.\nSamayam indello, set aakam!"
       }
     ]
   },
@@ -444,7 +458,7 @@ quotes = [
         "quote": "It’s difficult to explain what relationship we’ve had. But I do know that all my favourite college memories had you in them. From snacking at royals or canteen to going out to cafes, to hardcore project or excel work, I was priviledged to have you. You’re extremely hardworking and enthusiastic. Any work, you can get it done asap. My go to for all gossip and hostel student information. I’ll miss you alot. Please keep in touch.\nPS: I am sometimes jealous of your fasion sense and your collection of great footwear :P"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Pucham aan ivalde main😘💞"
       },
       {
@@ -460,7 +474,7 @@ quotes = [
         "quote": "Very creative and hardworking. Always ready to do anything she get. She have every problem solution. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Never really got to know you that well, but from the little interactions we've had, you have a good sense of humour and I love your fashion accessories."
       },
       {
@@ -474,6 +488,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Thannimathan!! Ambience keng and ma' best friend!... Pucham lesham korakkam ketto! Ini nammal eppozha kaanane 🥺 "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Theres. Thankyou for the good vibes."
+      },
+      {
+        "name": "Asish",
+        "quote": "Theres is a cool person, she does all kinds of art related work and is always there to help , she was a key player in our house."
+      },
+      {
+        "name": "Sarah",
+        "quote": "She has the best ‘dont mess with me look’, but athu elam veruthe anu, but beware of her brothers! The bubbly database of our class."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Thannimathan, trrrrrrr hihih.\nI can't precisely remember when we started talking pakshe nyan ninne IGil ninne mate accountil ninnu unfollow cheydapolekum nee enik message ayichu and I happened to scroll down your first IG post, annu nyan sed ayi. Kore onam pic carousel and I was in your first post, sorry koche for my heinous act!\nI am happy we could make that small video for you in your hostel farewell video.\nI am going to treasure that bamboo forest photo sequence with you and Michi forever!\nPatti panikum, dedicationum pariyaram annu nee CSAil ninnu kuttiye!\nKore kore samsarikanam, aduth ariyanam enn ulla ende oru cheriya list ind enik, and neeum ind even though you don't want to LOL.\nCollegeilo patti illa, BUT nyan shalya peduthikolam!\nApol engana sticker war thudangu alle?"
       }
     ]
   },
@@ -681,7 +711,7 @@ quotes = [
         "quote": "Extremely hardworking and dedicated for things that you want to do otherwise your just “meh” about it. Strong emotional power (there are a few exceptions though) and will power. You follow your own set of principles and don’t give a damn about the world, I love that. Always be honest with me, see you around."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Buji😁"
       },
       {
@@ -697,7 +727,7 @@ quotes = [
         "quote": "One of the best coder in our class. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "One of the tech gurus of class. You surely dont compromise on the FUN though. I would know ;) (from the atholokam sessions). Well put together and good values. "
       },
       {
@@ -711,6 +741,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Big Brain Time....  Baa oru website koode ondakkam.... Desgin set akk #onelasttime"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Kuriakose."
+      },
+      {
+        "name": "Asish",
+        "quote": "One of the greatest computer minds in MEC, absolutely down to earth and his smile is a killer , an open and warm person , always ready to go to Bismi, thankfully."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Buying you icecream for helping me pass DS lab and for patiently explaining linked lists. I’m still waiting for Twix from Singapore."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "The tanker kuriapi! Aaru adichu wheel ayalum nee kanum enn urappaa!\nWhile I am writing this a few memory flashes came in so I am gonna jot those down.\nSo I had a phase where I used to pull noses and make it red, so one day I come to class and tried pulling Kuri's nose but accidentally poked his eyes, this guy comes up and BOOM on my back, oru JCB keri erangiya feeling. Pinne manasil ayi, comedku anel poolum, \"body touching no\".\nRemember 2 or 3rd IV day, where me you and Mittu got tried of some shit and got our musics out and started dancing? Annu we had a pretty good conversation.\nI think IV was where me and you got close.\nSo far the best memory is going to dopes house and stealing his ice-cream and making ice-cream sandwich! I still have that video where we are doing live cookery show and I am going to put that up in my channel.\nLast but not the least the last adi in Kani, where I got sed and you and Steve came up and pulled me out.\nRemember we were in front of CP and we all sat inside the car that too AC turned onn to finish off a song that was playing adanu Kurapi.\nAnd myree nee enne patichu, adu nyan marikilla, naari. Inni enne patikan patilla.\nYou are a pwoli, myree.\nNinnodum tata myrum onnum parayun illa.\nKaranam ninnde cashinu Hyderabad vannu kore adikan ullatha. ( Myre nee Hyderabad vittu Bangalore ayi alle, enik sauvaryam ayi travel )\nAppo viduva!\nKanaam"
       }
     ]
   },
@@ -918,7 +964,7 @@ quotes = [
         "quote": "Extremely great at sleeping on the first bench, a skill I have never been able to achieve! Never leave playing basketball, make time for it somehow."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Always sleeping😴😂"
       },
       {
@@ -934,7 +980,7 @@ quotes = [
         "quote": "Sleeping beauty of our class. When he sleep in tge class we also feel sleepy. He is very talented person too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "There are 2 things i remember Nihal for, SLEEPING in class and  sleeping in class. Apart from that some interesting conversations we've had is something I def remember him for."
       },
       {
@@ -948,6 +994,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Sleeping Beauty.... Ninakk enganeyada first benchil irunn urangaan pattane??"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Nihal."
+      },
+      {
+        "name": "Asish",
+        "quote": "Nihal is someone who is very much dedicated to his cause and his primary cause being sleeping in class, he dint shook or shake if teachers entered or left, A good basketball player and a practical person."
+      },
+      {
+        "name": "Sarah",
+        "quote": "A nice guy who likes to sleep a lot."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "The official sleeping beauty of our class you basket ball beast!\nYou are such a pleasant guy dude! Shit, I envy you most of the time, in a good way!\nWe should have talked more!\nI guess we will!\nTake care da!"
       }
     ]
   },
@@ -1155,7 +1217,7 @@ quotes = [
         "quote": "We’ve always had a gap because of my weak vocabulary in Malayalam. That’s probably why we never made very good conversations."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Exam hallil ninn 1st irangum😂"
       },
       {
@@ -1171,7 +1233,7 @@ quotes = [
         "quote": "Very friendly person. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Mischievous asf. Another pal from the Fort kochi area. Knows the struggle of long commute."
       },
       {
@@ -1185,6 +1247,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Franco ippo pazhaya franco alla..... Python keng!! Ini enkilum mini-militia okke onn nirth! Ini eppozha Turfil pone... sed aayi 🥺"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Francis."
+      },
+      {
+        "name": "Asish",
+        "quote": "Franco, is a typical fort kochi machane , being the football fanatics of the class ,we used to cut class and play football, A poli machan"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Leaves class to play football."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Francooooooo, aa nishku chiri, gamer daav and fort kochi vibe athanu franco nee.\nNee pwoli aada!\nnamuku koodam udane! :)"
       }
     ]
   },
@@ -1392,7 +1470,7 @@ quotes = [
         "quote": "I remember we became friends on the first day of college (Orientation day) because we had the same slippers and similar stories to share. You’ve always been a really good friend throughout college and supported me at all times. I will really miss you. People might say you have an attitude but don’t ever change it, they’re just jealous. Will never forget the debate during 1st year arts when you threw the pen and walked out of the auditorium."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Cutest 😍💞"
       },
       {
@@ -1408,7 +1486,7 @@ quotes = [
         "quote": "Very beautiful,  interactive, smart and bold student in our class. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "You were of the leaders of our class, taking initiatives. thanks for that. And I know you are very emotional. Smart, confident and proactive."
       },
       {
@@ -1422,11 +1500,27 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "C'mon Captain!! #onelasttime"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Pooja."
+      },
+      {
+        "name": "Asish",
+        "quote": "I remember arguing and debating in her class always and coincidentally that brought us closer as friends, every arts our friendship grew and now i have a lifelong friend in her."
+      },
+      {
+        "name": "Sarah",
+        "quote": "She says she's a nice bitch once you get to know her. I say, stay away, she's crazy, she will ask you for the pen you lost 2 years ago! Dude remember signals lab? XD"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Manja Kili! that was name that was fed in my head before Pooja Sekhar was introduced, because I still remember vayi nokaling you on the first day of college but adoke poyi when I came to know that you were committed. #sedayi\nBut hey pooch, what do I say about you, I am smiling like an idiot. \nWe haven't been the best of friends but you were pretty cool to hang out with.\nI think we need to give up hope on our class for replying to our messages. LOL\nFrom being not selected as class rep to being our co-captain you have grown so much without losing yourself da.\nI remember us boys calling you on your bday and we hung up, but I remember you being so happy about it.\nIt's good to have somebody on the side not losing hope in our class, but unfortunately you have to do it alone now.\nSo Pooja Sekhar, I still have that pact ka recording and you would owe me a biriyani from Hyderabad.\nTake care yo! "
       }
     ]
   },
   {
-    "name": "Devashish",
+    "name": "Devasish",
     "quotes": [
       {
         "name": "Adheep",
@@ -1633,7 +1727,7 @@ quotes = [
         "quote": "Will miss giving you the long lectures and all the amazing gossip about school and college networks. Thankyou for saving me the long bus rides by giving me lifts on your bike while coming back home. And thanks! For saving my money on ubers and metros. To more momos, chat and ice tea at shifus! Cheers!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Eating parata from bhai's lunch box😁"
       },
       {
@@ -1659,6 +1753,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the very best friend!! "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Devashish."
+      },
+      {
+        "name": "Asish",
+        "quote": "The playboy, I met in class , absolutely chill and a real cool person. Disappointed he did not master malayalam after all these years, at least one good swear."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Unapologetically honest. Gives off all the fuxk boi vibes, but he isn't one."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Oye choot! Sutta partner h tu mera. I mean not hamesha hamesha but whenever I said \"bhai Bismi chale\"? you would be like \"haan\" ek dam chill!\nThey way you progressed in these 4 years academically was craazzy bro.\nReally appreciate it bro.\nRemember IV time you showed off and drank a lot of MM Green Apple and passed out puking and Manilal sir giving you advice. LOL\nBhai you still need to tell me those tips to get laid man!\nWill miss ya bro!\nHam milenge, ek aur fauuji daaru session."
       }
     ]
   },
@@ -1866,7 +1976,7 @@ quotes = [
         "quote": "Buddy from first year, cheerful and always happy to help"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Trying hard to speak some malayalam 😂😘"
       },
       {
@@ -1882,7 +1992,7 @@ quotes = [
         "quote": "The most eligible person for class rup. She always care about her class and her friends. Always  try to make everyone happy. Some problem in speaking Malayalam but she always try to speak in Malayalam. She always try to feel me comfortable in our class when I joined in our class. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "hmm, where do I start. You were one of my closest friend in college. So much gossip we have had. And the infinite number of bus rides together going back home. And going out to eat be it pani puri, momos, chaat and the list goes on. Apart from all of this, I always admired how you prioritised yourself and worked with dedication. It reminded me of what I was like in school and what I should be like in college. You helped me to strive for better."
       },
       {
@@ -1896,11 +2006,27 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "We can't fight for that bench again, Bhai!! #taskattendcheyyande All the best Bhaii!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Bhairavi. You're so nice."
+      },
+      {
+        "name": "Asish",
+        "quote": "The Bhai, the most regular and punctual person , whose attendance is always on a default i.e 100% , she brings in good food to share , and is always ready to help other people improve themselves"
+      },
+      {
+        "name": "Sarah",
+        "quote": "I will surely miss the North Indian tiffin even though I was only allowed to have small portions. :P I admire your honesty, which is so rare these days. Keep hustling girl!"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Bhaaaai! From saying \"no, don't touch my lunch\" and meaning it to saying the same thing and giving us food you always made sure to bring back my lost forgotten north Indian taste buds.\nOne day I am gonna barge in your home hungry and eat all your food.\nWe are close and not close in these 4 years but we sure did have some deep conversations for sure!\nThanks for talking to me deep deep when you sometimes figure out somethings not wrong from seeing my face.\nThank you for that waving hand and saying \"jaane do\"! \nThank you for being you bhaai!\nWill miss you and I am gonna come to Bangalore and make you cook food!\nAnd thank you for the Pop-Up Socket! <3\nTake care bhaaai! <3"
       }
     ]
   },
   {
-    "name": "Akshay P",
+    "name": "Akshay",
     "quotes": [
       {
         "name": "Adheep",
@@ -2103,7 +2229,7 @@ quotes = [
         "quote": "Why are you such an “ideal” student when it comes to assignment submissions? All the best!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Padippist"
       },
       {
@@ -2119,7 +2245,7 @@ quotes = [
         "quote": "Very much silent always talk to his own friends. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Kuttan is what i would recall. "
       },
       {
@@ -2133,6 +2259,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Kutta.... PDF server onn scale-up cheyyy.... "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Akshay."
+      },
+      {
+        "name": "Asish",
+        "quote": "Kuttan is our keng , does all the works on time and shares it to us, always the lead padipi in a group and has a great character."
+      },
+      {
+        "name": "Sarah",
+        "quote": "The smart one with the glasses."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Kutaa! Nee mass aada!\nNammal angane samsarichit onnum illa, but watching you in class for 4 years I understood that you were pretty constant as you were.\nYou had your priorities set right and that's good thing da!\nEvide engilum okke vech kaanam! :))"
       }
     ]
   },
@@ -2222,10 +2364,6 @@ quotes = [
       {
         "name": "Steve",
         "quote": "Only got to know you properly in 4th year, could've gotten to know you earlier! Keep writing amazing stuff and hope we'll keep in touch?"
-      },
-      {
-        "name": "Satyalekha",
-        "quote": "Okay let's do this."
       },
       {
         "name": "Pooja",
@@ -2344,7 +2482,7 @@ quotes = [
         "quote": "Will miss our daily doze of compliments on each others earrings. Stay happy always!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Writer simham🔥💖"
       },
       {
@@ -2360,7 +2498,7 @@ quotes = [
         "quote": "Very friendly,kind and hardworking girl. She is very helping minded person. Always try to help everyone without expecting anything from them. That is the best specialty of her I like more. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "You have been the sweetest person to me in class. You have had a very pleasant presence in my life. Enjoyed sitting with u and having good conversations. "
       },
       {
@@ -2374,6 +2512,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "One of the most friendly and nicest person I've ever met!! Paperkin Girl! Keep it going Satya... All the very best friend!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "Satya you're so good. All the best."
+      },
+      {
+        "name": "Asish",
+        "quote": "Sat, there is a lot to write about her, she's one of the most sensible person i've ever known , she totally dedicates her to the cause she believes,  A loving friend, a caring person and overall the person whose got good perceptions on life.\n"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Why she is actually Hermione <3\n1. Comes up with the most logical reasonings\n2. Has a beaded bag filled with the best advices\n3. Always has our backs\n4. Smartest of the lot\n5. Boss lady"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Hahaha. Damn. Saty kutty, aaana kutty, satelite, hanuman, grapes is just the surface level list. Lemme tell you your earring collection are the bestestestest ( ik this word doesn't exist).\nI am gonna brag now okay? So before she started spewing sense to the world I was one of her initial experimental rats where she would spew sense ( actually I would go and ask her to), back then it didn't had a fancy name like spewing sense because it was life saving stuff.\nOne of the few people who have the audacity to tell me whats wrong on my face.\nYou were a beautiful friend and I am sorry Sat for not being the friend you wanted me to.\nEvery time I run from OHana, you 3 would give me enough reasons to stay.\nThank you making me home Sat.\nWe need to take more pictures together\nThere's this immense uuhh my eyes are full as I write this, it's been a honor knowing you da! "
       }
     ]
   },
@@ -2581,7 +2735,7 @@ quotes = [
         "quote": "You have this “swag” style which I really love! Extremely helpful and your a gentleman."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Good soul💖"
       },
       {
@@ -2597,7 +2751,7 @@ quotes = [
         "quote": "Always talkative and so friendly. Very comfortable to talk to him."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "JJ macha. brother vibes. One of the most reliable person I've met. Fun and intelligent."
       },
       {
@@ -2611,6 +2765,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "JJ Machaa!! Trip povande namakk...."
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Jithin."
+      },
+      {
+        "name": "Asish",
+        "quote": "JJ is a chill person, chill ennu paranja porre , vere level. I ve never seen him sulk or disappointed always on the vibe to do things ,plan trips, go to bismi,and trying out new things, a great future awaits him in the field of machine learning"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Award for the most diplomatic person goes to JJ! You are a good human, anybody would be lucky to have you as their friend, as far as I know. ;) You deserve all the love in this world!"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "JJ machaa! Iee form inde space onnum porada ninne kurich ezhudan! But I am going to try.\nFrom sitting in the last bench with you and RAD Midhun, designing my Vespa scooter, to winning that 20k with you and Pula, to tripping our balls off in bamboo forest, to taking Shulus scooter high af and buying that tawa roll and giving it out that shake to that paavam manushyan, to eating that tawa roll in the side walkway of container road,  to making bonds about smoking up and owing 100 rs to each other that we don't break our friendship, to Bangalore drunk days, to talking for hours, to completing that final project, to supporting me in my life, to finally writing this we have come a looooong way bro.\nThe one of the good reasons I enjoyed my college life da kutta!\nThank you for being there.\nI know we have a lot of differences but I guess accepting the way we are and pushing each other to do better things was the crucial point in our friendship.\nI don't generally use best friend terminologies these days but JJ you have been a reaaaaal good best friend da!\nNinnodu bye um koppum, see you soon enn onnum parayun illa, because nammal kochi thanne ind and kore adigal baaki ind!\nAppo sheri!"
       }
     ]
   },
@@ -2822,7 +2992,7 @@ quotes = [
         "quote": "You have really beautiful eyes, just like those dancers! Thank you for passing all of us by asking teachers all the important topics. Could’nt have passed series exams without those."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Our paamb vaasu🐍. Mandatharam aan ivalde mail💥.  My partner in placement moonjal💥😂😘"
       },
       {
@@ -2834,7 +3004,7 @@ quotes = [
         "quote": "കള്ള പഠിപ്പി "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Dedicated, responsible?"
       },
       {
@@ -2848,6 +3018,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Lab mate, Thrissurkkari..... All the best friend!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "Keep smiling as always you do😄. I'll miss you vasu."
+      },
+      {
+        "name": "Asish",
+        "quote": "Navya came in as a lateral and was able to easily integrate among ourselves always on the vibe for doing things and celebrations."
+      },
+      {
+        "name": "Sarah",
+        "quote": "The first bench buddy with the prettiest eyes, who is ever so kind to update me with  whatever I missed in the previous class. "
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Dhey Navya! LET anelum, I never felt it that way. Epol kandalum oru chiri kaanum that would make my day happy. As in I don't think I have ever seen her not smile, maybe kanathath aarkum or maybe kanikathath aarkum.\nBut thank you for always greeting me with warmth da, I could genuinly see the innocense in you.\nDhey ipol ketanum kode pogunnu.\nNee adipoli aato! \nNever let anything  stop you from doing the things you wanna do!\n"
       }
     ]
   },
@@ -3055,7 +3241,7 @@ quotes = [
         "quote": "Will miss the deep debates we used to have on some extremely weird topics. I’m always just an email away for more such debates. Would’ve been great if you came for the IV though."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Oru short film aparatha😂"
       },
       {
@@ -3071,7 +3257,7 @@ quotes = [
         "quote": "He is very different from others. His attitude, behavior and thoughts are very different. Only intelligent people can understand him. I always feel so confusing when he talk to me."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Hackerman shawn. A little socially awkward"
       },
       {
@@ -3085,6 +3271,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Help me make a router firmware to track all the traffic through that router!!! All the very best dude...."
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Shawn."
+      },
+      {
+        "name": "Asish",
+        "quote": "\"Hacker Shawn\" as we used to call him in skyblue, spends lot of time in front of the computer exploring his interests in hacking , a very knowledgeable and dedicated person."
+      },
+      {
+        "name": "Sarah",
+        "quote": "We have had some really entertaining debates and conversations on the first bench on the days that I come late and while escorting me to the bus stop. Hope I have squashed all your stereotypes about women. (jk) Cheers!\nPS: short film?"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Shawn is basically the only person in our whole batch ( I might be wrong about the stats) who actually cares about his cyber privacy. We all preach about it but he takes action in it. The only way to contact him is through email, and that too proton mail. \nKeeping those things aside, Shawn is actually a person who's very supportive and motivates you to do things and he is talker. \nBut Shawn dude I am still pissed at you for not coming to IV.\nAnyways stay same, we will meet someday! :)"
       }
     ]
   },
@@ -3292,7 +3494,7 @@ quotes = [
         "quote": "Kind hearted, want certain things her way, extremely supportive and an amazing friend. I think we became friends slowly over time while working for Excel Ambience team. Slowly we spent friday breaks and lunch hours together, then we became benchmates, went home together, all the bus and metro rides and what not. We’ve had so much fun together! All the assignments and notes and every single thing we’ve done together are memories I’ll remember and feel senti about thoughout lifetime. Thankyou for being my friend and my support system. I couldn’t have done so much in college if it weren’t for you. From Excel to Project team, your my main. Love you! And I need not say it but I know, we will keep in touch. I will miss you. "
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Michu te lunch box ile beef roast is heaven😋💖"
       },
       {
@@ -3308,7 +3510,7 @@ quotes = [
         "quote": "The beautiful girl in our class. Very hardworking and creative too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "A little shy? oh and 'padippi'"
       },
       {
@@ -3322,6 +3524,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Ambience Keng.. Ini ravile aa fan nte adiyil ulla bench nu adikoodanda.... 🥺 Keep your artworks going, friend!! "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "You're so nice Michelle. All the best."
+      },
+      {
+        "name": "Asish",
+        "quote": "Shy's away from the spotlight but has immense organisational skills ,and is a lovely person ."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Mich and camscanner have saved my life multiple times by sending the pdfs of almost all her notes, assignments and exam portions."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Michiiii. There are multiple flashes of memory when I think about you, but the best is the sponge ball drama that happened in the class.\nI still remember your sthayi bhavam as oru load pucham, but through the years I did find out that you were pretty strong in what you believe and you are sooooo creative.\nI have no idea when I can irritate you sitting behind you and doing all the goofy stuff, but you would a person that would have a strong space in CSA in my head\nOh and I love the picture-animation of me, you and trrr from the bamboo forest\nApol parannu chalam aakun illa.\nWe will definitely meet.\nTake care da"
       }
     ]
   },
@@ -3529,7 +3747,7 @@ quotes = [
         "quote": "Your a very nice person, extremely soft-spoken. Keep smiling always."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Oru paavam balline pichi cheendhi erinju😂"
       },
       {
@@ -3545,7 +3763,7 @@ quotes = [
         "quote": "Very silent person and helpful too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "studious?"
       },
       {
@@ -3559,6 +3777,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "KP!! Iniyum oru B.Tech degree koode edukkanam!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Krishna prasad."
+      },
+      {
+        "name": "Asish",
+        "quote": "KP , is my fitness role model, KP keeps strict accord of his time, I do not know any person in a college that runs everyday, every single day during the early hours \nof the Day. Again we share the memories of cutting class and playing football and that is how we got to know each other.\n"
+      },
+      {
+        "name": "Sarah",
+        "quote": "AllGo interview!"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "The real terror. Daviyee, annu aa sponge ball valichu keeriyathu mathre enik oorma varun ollu, because I got scared for shit.\nWe should have talked more man! :)\nTake care da!"
       }
     ]
   },
@@ -3770,7 +4004,7 @@ quotes = [
         "quote": "I wish I had had the conversation with you a while back and fixed everything. Your a genius! Thanks for all the wonderful pc games you gave me. Your a true friend except for when you get sudden mood swings and you hate me for reasons you never disclose to me. Sorry for all the times I’ve ever hurt you, it was never intentional. Believe in yourself and the world will fall upon your feet. "
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Always bc on his lap😁"
       },
       {
@@ -3786,7 +4020,7 @@ quotes = [
         "quote": "An extraordinary person of our class who always try to make friends. Friendly and helpful person. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Tech guru of class. Unmatched knowledge in C++ and a million other technologies. Sweet and fun. Also gets a little too excited for rum."
       },
       {
@@ -3796,11 +4030,27 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "One of the most helpful guy of CSA!! All the very best dude....."
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Amruth."
+      },
+      {
+        "name": "Asish",
+        "quote": "The intellect ,the so called studious ,tech geek and a illustrious quizzer, underneath all that he is a wonderful person and a great friend . Always listens to my bullshit philosophies and is absolutely rational. I know he will be always there to help me out, and is absolutely a friend in need"
+      },
+      {
+        "name": "Sarah",
+        "quote": "I’ll always remember you everytime I choose windows booting instead of linux. XD You are a genuine, down to earth soul and deserve all the happiness in the world!"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Amruuu. The lab genius? naaah! Muthu mani annu.\nDon't be sooo innocent man that's the first thing I gotta say. Because people don't deserve such a good soul. Learn to say no and prioritize yourself valapozhum engilum.\nYou are a good soul dude.\nStay the same and we will party hard in Bangalore. Okay?\nSo no tata for you also! :)"
       }
     ]
   },
   {
-    "name": "Midhu",
+    "name": "Midu",
     "quotes": [
       {
         "name": "Adheep",
@@ -4007,10 +4257,6 @@ quotes = [
         "quote": "Your a great friend and alot of fun to be around. Stay the same!"
       },
       {
-        "name": "Midhu ",
-        "quote": "അന്ന് mec ഇൽ പെട്ടുപോയെന്ന് ആലോചിച്ചു കരഞ്ഞ ഞാൻ, ഇന്ന് mec ഇലെ ഒരു student എന്ന നിലയിൽ അഭിമാനിക്കുന്നു 💖"
-      },
-      {
         "name": "Arshaad",
         "quote": "😊"
       },
@@ -4023,7 +4269,7 @@ quotes = [
         "quote": "One of my best friend who always accompanied me. She is very caring and lovable person. She makes my 3 yrs in our college so precious. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "mysterious? Never really got to know you much."
       },
       {
@@ -4037,6 +4283,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "Midu you're my best friend and always will be. Thank you for everything."
+      },
+      {
+        "name": "Asish",
+        "quote": "Midhu is a reserved person , haven't had the opportunity to talk with her"
+      },
+      {
+        "name": "Sarah",
+        "quote": "To be able to read during a lecture, athu oru pretheku kazhivu anu! Good luck Mid!"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Midu, ummm NSS camp ethra tholam oru aale maati marikum enn kanichu thannu nee.\nAa campil kanda midu inne nyan pinne classil kandite illa.\nNinne kurichu entha parayaa kutiyyee!\nEniku malayalam ariyilla enn parannaepol nalla onnadaram pucham puchiathu mathre enik oorma ollu idu ipol ezhdumbo.\nCamp kazhinnu pinne ninnod onnum mariyedku samsarikan patathathil naala dukham ind.\nSed adikunn illa because nammal iniyum kaanum kore samsarikum.\nApol adu vare stay safe! "
       }
     ]
   },
@@ -4244,7 +4506,7 @@ quotes = [
         "quote": "We’ve had some distance in the beginning when we didn’t really know each other, now I feel your a great guy and have your own priorities, which I really respect. Stay the same! Keep going with the late night pokemon catching."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Sleeping 😴"
       },
       {
@@ -4260,7 +4522,7 @@ quotes = [
         "quote": "Have silent behavior but friendly too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Anime and games for life. And sleeping throughout the class. That's Allen for you."
       },
       {
@@ -4274,6 +4536,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "sticker keng, project mate!!! Ini namakk busil pokandallo... sed ai 🥺"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Allen."
+      },
+      {
+        "name": "Asish",
+        "quote": "Iype, is one of a kind gamer and spends sleepless nights gaming , knowledgeable person in the field of computer and absolutely loves games"
+      },
+      {
+        "name": "Sarah",
+        "quote": "You stole the limelight in our college Yearbook book photo! "
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Allen Iype, management listil ninnu merit listilku poya thendi.\nWe haven't interacted much ( enik nanakedu ind parayan, but nyan classil verathathine ippo onnum cheyan patilla ).\nThe best thing about you is that you don't give up bro.\nWhen the world is afraid of being judged you have been always true to yourself and that is something I admire about you.\nBe the you and baaki okke set aagum.\nSupply okke indu ello alle, apol supply examinnu kanam! :)"
       }
     ]
   },
@@ -4481,7 +4759,7 @@ quotes = [
         "quote": "Don’t be so afraid of me and never stop making memes, you’re too good at it."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Manassilaakkan pattatha complicated comedy parayum😁"
       },
       {
@@ -4497,7 +4775,7 @@ quotes = [
         "quote": "Very enthusiastic person. Trollen of our class. And very friendly and talkative. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "When I think of Hari, reminds of weird/sophisticated humour."
       },
       {
@@ -4511,6 +4789,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "from Practicaly → Practicaly.... from Anwar stores → Kadavanthara ... Ithil kooduthal onnum parayanilla... #namakkpolikkande....."
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Hari."
+      },
+      {
+        "name": "Asish",
+        "quote": "Pickle Hari and we are neighbours back in  our hometowns , we used to travel back home together during the first two years, a funny , crazy and doesn't  give a shit of what others think person."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Quirky and he knows it. Thanks for checking up on me when I disappear.\nKeep hustling and “Stop passing the butter”, that's what she said."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "I am telling you bro, I am going to miss you. Even though you make me awkward sometimes, you are a real gem boy.\nYou are mature enough to do all the shit, just take care of yourself and remember you don't have to go behind validation or others ka acceptance, you are real good in what you do and I know it.\nI still have that meme you made on my birthday. When people were doubting if I would take memes the wrong way, you showed me and others that I can enjoy the memes that are made on me.\nThanks da hari for teaching me a lot of things and for those open conversations.\nSo we will see in next adi! :))"
       }
     ]
   },
@@ -4722,7 +5016,7 @@ quotes = [
         "quote": "Your a gem."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Supply"
       },
       {
@@ -4738,7 +5032,7 @@ quotes = [
         "quote": "Very friendly and talkative. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Brilliant puns. NO CAP. Amazing tech skills. A linux wizard should I say. And an underdog. Thanks for fixing my laptop couple of times."
       },
       {
@@ -4752,6 +5046,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Kattappanayile Adithya....😂 Ini adrian nte koode caril trip pokande.... "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Aditya."
+      },
+      {
+        "name": "Asish",
+        "quote": "Aditya doesn't care about his studies or supplies, his priorities are different and is an absolute master of programming."
+      },
+      {
+        "name": "Sarah",
+        "quote": "\nHello memelord, csa needs more memes."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "You bloody fool Nair!\nMy Linux go to guy and coding cum linux guru. Enthu choichalum oru utharam kanum mashinde kayil. That could a genuine answer or a meme or even some crazy funny sticker.\nI miss you and Hari both in hostel! It was fun having you around.\nOorma undo mone Sahad inde case from MH, now thinking about it it's funny, but annu all we wanted to make sure was you are safe da!\nYou are hands down one of the most down to earth person I have ever met in my life and I am forever grateful for that because you actually showed me \"nirra kudam thulumbilla enn\"\nI wish I could learn a thing or two from you.\nStay goofy, stay wild.\nWe will definitely meet more and do all the goofy stuff.\nThought workil poyi pwoliku!\nTake care bud!\n"
       }
     ]
   },
@@ -4959,7 +5269,7 @@ quotes = [
         "quote": "Will miss all the skit pratcices. Thank you for the drives to the metro stations. Your mimicry is just too great, keep it as a side hobby always."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Eppazhum maamante koode aan😂💖"
       },
       {
@@ -4975,7 +5285,7 @@ quotes = [
         "quote": "Very talented and friendly person. Helpful too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "HAHA, I just remembered how you and Ashish were wrestling a"
       },
       {
@@ -4989,6 +5299,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Bombay!! 'അഭിനയകുലപതി' Namakk aa video de baki cheyyande..... Script set akk #baapolikkam"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Renjith."
+      },
+      {
+        "name": "Asish",
+        "quote": "Kartha is a person, i am really grateful i met him in college and made friendship , a multi talented person, we spend our internships together and have countless memories , a lot of things we share a common take on , funny ,rational , sensible and his film interests are the lot of things that makes him such an interesting person. "
+      },
+      {
+        "name": "Sarah",
+        "quote": "Mini Trump of csa, who never shows me any answers during exams. Rememeber cluelessly wasting our time in ec lab? Also, our agreement has officially been terminated. \n"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "You PurushaVedi. Thank you for making our class a bit more lively da. Nee okke ilond annu nammal arts athre englilum adichathu, but on a serious note I wished we talked more because enik oru cheriya list in in which I have a few people who I wished I could know more and in that small list neeum ind.\nNinde aa missinnu ulla pranaya lekhanam nyan marannit illa!\nNee nannayi vellam adikunna divasathinnu nyan kaath irikunnu!\nTake care boi!\nApol North palathinde adiyil vechu kanam!"
       }
     ]
   },
@@ -5196,7 +5522,7 @@ quotes = [
         "quote": "Will miss making a fuss about you eating my lunch, now that I think of it, it seems so funny. All the best for you new record, don’t lose hope, it will require loads of patience, love, and calm."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Singing \"tum hi ho\"😁"
       },
       {
@@ -5212,7 +5538,7 @@ quotes = [
         "quote": "Singer of our class. Very friendly too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Artist chacha."
       },
       {
@@ -5226,6 +5552,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "mazha mwone... Keep your skills going!! All the best, dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Adheep."
+      },
+      {
+        "name": "Asish",
+        "quote": "My vava throughout college, this guy is so fucking talented and one day hope to get his autograph from a crowd , He made those kanimangalam days unforgettable , gonna miss this guy and his chori.\nAlways my vava."
+      },
+      {
+        "name": "Sarah",
+        "quote": "He’s headstrong and knows how to get things done. Gives his best to all the things he loves. You have been a great static pole/confidant/friend, putting up with me all these years. Waiting to see your name on the credits."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "You mazha mon.\nFrom butterfly to hym of the sea, I think you are still you but you broaden your horizon of persepctive.\nYou have been ummm what do you say, from saying not smoke to only smoking virgin damn boi, nee valarn irikunnu.\nI remember your different phase with girls in your life and I am happy where you are!\nThank you for making me motivated in my YT journey da!\nummmm what do I say da!\nYou have taught me so much without you knowing it's been crazy 4 years macha!\nSo, keep making music and I will be there supporting ya!\nSo adutha virgin adikku kanam! :)\nAdukondu no tata bye bye"
       }
     ]
   },
@@ -5433,7 +5775,7 @@ quotes = [
         "quote": "Your a good friend. Stay happy always."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Hi myaama😂\nThengs from \"chaalamary\"😂💥💖"
       },
       {
@@ -5449,7 +5791,7 @@ quotes = [
         "quote": "One of my letmate. Very friendly and helpful. Maman of our class. Friendly to everyone. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Maaman. He has been such a good company. Going to the  BISMI daily. Good sense of humour and mature when needed. All the best for your life ahead. One of my favourite people secretly."
       },
       {
@@ -5463,6 +5805,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Myaama... praayam koodunnund ketto... 😂 "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Sreekumar."
+      },
+      {
+        "name": "Asish",
+        "quote": "Myamman, is one of my closest friends , we have political debates and fights, we go out on food ventures and is an absolute man of word."
+      },
+      {
+        "name": "Sarah",
+        "quote": "This man had a lot of salt water trying to keep me afloat in Malpe and that's how I know that he is a kind one. Good luck Maam! "
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Myaaaaaman the drama keng! I am smiling and laughing at the same time while I am writing this.\nNee enthina myre ithrem late ayi vanne, as in as LET ayi! Nee 1st year muthal indayi engilum lesham kode adipoli ayene namude class.\nNee vanna samayath enik ninne athre oorma illa, classil keraar illarnu.\nAnd I don't exactly remember when we started talking but down these years PsySA enn parayumbo ende manasil top 10il nee kanum!\nNammal anagne full time samsaram onnum alla, but we had some good talk.\nNee okke illond annu I understood that good people exist and one should start doing things they want to do without expecting from others!\nThanks myamaa!\nNinnodum tatta bye bye take care ennu onnum parayaun illa becuase we A+ bois and inni kore karyanagal cheyan baaki ind."
       }
     ]
   },
@@ -5674,7 +6032,7 @@ quotes = [
         "quote": "Rude at times. Always have your guard up for some reason, even when I tried to be nice to you. Never got to know you more, you’ve always been in your own bubble."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "1st day uniform ittath silpa mathram aarnnu😁"
       },
       {
@@ -5690,7 +6048,7 @@ quotes = [
         "quote": "Very friendly and hardworking person."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Intelligent. I enjoyed having deep conversations with her, regarding serious subjects(not the college subjects)"
       },
       {
@@ -5704,6 +6062,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "YMCA Topper!! Keep your grades going up!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "I'll always remember you Silpa. All the best."
+      },
+      {
+        "name": "Asish",
+        "quote": "Silpa is a smart person with lots of friends."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Bitching about programming on our way to college in 1st semester, it was comforting."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "I remember you occasionally motivating me in class saying padikku and all!\nTake care da!\nThank you for all that motivation! :))"
       }
     ]
   },
@@ -5819,10 +6193,6 @@ quotes = [
         "quote": "Achayan mass"
       },
       {
-        "name": "Tino",
-        "quote": "Enne patti njn thanne pokki parayan enikk ulupunde"
-      },
-      {
         "name": "Jithin",
         "quote": "ninake senti dialogues ekkila....so angane onum illa...corona kazhinje, steve inde flatil kannam"
       },
@@ -5915,7 +6285,7 @@ quotes = [
         "quote": "True gentleman. I hope all your dreams come true, you deserve it."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Achayans vatt meme is adipoli😂"
       },
       {
@@ -5931,7 +6301,7 @@ quotes = [
         "quote": "Very smar and talented student."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Funny as hell man. XD XD XD Such a nice person to have as a friend. Helpful , loyal and hardworking ( dont go for his carefree attitude :p)"
       },
       {
@@ -5945,6 +6315,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "IEDC keng!! Erattupetta dude... namakk Kuriakose nte puthiya sticker irakkande... 😂"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Tino."
+      },
+      {
+        "name": "Asish",
+        "quote": "Achayan is chunk, there was no day in college without chilling with him especially in final year, sensible , intelligent and rational ennoke parayam. Achayan for life.."
+      },
+      {
+        "name": "Sarah",
+        "quote": "I have a weird ability to detect when this Kottayam achayan has a party planned. You owe me fridge magnets from 10 countries and I owe it to those Tedx tickets."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Eda Maxi kutta, I don't think we both knew each other till 2nd year beginning and nammal pinnem nalla company ayathu IV kayinnu annu.\nAchaayyoo, nee oru onnu onnara piece aatto.\nILLUMINANDI oorma indo aa MH terracil?\nEnthoram annu mone orumichu valichu ketiyathu and finally CP vannu ethum.\nIppo thonnunu kurachum koode neerthe ninde koode adichu thudangam ayi irunnu enn, pakshe nee okke ippo valya teams anello annalum enik oru myrum illa.\nNammal koodunnu, adikunnu, adichu konde irikunnu! \nNinnodum tata bye bye illa, karaname lesham adigam adikan ind namuku."
       }
     ]
   },
@@ -6152,7 +6538,7 @@ quotes = [
         "quote": "Will miss our random conversations and all the lab hours. You were a great support for me when I felt low sometimes, hope I was there for you too and you felt the same. "
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Singing \"sree ragamo\" with adheep😍💖"
       },
       {
@@ -6168,7 +6554,7 @@ quotes = [
         "quote": "Female singer of our class and friendly too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Quite? Nightingale."
       },
       {
@@ -6182,6 +6568,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Aparna. Keep singing."
+      },
+      {
+        "name": "Asish",
+        "quote": "One of the best singers i know personally, pinne katta padipiyum,  A real close friend. "
+      },
+      {
+        "name": "Sarah",
+        "quote": "This one silently attracts drama. But she will be there to help you, especially monetary and then conveniently forgets about it. :P"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "M.O.R.E.R! I am smiling wide open. Damn that lab session was good. I would be George to your MORER always!\nIt's been crazy 4 years with you the queeeeeen of innocence and drama!\nBut I still won't forget the day you tried installing python in your Mac and the day you tried installing Linux in Mac because you thought coding can only be done in Linux.\nCollege life would have be less fun without your chalis and you being you da!\nIt was good knowing you appu!\nAppo take care okay?\nWe will see! :)"
       }
     ]
   },
@@ -6389,7 +6791,7 @@ quotes = [
         "quote": "Extremely smart and hardworking. Your an extremely fun person to be around, always full of energy."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Andhyakshari kalikkumbol nikki ne pakaram vekkaan aalilla😂💖"
       },
       {
@@ -6405,7 +6807,7 @@ quotes = [
         "quote": "Very friendly and helpful person. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Introvertish but creative ."
       },
       {
@@ -6419,6 +6821,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Romantic' enn swayam parayunna aal and ma' best friend!! Ingane durantham parayan engane saadhikkunnu.... IEEE CS VC aayathil enth thonnunnu😂.. nanni venam.... All the best, friend!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Nikitha. "
+      },
+      {
+        "name": "Asish",
+        "quote": "A funny and talkative person who i couldn't find sooner ."
+      },
+      {
+        "name": "Sarah",
+        "quote": "I have never seen Niki lose her cool, even when the boys are being annoying af! Also, remember orientation day? Talking to you and Gaay calmed my nerves. :)"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Nikkkiiiiiiiii.\nWe should have talked more da. :/\nBecause I really wanted to but, me being an lazy as couldn't come to class but I love the way you are and keep doing those things.\naaaaah oru karyam oorma vannu, do you remember nee enne kond kore pere IEEE join cheypikan nokiyathu, with a tempting offer of giving me the referral bonus?\nSamayam istam pole ind and we will spend more time for sureee! <3\nTake care da!\n"
       }
     ]
   },
@@ -6630,7 +7048,7 @@ quotes = [
         "quote": "Amazing artist, you could even take it up professionally. Had a great time walking to the bus stop with you after college and munching on all sorts of packet chips waiting for the bus to arrive. Will miss those sweet times."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "An innocent soul i founded on mec💖. Al motivator💞. Njan chara parann paranjond irikkanathokke sahich kettond irikkum😘.. Best part of my mec life💞"
       },
       {
@@ -6646,7 +7064,7 @@ quotes = [
         "quote": "One of my best friend who always helped to slove my problems. So kind and lovable.  Very simple and very comfortable to talk with her.  Loyal to me and trustworthy too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Artist of our class"
       },
       {
@@ -6660,6 +7078,18 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Your Drawings are the best!! Keep it going! All the best"
+      },
+      {
+        "name": "Asish",
+        "quote": "A great artist and a joyful person."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Some days we find each other nervously trying to get into the class late. No more walking to the bus stop conversations. "
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Your drawings are prettyyyyyy amazing! :)\nNammal anagne adigam samsarichit illa but let's hope we can!\nIncluding you every one has influenced me to become what I am today and I can't thank you enough for that!\nSo take care.\nNamuku kanam! :)"
       }
     ]
   },
@@ -6867,7 +7297,7 @@ quotes = [
         "quote": "Even though you have a talkative personality, I don’t remember having many conversations with you. But I do know your a nice person. All the best."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Asking me :\"siblings ondo? \"😂"
       },
       {
@@ -6883,7 +7313,7 @@ quotes = [
         "quote": "Very silent and friendly person. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Turf, turf ,turf."
       },
       {
@@ -6897,6 +7327,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Tho\"mass\" .... Ini paracetamol kazhikkunnath lesham korakk, allel pani aavum.... "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Thomas."
+      },
+      {
+        "name": "Asish",
+        "quote": "Thomas is on a mandhi diet always, and burns his calories in the gold gym. A funny character and a good friend"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Thomas apparently only goes to the Gold's gym. XD"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Thomasee, nee mass aada!\nNamuku evide engilum okke vechu kaanam!\nTake care boi."
       }
     ]
   },
@@ -7104,7 +7550,7 @@ quotes = [
         "quote": "Your a darling. All those times you had my lunch, came home and had lunch with me, roamed around fort kochi, I’ll miss it all. Keep in touch."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Electronics lab ile lab mate😂"
       },
       {
@@ -7120,7 +7566,7 @@ quotes = [
         "quote": "Very talkative and active student. Friendly too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Psy pSy psY. Loved those bekkar and atho sessions. Not sure how much of that i can type here. Basically crazy person."
       },
       {
@@ -7134,6 +7580,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Baa.. namakk munnar trip povande!!!!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Midhun."
+      },
+      {
+        "name": "Asish",
+        "quote": "This guy is fucking amazing , psy aanu , countless memories with this guy travelling and tripping to places never before."
+      },
+      {
+        "name": "Sarah",
+        "quote": "The name Midmad really suits this boy. He has strange written all over him, not in a bad way, coming up with weird songs, theories and the thallu of course. :P"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Ijj, rad, psudapi, berum myran but my myran!\nMyreeeeee! What do I say about you kutta?\nFrom the day one that I stepped in to college till the last day, it was a crazy ride especially even the bike ride that was very close call to our death!\nIt's so weird that anytime one of us gets fucked up in life the other would stumble up on the person who's who's fucked and that would eventually turn up to a toll ka chai time or as CP was near we would be there sitting talking about it and random shit sipping our double strong coffee and sutta in my hand ( because you stooped smoking).\nIt's been a honour and a crazy pleasure knowing you da!\nAnd the best thing is your family, so similar to mine but your dad, he's the real deal bro!\nParannau chalam aaki over akun illa!\nSoo nanni undu myre ellathinum!\nand I forever vow myself be make you awkward in public and make you feel as if you don't know me!\nAppo adutha adikki kanam!"
       }
     ]
   },
@@ -7341,7 +7803,7 @@ quotes = [
         "quote": "Class rep partner and Excel core team! Will miss doing all the work with you. "
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Pc boy"
       },
       {
@@ -7357,7 +7819,7 @@ quotes = [
         "quote": "Friendly and active person. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Humble, hardworking for sure. Bekkar sessions were fun for sure. Did not see much of you since you joined Placement cell, thats for sure. (here, i wrote a rhyme for u)"
       },
       {
@@ -7371,6 +7833,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "PC keng!! All the best, dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Ashwin."
+      },
+      {
+        "name": "Asish",
+        "quote": "lavan, Oru mwuthan. Going to be around with him and we are gonna have a  blast."
+      },
+      {
+        "name": "Sarah",
+        "quote": "You swore the muscle pain would go away in 3 days and it took me 2 weeks. Struggling to remember the nost choreography, we were the best in the end partnaa! ;)\n"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Mayor! Myran! :)\nRemember the initial month in college we were the best friends? LOL\nThat time was pretty crazy da, but things went downhill with some fucked up drama. But we got back on track once we went to Trivandrum for the Excel publicity thing and I am happy we went together for it da! That was some crazy bus ride, myre lag inde achan!\nNinak IV oorma ille? Last seat special shots? Ninne main busil ninnu purath aaki kayinnu? Hahah that was a pretty good scene. LoL\nKore kore karyam ind monuse parayan.\nThe point being, no matter what happens we were supposed to be back in touch and here we are.\nAnd annu nee kani yil illa irunel nyan chelepol thirunninnu poyene ( RaWar Pwoli ).\nBut entho evideo oru missing, maybe nee aa last CSA college adikkiku illathond aavum!\nEnthalyum nee banglore lakshapathi alle! Nyan vannu kanenda pole kandolam!\nApol ninnodum tata bye bye illa!\nAdutha adikku kanam! :)"
       }
     ]
   },
@@ -7582,7 +8060,7 @@ quotes = [
         "quote": "Great debater and unbelievable vocabulary. I’ve had loads of amazing conversations with you and I hope I can have them in the future too!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Padippist"
       },
       {
@@ -7598,7 +8076,7 @@ quotes = [
         "quote": "Very attitude person. But friendly too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Kona. Smart. Knows how to party and study. Bonded a lot over BISMI sessions. "
       },
       {
@@ -7612,6 +8090,18 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Pulachery.. ini Kona lesham koracho..... 😂"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Asish."
+      },
+      {
+        "name": "Sarah",
+        "quote": "He can be a clueless idiot sometimes, but all that kona you think he has is all verum show. XD Don't forget about the promise and our plans, main 1000."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "You are Pulacherry ( in my voice) to Chadraaasenaa ( in your voice ).\nI didn't like you back then, jada thendi. Nyanum kurav onnum aalarnu.\nBUT I really thank MEC for making me meet you da!\nThere are a lot of things that come across but remember annu in kanimangalam we have some pretty deep deep conversation and that's pretty there in my head.\nYou had always things sorted in you life da!\nNinde odukathe thallum, football kali, padutham and odukathe joli. Vere enth venam myre.\nThese 4 years have changed you into a better person boi, and as always it's good to have people to look forward to.\nYou are a good lad bro, it was craazy with you in class. ( sounds like a eulogy )\nBe the accent wala pulacheryy always.\nNinoodum tata bye bye illa, because ninde thallu kelkan nyan banglore varun ind.\nAppo poyekuva."
       }
     ]
   },
@@ -7819,7 +8309,7 @@ quotes = [
         "quote": "Kind hearted and sweet. You always commit to all your friends and be with them through thick and thin."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "NSS campile last day valare modern aayi dress cheytha sophusine aarum marakkilla..  serious aayi cheythathaanenkil comedy aayittundaarnnu😂💖"
       },
       {
@@ -7835,7 +8325,7 @@ quotes = [
         "quote": "Very friendly and talkative person. Very comfortable to talk with him."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "piriPiri. Commotion creator of our class ( needed). 90% masti, 10% studies."
       },
       {
@@ -7849,6 +8339,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best, dudeyy!!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Sophus."
+      },
+      {
+        "name": "Asish",
+        "quote": "Sophus,  has always helped us when we are sick :P, epozhum chill vibe aanu , and is a jovial person."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Soph walks around like he is a gunda, but oru paavam anu. He also hates \"bad vibes\". Did you give me the Snickers you promised if I came early to class !?"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Idu ezhudumbo the imagery I have in my mind is, nee Askar ali sir inde classil kaal okke neeti, thoongi irikunna posture annu and thus begins the story of manga sophus.\nStynu mone nammude vibe classinu pidikan patilla, the best example is the sponge ball incident, myru LoL.\nMyreeee, another piece of shit MEC gave me, nammal epol kandalum idiyum chorichil anelum, you were among those few people I really about.\nI still remember nyan aa vector art cheydepol adyam cheyan thoniyath ninde oombiya moonji annu!\nIt's been a crazy ride bro.\nEthra okke adichu cut anelum veetil pogunna stynu, ethra okke adichalum exam inu pass agunnu stynu, ethra okke adichalum vibe pogathe nee.\nNee muth aada. Annu nee last day illa irunel aa vellam adi nadakillarnu and that was pretty fun.\nOnnum kode bison valley ponde mone stynu?\nNinnodum tata bye bye illa.\nKaranam nee innu joli kandupidikunna vare kochi thanne kanaum and we the A+ bois da!"
       }
     ]
   },
@@ -8056,7 +8562,7 @@ quotes = [
         "quote": "We’ve had times when we’ve fought but never has it ever affected our relationship. From fighting during first year when we sat on the same bench or having difference of opinions at times, we’ve managed to put them behind us and become good friends. Sherlock Holmes was amazing, your mom’s love and all the food she fed me, I’ll never forget. The trip to Bangalore for Microsoft Interview was also extremely fun. Keep in touch. And stay the same, you can reach amazing heights."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Meenu te amma indakkunna masaladhosa is the best😋💖.  One of the best part of my mec life😂💗. "
       },
       {
@@ -8072,7 +8578,7 @@ quotes = [
         "quote": "One of my best friend and very bright student of our class. Very helpful in any time. Always tried very much to solve my every confusions."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Class topper. One of the very few people who were very consistent with academics.  I admire that. And thanks for the notes and clearing my doubts sometimes."
       },
       {
@@ -8086,6 +8592,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best, friend!! Keep your grades going up!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "Meenakshi you're the bestest. Thank you for everything. I'll miss you."
+      },
+      {
+        "name": "Asish",
+        "quote": "More than being the best performer in class in terms of academics , she is a great basketball player , sings well and is a wonderful person altogether ."
+      },
+      {
+        "name": "Sarah",
+        "quote": "How do you manage to stay awake in class even after all the early morning basketball sessions!!? A true allrounder."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Meeenu! We both had our friction that made us not talk in the beginning phase of college. But I remember that being changed after the girls penalty match? and we had a good conversation of how we didn't like each other till that moment.\nYou have been pretty straight forward with all the things you have done.\nHow can you do both da? Paditham and sports equally good.\nStudy less please, you scare off people with your marks! JK\nAnd your brothers reception was so nice! :)\nHope you do all the things you wanna do in your life !\nTake care"
       }
     ]
   },
@@ -8297,7 +8819,7 @@ quotes = [
         "quote": "Your my breakfast buddy. I’ll miss that."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Placement partner😂"
       },
       {
@@ -8309,7 +8831,7 @@ quotes = [
         "quote": "He is very simple and honest person. He always have so many doubts. Doubtful and confused to do anything."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Mysterious."
       },
       {
@@ -8323,6 +8845,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Chunke... Treat eppozha??? "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Vishnu."
+      },
+      {
+        "name": "Asish",
+        "quote": "Vishnu is a katta suriya fan and is a real good friend"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Internal publicity ambassadors! XD"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Vishnu bro!\nWe haven't talked much but you were a good good guy!\nWe should have known each other more!\nWe will see bro!\nTake care yo!"
       }
     ]
   },
@@ -8534,7 +9072,7 @@ quotes = [
         "quote": "I’ll always remember fighting for the bench under the fan in the center of the classroom and laugh about. Wish I would’ve learnt some more tech from you on the mornings when you were busy with all the work. Extremely skilled at everything. Your the person who sends stickers and spams the chats, will be missed."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Vimala hostel main😂"
       },
       {
@@ -8550,7 +9088,7 @@ quotes = [
         "quote": "Very friendly and smart  person. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "A very helpful person. Innocent ( paavam)"
       },
       {
@@ -8560,6 +9098,22 @@ quotes = [
       {
         "name": "Amruth",
         "quote": "Seshan bro you're a wonderful guy to have around and always so chill about everything. Pestering you with IEEE stuff was hilarious 😂. And also not letting you use your camera when you bring it over 😂. It's been such a wonderful experience getting to know you dude. You'll be missed..."
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Akhil."
+      },
+      {
+        "name": "Asish",
+        "quote": "Seshan came in as a transfer but now it does'nt feel so , he has made lot of friends here due to his humble and funny character, does all the video editing stuff for our class and is an absolute thala."
+      },
+      {
+        "name": "Sarah",
+        "quote": "The secret 5th member of our project team. He will patiently tell you all about ML without judging your lack of CS knowledge. IEEE for life!"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Ende mone sheeshhaaa! Neee verum oru pazhamoli annu! :\")\nI think we started really really talking once this lockdown started and started working on the video projects that we did and we are to do.\naa CSA IV video chumma lit aarkum.\nBut I understood how one can be so dedicated to what one does by seeing you live while working with me da.\nI don't understand why we didn't talk much in college.\nEnthaayalum ninne anagne ingane onnum vidan plan illa, ninde kayil ninnu kurach adigam sticker collection adichu maatan ind.\nAnd one day as Sive is to PewDiePie, can you be the pazhamoli to oru mandan dude? Plis? Plis?\nMone we should definitely do collabs because you a have a crazy crazy skill set.\nappol sheri over aaki chalam akun illa!\npoo myre!\n"
       }
     ]
   },
@@ -8767,7 +9321,7 @@ quotes = [
         "quote": "Your a nice person. Never got to understand you on a personal level due to language-mismatch. Hardworking tech-enthusiast. All the best!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Iv coordinator 😁"
       },
       {
@@ -8783,7 +9337,7 @@ quotes = [
         "quote": "Smart and talented.  Very efficient too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Hardworking and reliable. Lot to look upto him. And thanks for lending your scooter for the infinite trips to BISMI"
       },
       {
@@ -8797,6 +9351,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Shulukka, Kaggle master and Karimakkad le velya pulli aanu.... kazhinja moonnu varsham NGO il kondu vittath njan orikkalum marakkilla shulukka!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Shahul."
+      },
+      {
+        "name": "Asish",
+        "quote": "Ikka, is the brother i made in college and will always be my ikka , always one call away."
+      },
+      {
+        "name": "Sarah",
+        "quote": "The go to person for almost everything, vandi veno - Ikka, trip pokenam - Ikka, analysis cheyanam - Ikka, kaggle expert - Ikka. CSA main! ;)"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Shulu ikkaaaa! Ikka mess! Gyman ikka!\nAdyam enik ninnodu sorry annu parayan ullathu for my irresponsibility that I showed in IV da. I was so lost in myself that I was like shulu nokikolum and that made it so difficult for ya! But vitta vali and cheyda karynagal thirichu edukan patilla but I am relly sorry da! I know you couldn't enjoy your IV to max because of the whole responsibilty in you head!\nNow, you Kaggle master! Mandhi Prandhan and Final year project team captain! :)\nKaanam da udane!\nNee company okke set akeet venam oru joli set akkan! :))"
       }
     ]
   },
@@ -9004,7 +9574,7 @@ quotes = [
         "quote": "Your the most unique person in class. I’ve connected with you on things no one would ever understand and hence we do really well together. Our trip to Ponmudi and Kallar River, all the Intership stories from buying the saree and books to even regretting at times switching room mates, you’ll always be special to me. Stay the same! Your an incredible person. Keep in touch."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Feminist🔥.  Malayalam cinemakalile sakala chalikalum vaari eriyum😂💖"
       },
       {
@@ -9020,7 +9590,7 @@ quotes = [
         "quote": "One of my best friend who understand me very much. Very helpful and hardworking person. Always have her own opinions to any topic. She also makes me comfortable in the class. Very much talkative and active person. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Motivated and dedicated."
       },
       {
@@ -9034,6 +9604,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best friend!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Anusree. You're going to be amazing."
+      },
+      {
+        "name": "Asish",
+        "quote": "Hardly found any vibe in class, Sadly many of us don't know the reason."
+      },
+      {
+        "name": "Sarah",
+        "quote": "She’s not the one to care about ‘what others think’. I hope you achieve all your dreams."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "AnuSthree, as you like it.\nI don't think we talked enough so that I can write anything about you, but let me tell you if there's someone came class less often than me , that would be you.\nTake care yo and don't stop grinding."
       }
     ]
   },
@@ -9241,7 +9827,7 @@ quotes = [
         "quote": "Cheers to all the pani puris, chats, sleepovers, trip, everything. We’ve always had each others back and have been each others shoulders to cry on at various points of time. Don’t ever forget me! And here’s to having loads more fun at Bangalore together, don’t ditch me for new colleagues. Love you."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "PC girl🔥"
       },
       {
@@ -9257,7 +9843,7 @@ quotes = [
         "quote": "Very talented, helpful and hardworking person. Very friendly too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "All the best in life Bindya, Hardwork is second nature to you."
       },
       {
@@ -9271,6 +9857,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best, dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Bindya. "
+      },
+      {
+        "name": "Asish",
+        "quote": "Bhaskar Ji,the pc , padipi and a dancer. Can get childish at times and then shifts back being serious just like that.,handles her responsibilities seriously ,and is a lovely character."
+      },
+      {
+        "name": "Sarah",
+        "quote": "She is a wild yet responsible girl and you wouldn't want to get on her wrong side. Always ready to shake a leg, which reminds me of 1st year arts/excel, where you were the only other girl who was annoyed that nobody else was dancing at the event."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Hey you V.Bindya ( JK, don't get triggered, just putting it out so that you remember the scene where you rolled eyes at Diya for coming up with that name ).\nDo you remember we used to be pretty solid friends back in 1st semester and I think 2nd semester too! Good old days binda.\nBut you never cease to surprise me every time we talk talk.\nYou have been pretty strong... umm you were damn strong da in these 4 years and you were the PC Vice dude! That's like crazy.\nWe will definitely spend more time, so till then tata bye bye!\nWe will see bro! \nTake care yo!"
       }
     ]
   },
@@ -9482,7 +10084,7 @@ quotes = [
         "quote": "Your a great person! I Still remember that one time we were really late coming back home from college because we had gone out and it was really late and raining, you dropped me back on your bike. Thanks a ton. Will miss you."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Pacha kannada💥"
       },
       {
@@ -9498,7 +10100,7 @@ quotes = [
         "quote": "Silent and talented. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Sweet person. Selfless to some extent. You were an underdog, with your technical skills that not everybody knew about. Enjoyed the trip back to kochi from TVM with u and others, playing truth and dare and laughing like crazy. My advice to you: Market yourself enough."
       },
       {
@@ -9508,19 +10110,31 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Steve ne nannayi nokkikkonam Mr. Failure..... Frescamer nte pani orikkalum marakkoolla.... 😂"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Ashik."
+      },
+      {
+        "name": "Asish",
+        "quote": "Ashik the cut , is always in a chill mood , the way he talks , his actions etc.. Intelligent person , who is a cool person to hangout with."
+      },
+      {
+        "name": "Sarah",
+        "quote": "The award for the nicestest guy goes to Ashik! Cut aanu and he will make you get on a moving train even if you could have boarded it before it started."
+      },
+      {
+        "name": "Abhishek",
+        "quote": " Noth is love noth is lifeee! \nAaahiqqiiiii. Do you know how much we love you?\nStay the same bro! \nStay the cut of India of the world and\nWe will see soon in Bison Valley! :P"
       }
     ]
   },
   {
-    "name": "Joel ",
+    "name": "Joel",
     "quotes": [
       {
         "name": "Adheep",
         "quote": "so helpful."
-      },
-      {
-        "name": "Joel",
-        "quote": "You really talk too much but sometimes noise turns into pulse and keeps the system alive. Cheers mate!"
       },
       {
         "name": "Jos",
@@ -9719,7 +10333,7 @@ quotes = [
         "quote": "Your very unique. People might have various opinions about you but I totally respect it. Stay you! Keep in touch and stay active always."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Pessimist 😁💖"
       },
       {
@@ -9735,7 +10349,7 @@ quotes = [
         "quote": "Very bright and innocent person. Very helpful to everyone. Any time available for any help."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Well well well, where do I even start. I think over the years we both have rubbed off each others personalities in each other. Some bad some good. I have seen you grow through out the 4 years. THANKS a lot for the study sessions , when I really needed someone to teach me. THANKS for giving me insights about my behaviour and always having good intentions. And You are prolly the only one who I can talk about philosphy, psychology, religion and other serious matters in such depths. And I really enjoy your company, contrary to what u may believe. :p"
       },
       {
@@ -9749,6 +10363,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "One of the nicest person of CSA.... Got to know you better during MEC.conf.... Keep it going Joel!! All the best, dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Joel."
+      },
+      {
+        "name": "Asish",
+        "quote": "Joel is an amazing person , always disciplined and dedicated."
+      },
+      {
+        "name": "Sarah",
+        "quote": "I dont think I’ll find anyone quite like you ever again, so relentlessly trying to be of help to others. Through the daily reminders, notification group or by sharing resources. The ideal student, cheers!"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Hey Joel bro! \nIf someone asked me who I respect the most in class I would say without a doubt your name da!\nThe effort you put in each and everything you do is like woaaaah! \nSo keep doing your things!\nAlways you fan boi! :)\nTake care da!\nWe will see soon! "
       }
     ]
   },
@@ -9956,7 +10586,7 @@ quotes = [
         "quote": "I still remember and regret that first physics lab and me making you cry during the Newton’s ring experiment. But we’ve grown closer ever since to become really good friends. Thank you for everything Betty, and I’m sorry it took me a while to understand the gem you were. Love you."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Nila vettath azhichitta kozhi🐥😂😘"
       },
       {
@@ -9972,7 +10602,7 @@ quotes = [
         "quote": "Very friendly and hardworking person. Always make me comfortable. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Bench neighbours. And thanks for clearing so many of my doubts. Such a sweet and helpful person"
       },
       {
@@ -9986,6 +10616,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best, friend!!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Betty. "
+      },
+      {
+        "name": "Asish",
+        "quote": "Talking to betty always gives me a positive vibe , she's such a warm and selfless person. Thanks to her i have passed much of my series tests,Thank you BETTY!!!"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Remember Kottayam publicity trip to the schools? Oru avishyam ilarnu but it was fun. XD"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Betty bought some butter, but butter was bitter so, Betty bought some better butter to make the bitter butter better! hahaha.\nYMCA squad inde mukhyan! :\")\nTake care da!"
       }
     ]
   },
@@ -10193,7 +10839,7 @@ quotes = [
         "quote": "Will miss your jokes and your food. All the best!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Cooking simham🔥"
       },
       {
@@ -10209,7 +10855,7 @@ quotes = [
         "quote": "Very good chef of our class. Very lazy and always coming late. But friendly and talented. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Omg your food. Aravind you need to call me for a lunch/dinner.  -_- \nAlso you are one lazy fucker."
       },
       {
@@ -10223,6 +10869,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Da mwone... Cooking pareekshanangal ini veettil ethikkan oru parupaadi set aakk.....🙌"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Aravind."
+      },
+      {
+        "name": "Asish",
+        "quote": "The master chef of the class and my chunk, knew him from school and he has changed a lot since. A chill and daring person at the same time."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Oh this man child, don't get me started! XD This one just knows when I need to rant and lets me go on and on. I miss the mother optics sessions and hope that we never stop fighting. Waiting for the 5 pages.\n"
+      },
+      {
+        "name": "Abhishek",
+        "quote": " Pha panna kazhuveri. Nee illa irunel OHanail nyan otekku ayi poyene!\nIdu ezhudumbol Adarsh sir inde classil adi indakunth annu oorma varununne myre!\nHey fucker, you have been a shittty fucked up, asshole, myran, poorri, thendi, chetta friend who I needed the most in my life da!\nYou still need to download COD Warzone. Keto?\nKeep cooking and we would come to eat!\nIt's been an honor knowing you da!\nApol adutha adikku kanam!\nOkay?\nanna vitto! LOL"
       }
     ]
   },
@@ -10430,7 +11092,7 @@ quotes = [
         "quote": "No matter what food your always ready to eat. I think that same attitude of yours you should start using when you face work and be a little bit less lazy at times? All the best!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Sebhash"
       },
       {
@@ -10446,7 +11108,7 @@ quotes = [
         "quote": "Very silent and friendly. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "aha. Lazy fooker with potential. Idk how we managed to present our Group project. Hahaha"
       },
       {
@@ -10460,6 +11122,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Shebu!! Hacking okke onn vrithikk padichitt namakk oru CTF cheyyande... "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Noel."
+      },
+      {
+        "name": "Asish",
+        "quote": "Shebash is a cool person , who is humble and smart at the same time .Internship diaries made him a good friend"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Paragon lunch days at Brigade. :)"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Sebaaaaaaaashe nee mass ada!\nApol qBurstil kanam!\nbuh bye!"
       }
     ]
   },
@@ -10671,7 +11349,7 @@ quotes = [
         "quote": "Your rarely seen in class, never got to talk to you."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Football player😁"
       },
       {
@@ -10683,7 +11361,7 @@ quotes = [
         "quote": "Very silent. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Absent in most of the classes XD XD, but when he did come we made sure to visit bismi together."
       },
       {
@@ -10697,6 +11375,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Nee DIP nte ethra classil keriyittundeda...😂 Nanni venam 😂 'Football Keng'"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Arshaad."
+      },
+      {
+        "name": "Asish",
+        "quote": "The ramos to my pique , we have been the backline together for the college team on multiple occasions. One of a kind, unique person and is always got a swagger to his actions. Always looking on the bright side of things"
+      },
+      {
+        "name": "Sarah",
+        "quote": "We rarely see each in other in class because either he is absent or I am, making me feel less worried about my attendance, but always run into each other in Edappally. "
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Theevandi enne peru dope innu IV samayathu ezhudi kodutha machan!\nStop smoking and start playing more!\nThanks for coming with me to bismi da!\nThose small things matters to me more!\nSo yeah! take care and we will see soon! :)"
       }
     ]
   },
@@ -10904,7 +11598,7 @@ quotes = [
         "quote": "Your a really nice person Leon. Stay the same. All the best!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Bombay😁"
       },
       {
@@ -10920,7 +11614,7 @@ quotes = [
         "quote": "Smart, clever and talented. Very friendly too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Intelligent, humorous and disciplined. Mumbaikar. Such a postive company to have."
       },
       {
@@ -10934,6 +11628,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Leon Bhai.. Mohan Thomas nte dialouge pole vere oru item set aakkande... "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Leon."
+      },
+      {
+        "name": "Asish",
+        "quote": "The grandmaster in class ,. Quiet , sensible and intelligent. Loves football and sports"
+      },
+      {
+        "name": "Sarah",
+        "quote": "You are surprisingly funny! Enjoy the free Apple products from Verizon. ;)"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Leon bhai, mere bhai.\nKhethe hai na ki Chota h par bada h!\nThat's you bro!\nI still remember talking to you on the first day of college!\nWe will see bro! \nTake care yo!"
       }
     ]
   },
@@ -11141,7 +11851,7 @@ quotes = [
         "quote": "Will miss all the times I took your scooter and went during arts or girls lunches. Thanks! All the best."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Padippist"
       },
       {
@@ -11157,7 +11867,7 @@ quotes = [
         "quote": "Very hardworking and silent person."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "you have been a very helpful person, All the best in life."
       },
       {
@@ -11171,6 +11881,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Ada mwone... Kuttante sticker set aakkam....🙌 kazhinja 3 varsham NGO il kondu vittathinu nanni und mwone......🙌 "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Don."
+      },
+      {
+        "name": "Asish",
+        "quote": "Don and i are one of the hardcore barca supporters in the class , we used to play fifa together , play football and talk everything  barca. He is a good technical person too when it comes to computers"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Leaves class to play football."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Linuxil OS X set akiya mahan aaanu mone nee. The Ultimate Tech Udaipu.\nPwoliku bro! \nKannam epol engilum!"
       }
     ]
   },
@@ -11378,7 +12104,7 @@ quotes = [
         "quote": "Cheers to being the vegetarians of the class! Sarvana Bhavan and Thaal will be missed. I’ve been brutally honest with you at times but the intention was just to help you get better and not be mean. Sorry if I’ve ever hurt you. Thank you for all the bike rides to Edapally. Keep in touch :)"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Padippi😂"
       },
       {
@@ -11394,7 +12120,7 @@ quotes = [
         "quote": "Friendly and talkative. Always follows smarworking."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "One thing I remember about us is how we went to cusat dhaba and couldnt finish the gobhi manchurian. hahaha. Also reduce playing mobile games you kid."
       },
       {
@@ -11408,6 +12134,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Pollu!! Veg-partner!! Namakk ini eppozha food adikkan povan pattane... sed ayi 🥺"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Adarsh."
+      },
+      {
+        "name": "Asish",
+        "quote": "His physique is deceiving , an innocent and chill person who loves talking to people.Glad to have made him a friend"
+      },
+      {
+        "name": "Sarah",
+        "quote": "First bench buddy with an exciting alternate career!"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Poluuuu, enna padippi aada patti nee ippo! LOL\nNee aa duke um kode vangiya setumma setumma sa!\nNee mess ada pollu!\nReally admire you for buying all those things with your own money da!\nCrazy respect!\nWe will see bro! \nTake care yo!"
       }
     ]
   },
@@ -11615,7 +12357,7 @@ quotes = [
         "quote": "Your a strong woman, and extremely hardworking. Wrote all notes till the last semester, that is commendable. Stay the same Paru! Keep in touch."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Andhyakshari partner😂💖"
       },
       {
@@ -11631,7 +12373,7 @@ quotes = [
         "quote": "Very helpful, friendly and hardworking. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Thanks for the lifts till edapally. Pretty sure you're an amazing person"
       },
       {
@@ -11645,6 +12387,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best, dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "Thank you so much Parvathy for every thing. All the best."
+      },
+      {
+        "name": "Asish",
+        "quote": "Parvathy is very smart and intelligent , always softspoken."
+      },
+      {
+        "name": "Sarah",
+        "quote": "She’s a chill, smart, handwriting verification master! ;)"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Hey Paaru!\nKurache chorinntu ollu, becasue pedi aarnu!\nStay the same.\nWe will see somewhere da! \nTake care yo!"
       }
     ]
   },
@@ -11852,7 +12610,7 @@ quotes = [
         "quote": "Your a fun person once someone gets to know you. Stay the same. All the best!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "SRK fan🔥😂"
       },
       {
@@ -11868,7 +12626,7 @@ quotes = [
         "quote": "Very friendly,helpful  and hardworking. \nShe is a Sharuk khan fan."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Smart and intelligent. "
       },
       {
@@ -11882,6 +12640,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Achamma... YMCA keng! Marks ithrem onnum medicha pora 🥴"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Sneha. I'll always remember you."
+      },
+      {
+        "name": "Asish",
+        "quote": "Studious and sensible, one of the tharunimanis of Class."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Manages to get all the important questions for series exams."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Sneha Achama Cherian.\nWe haven't talked much... So\nHope you are doing good and take care! :)"
       }
     ]
   },
@@ -12089,7 +12863,7 @@ quotes = [
         "quote": "Meri Delhi wali friend hai tu toh. Thank you for your shoes when I broke my footwear once! I always be indebted to you. Keep in touch."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Ancy love chapathy😂💖"
       },
       {
@@ -12105,7 +12879,7 @@ quotes = [
         "quote": "Very friendly and hardworking. Helpful person too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Delhi waali friend again. We always sat in nearby benches because both our gangs wanted the same benches almost, 3rd or 4th row in the middle, lol. Thanks for clearing my doubts many many times. And the casual talks we used to have in middle of the periods."
       },
       {
@@ -12119,6 +12893,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Ansys😂  Delhikkari, Velya pulli aanu..... Try to score 110/100 for the next exam..😂\nAll the best friend!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Ancy."
+      },
+      {
+        "name": "Asish",
+        "quote": "Ancy the delhiwala, studious and loves to have conversation.She is a good athlete too"
+      },
+      {
+        "name": "Sarah",
+        "quote": "This Dilliwali is always ready to help and is the sweetest. Thank you for sharing all your assignment answers.\n"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "iee Dharavi Dharavi ennu keetit indo? anna dha adu annu nee. fake Dharavi.\nThe ultimate padippi athelte of CSA. \nWe will see bro! \nTake care yo!"
       }
     ]
   },
@@ -12326,7 +13116,7 @@ quotes = [
         "quote": "You keep pushing yoursef to achieve new highs in life. Career and goal oriented nature of yours will take you long in the race. All the best!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Padippist"
       },
       {
@@ -12342,7 +13132,7 @@ quotes = [
         "quote": "Very talented, hardworking  and friendly. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "ML nerd of our class. Motivated to achieve something in the Tech field. Pretty sure u will get it too. "
       },
       {
@@ -12356,6 +13146,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Kurr Bro #DjangoMaster .... All the best dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Kurian."
+      },
+      {
+        "name": "Asish",
+        "quote": "The open source simham, is goal oriented and dedicated ."
+      },
+      {
+        "name": "Sarah",
+        "quote": "\nMy only fear about the seminar was that you might ask a question. XD"
+      },
+      {
+        "name": "Abhishek",
+        "quote": " Hey Bruh! wassup?\nYou have been preety cool with the python community and coding!\nI don't know what else to say da!\nKeep doing the things that make you happy bro!\nWe will see bro! \nTake care yo!"
       }
     ]
   },
@@ -12567,7 +13373,7 @@ quotes = [
         "quote": "Buddy! Your a darling let me tell you that. Kabhi badalna mat. Never will I ever come across a friend like you. Sometimes pareshan karte ho lekin your heart is gold. Keep in touch!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Hyper😂💞"
       },
       {
@@ -12583,7 +13389,7 @@ quotes = [
         "quote": "Back born of our class. Very friendly,talented, helpful  and talkative. Always make friendship with everyone. Very chill person. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Ugh, I want a beard like youu!! Also fun guy, bahut zyada hi energy, and bold and confident. "
       },
       {
@@ -12597,6 +13403,18 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Da mwonoose...  namakk aa video set aakkande..... #onelasttime."
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Abhishek. "
+      },
+      {
+        "name": "Asish",
+        "quote": "Chandrasenan , the legend himself , this guy is crazzzyy , way beyond the wildest dreams,  lots of talents and ability , and i fucking miss him every single day , such a popular figure and a dear dear friend. It is an honour to have spend my college with you SENA"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Shake in one word - Padakam! He can effortlessly light up a room ( annoying too ) and magically get people talking. This social butterfly cannot be tied down. Thallu is his right, don't fall for it!"
       }
     ]
   },
@@ -12804,7 +13622,7 @@ quotes = [
         "quote": "Creativity at its peak. Your ideas and creations are at another level."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Hey beautiful 😍💞"
       },
       {
@@ -12820,7 +13638,7 @@ quotes = [
         "quote": "Very beautiful personality. Very soft and hardworking. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "I dont remember u seeing in class since u joined PC, lol. Anyway. All the best for your future."
       },
       {
@@ -12834,6 +13652,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best, dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Jisha."
+      },
+      {
+        "name": "Asish",
+        "quote": "Jishamma is one of the first few persons i got to know in college, loves her kottayam slang and usage, a voracious reader and an innovative artist . She is gotta a unique take on lots of things , but does not miss on the vibes."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Hey J! You are reaally mysterious, we haven't interacted much but I have a good feeling about you. XD"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Jishuuuuuuuuu.\nBy far the most artistic and mandi I have ever seen in my life!\nI know for a fact that you didn't like me because nee thanne parannit ind, which means that we are in a pretty good place now to talk and to irritate each other.\nI would love to see your art work more and you would really be missed Jishu!\nTake care da!\nand I promise to remind myself of you every time I see avial!\nBTW I love the photo we have during onam! \nSo take care and seeya! "
       }
     ]
   },
@@ -13041,7 +13875,7 @@ quotes = [
         "quote": "Tech-enthusiast who achieved alot and made the best out of the 4 years of college. Wile others just had fun, you grew your skills and had fun, both at the same time!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Buji"
       },
       {
@@ -13057,7 +13891,7 @@ quotes = [
         "quote": "Very lazy but very talented too. Always make disturbance to class but very chill."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Adarsh (S for skinny), thats how I differentiated between the two. Anyway, you are on your way to achieving great things in life, like the many achievements u already do have. If I;m being honest, terrible sense of fashion XD, but the sheer confidence you wear it, you are able to pull it off."
       },
       {
@@ -13071,6 +13905,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best, friend!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Adarsh."
+      },
+      {
+        "name": "Asish",
+        "quote": "Thundu is BAE, here i have written it down.Countless things to be written and stories to be told"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Fellow lone wolf, I have your book and I don't intend to return it. You are not the one to shy away from speaking your mind, but filter it a bit and stop loling! From its appuyo to guyandtheworld, you still owe me fries."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Arreey tundapu ( as pooja calls you ).\nThanks for existing? I don't know what else to say because you have been an very very very crucial part of my life whether it be emotionally or college wise or career wise. I guess you have studies enough to know shit about me now! tsk tsk\nThe one thing I admire about you is the persistence you have in doing your shit and knowing your priorities right.\nThat banglore trip was crazzzy dude! Thank you for having us? Myru nyan enathina ithem forma agunne?\nThe thing is I am happy that I have someone in my life as you because you are crazy guy in all sense.\nNinne kurach adigam choriintu ind because I thought and still feel I have the freedom to do so, sometimes I have exceeded the space but it love bro!\nSo bella ciao! and adutha adikku meetam!\nJai Bala MH ki!"
       }
     ]
   },
@@ -13278,7 +14128,7 @@ quotes = [
         "quote": "Love your playlist. Birthday twin. Enthusiastic. Arts would've been incomplete without you"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Football player😍🔥"
       },
       {
@@ -13294,7 +14144,7 @@ quotes = [
         "quote": "Talkative and talented.  Friendly too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Big brother vibes. Seemed very repsonsible kinda guy. "
       },
       {
@@ -13308,6 +14158,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Da mwonoose.... ara kilo robusta theratte?? Njan inim veruppikkum ⚠️"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Nithin."
+      },
+      {
+        "name": "Asish",
+        "quote": "Pada is a chunk, always pouring in and organising . He likes to make the people vibe and takes up responsibilities without a second thought"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Yes, I’ll text you two days after I get back home. Also don't forget that one day you will have to cook for me all the dishes you sent me pictures of!"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Padoskiiiii.\nNee verum scene annu mone! Paduthathinu padutham, kaliku kali, gaminginu gaming dha ippo setum kode! vere enna venam!\nYou have been a great friend da!\nWe did have our share of cracks but, it was great spending time with you brooo! :)"
       }
     ]
   },
@@ -13515,7 +14381,7 @@ quotes = [
         "quote": "You are a lovely kutty. Very friendly and always there for friends. Eating lunch in your leaf packet is something I’ll always remember about you."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "One of the Dhurantham happen to me😂.  Aluva bus ile chali partner😂😘.. Best part of my mec life💞"
       },
       {
@@ -13531,7 +14397,7 @@ quotes = [
         "quote": "One of my best friend and very hardworking. Very helpful and kind person. Very disturbance in class but always clear my all doubts too."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Jolly good person"
       },
       {
@@ -13545,6 +14411,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best, dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "Gayathri thank you for being a great friend. Thank you so much."
+      },
+      {
+        "name": "Asish",
+        "quote": "Gayathri is a loving and smart person and is quite popular among her friends."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Orientation day, I remember how I instantly felt at ease after talking to you and Niki. :)  "
+      },
+      {
+        "name": "Abhishek",
+        "quote": "My long distant cousin who made sure my thallukollitharam didn't reach home!\nThank you so much gaayyuu, for not breaking it!\nAppol nammuku veedinte parisarathu vechu kaanam!\nTake care da!"
       }
     ]
   },
@@ -13752,7 +14634,7 @@ quotes = [
         "quote": "Swag style. Gentleman. Extremely kind hearted. All the best!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Paavam koch😁"
       },
       {
@@ -13768,7 +14650,7 @@ quotes = [
         "quote": "Friendly, talkative and helpful person. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Cutest bachelor in class. All the best in life brother."
       },
       {
@@ -13782,6 +14664,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Shteve... cut aavalle shteve...... "
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Steve. "
+      },
+      {
+        "name": "Asish",
+        "quote": "My loving shishyan, whose transformation i got to witness throughout all the years, my buddy , and an important person during my college life , always will go back to kani with him , where many of our memories and emotions rests."
+      },
+      {
+        "name": "Sarah",
+        "quote": "The second nicest guy in the class. He's all cool till “ Kukku uyir, baki elam *** ”. Buddy, ride safe. ;)"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Cutteeeeeeeeowski 0.\nWhy did we meet so late?! :(\nMone nee verum adipoli aada! I really really really mean it!\nBecause you are genuine af and I love people who are like that.\nI would definitely miss Kani and Bangalore days da!\nPinne nee okke kochiyil indu enn ulath annu ende oru ashvasam!\nSo to more adis and kudis and making me smile when me sed, thanks for being there in my life da! \nAppo adutha dikku kaanam!"
       }
     ]
   },
@@ -13989,7 +14887,7 @@ quotes = [
         "quote": "Thankyou for all that you’ve done for me. I will be indebted to you."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Mec il njan 1st parichayappedunna aal diya aan😁😘"
       },
       {
@@ -14005,7 +14903,7 @@ quotes = [
         "quote": "Very efficient and bold. Very much friendly to everyone. Very chill person."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Versatile, talented , proactive and yeah, LOUDDDDD."
       },
       {
@@ -14019,6 +14917,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "All the best dude!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": " Diya you're so good. All the best. One of the favourite person."
+      },
+      {
+        "name": "Asish",
+        "quote": "Diya the chechi of the entire class , gets things done and is a caring and loving person."
+      },
+      {
+        "name": "Sarah",
+        "quote": "You can hear her characteristic laugh from a mile away, but don't let that fool you, she's not the one to be messed with. She’s a vibe, it was a fun trip to Kottayam wasn't it?"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Diyuuuuu, content daivam aya nee abhsk enn confidencil type cheynna confidence annu enik ende jeevithathil vendadthu.\nTo be very honest in the initial phases I was like Diya? nooo I don't think we can be friends, she's too straight forward but later on as I expanded my horizons and looking at now I know how much I have grown and thank you diyuu!\nBeing the repeaters in class is fun, but maaman vannathode ende aa padhavi poyi! LOL.\nBut Diyu, I have misunderstood a lot but now when thinking back and looking at it I exactly know why all that happened and I just want you to know that I would be there by your side by any shit that happens!\nSo over aaaki chalam aakun iilla!\nYou take care, we will meet soon! :)\nOkay?"
       }
     ]
   },
@@ -14226,7 +15140,7 @@ quotes = [
         "quote": "Will miss the morning chaya-kapi with you.  It took a while to get to know you but then once I did, your such an amazing person! Stay the fun person you are."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Innocent soul💖"
       },
       {
@@ -14242,7 +15156,7 @@ quotes = [
         "quote": "Something different but very friendly and very much helpful person. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Class clown. Sorta. A good friend. Achievements:- calling me BC in front of his sister. XD XD"
       },
       {
@@ -14256,6 +15170,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Aane 🐘🐘, namakk trip povande.... oru list ondakki vekkam... enitt joli okke cheyyan thodangitt namakk ellarkkum povam......"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Adrian."
+      },
+      {
+        "name": "Asish",
+        "quote": "Adrian is crazy,funny and out of the world , the achayan swagger always, such a unique person."
+      },
+      {
+        "name": "Sarah",
+        "quote": "I don't believe that you are of the human species, so unabashedly quirky. :P  Remember driving school ?"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Monee mood annu nee!\nI never in my life knew you where this crazy fun!\nAnd nee classil irunu adicha pole I think only a few people would have done that and the bottle all the way from UK and that reception scene. OMG that was crazy da!\nAdikande mone iini?\nAppol kanam soon!"
       }
     ]
   },
@@ -14463,7 +15393,7 @@ quotes = [
         "quote": "Artist. Will miss all the ambience works we did together."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Aluva bus memories😍💞"
       },
       {
@@ -14479,7 +15409,7 @@ quotes = [
         "quote": "Very nice girl. Soft talking and hardworking. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Delhi waali friend. I'm pretty sure we both enjoyed having conversations in hindi. And contrasting a lot of the differences here and there. And kya tasty khaana laati thi tu. yum yum."
       },
       {
@@ -14493,6 +15423,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "I know that you're getting annoyed with my stickers. 🙈 But still, njan iniyum veruppikkum.... All the best, friend!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Shruti. You're one of my favourite person."
+      },
+      {
+        "name": "Asish",
+        "quote": "What do i write about her , there are not much words to describe what she means to me , These kinda people don't come by in life easily and i am grateful for the deep friendship i share with her . Lifelong Shruuu!!"
+      },
+      {
+        "name": "Sarah",
+        "quote": "24 hours of a day isn't enough for this girl to talk about her day, but we have given her good training and now she manages to listen as well. She worries for all of us, (I hope the book helps) but is not afraid to hold her friends close. <3"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "My awwww babbyyy, the real alice in wonderland.\nWe were the 1st friends in college shru! and look at us!\nBeing friends-making you cry-Ohana-making you cry-normal friends-making you cry-friends-void in friendship.\nEven though that's our friendship timeline, I know for sure ki, you would be there anytime to brighten up my mood when I am feeling low.\nRemember your bday when we all called you!\nThank you for always making me smile shru!\nAnd I am gonna make michi my soul sister so back off, she's mine!\nThank you for believing in me that I can be a good friend too!\nMy eyes are full, still , thank you for coming into my life as an angel who never ceased to lift me up when I am down!\nSo take care and see ya!"
       }
     ]
   },
@@ -14644,10 +15590,6 @@ quotes = [
         "quote": "Ninja lite"
       },
       {
-        "name": "Bharath",
-        "quote": "what do I say about myself? jerk? ahole?"
-      },
-      {
         "name": "Adarsh R",
         "quote": "friendly and nice person"
       },
@@ -14704,7 +15646,7 @@ quotes = [
         "quote": "Thankyou for teaching me the leftover topics just before exams that I would skip. Will miss teaching you the entire syllabus in an hour just before exams. All the best!"
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Buji😁"
       },
       {
@@ -14720,7 +15662,7 @@ quotes = [
         "quote": "Very friendly and clever person."
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "One of my closest friend in college. I won't be doing justice by putting 4 years of memories in 2 sentences. Anyway, you know how much I loved your MH food. <3\nHave an amazing life ahead."
       },
       {
@@ -14734,6 +15676,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Da mwonoose.... Jimbruttan nte puthiya stickers kittumbo, send....😂"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Bharat"
+      },
+      {
+        "name": "Asish",
+        "quote": "Bharat kumar , is one of the few non mallu friends i made in college , such a an amazing person, does all sorts of things from gaming to chess , and is a great programmer"
+      },
+      {
+        "name": "Sarah",
+        "quote": "Let's play another game of chess, I have improved. :P"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Hey boi!\nYou are like woah!\nMHil anelum ninde aaa edak edak ulla valicha sound indakille, hooting like? adu aarnu symbol that you haven't left MH.\nIt's been nice knowing you da!\nKeep gaming and have funn broi! \nAnd freeze vodka? \n"
       }
     ]
   },
@@ -14941,7 +15899,7 @@ quotes = [
         "quote": "Your really good at mobile apps. Breakfast buddy! Will miss all those canteen mornings."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Kathi adi with navya😂"
       },
       {
@@ -14957,7 +15915,7 @@ quotes = [
         "quote": "One of my letmate. Very much friendly, helpful  and silent too. Very nice person and talented too. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "All the best Jimmy."
       },
       {
@@ -14971,6 +15929,22 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Java pole thanne \"Simple and Powerful\".... Android ne medichitt Google il enikk oru joli set aaki tharanam....."
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Jimmy."
+      },
+      {
+        "name": "Asish",
+        "quote": "Jimmy is an android thala and a sweet person ."
+      },
+      {
+        "name": "Sarah",
+        "quote": "The silent observer."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Jimmy bro!\nStay the same, I love your perspectives on the frames and videos you take!\nWe should talk more! Sorry couldn't make it your bro's marriage but yeah!\nWe will see bro! \nTake care yo!"
       }
     ]
   },
@@ -15182,7 +16156,7 @@ quotes = [
         "quote": "Will miss the sunshine smiles on your face. The day I saw you at the Lulu bus stop at some 7am shocked me and I realised you can be on time if you wanted to. Be on time at work, cause now I know now you can."
       },
       {
-        "name": "Midhu ",
+        "name": "Midu",
         "quote": "Edapally il aan veed enkilum koch late aaye varollu😁💖"
       },
       {
@@ -15198,7 +16172,7 @@ quotes = [
         "quote": "Late comer of our class. Friendly and beautiful. "
       },
       {
-        "name": "Devashish",
+        "name": "Devasish",
         "quote": "Stop cracking lame jokes Sarah  -_-^"
       },
       {
@@ -15212,6 +16186,300 @@ quotes = [
       {
         "name": "Akhil",
         "quote": "Why you're always late Sarah?? Ini enkilum 🥴.... Stay connected Sarah, and take care!!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Sarah."
+      },
+      {
+        "name": "Asish",
+        "quote": "Sarah J is a gem of a person , one of my two pillars for everything in college to support on . Sarah J is the best out there and there is no one like her"
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Hey Theets! Sup yo?\nBye. LOL\nEdi curly pati, OHana wouldn't be this dumb without our combo in it.\nStay this dumb, sing more on my birthday, do those cute edits and I promise to make you cry every time I can with dope, especially with tomato.\nYou are someone who showed me that people can hide emotions so well, but we catch you every time you do!\nI miss talking and irritating you more!\nI guess this is just the beginning and we have a life time to go!\nAnd I will feed you more water melon ( IV Reference )\nAppol sheri!"
+      }
+    ]
+  },
+  {
+    "name": "Marzooq",
+    "quotes": [
+      {
+        "name": "Midhun",
+        "quote": "You left too soon bitch.(Good for you). Kaanenam aduth thanne."
+      },
+      {
+        "name": "Nithin",
+        "quote": "Creative af"
+      },
+      {
+        "name": "Shruti",
+        "quote": "Zooooooq! I miss u😭 hopefully we'll meet soooooo♥️ ( PS - I know u hate social media, reading messages... Basically anything virtual.. so I'll tell u what I think of you, whn we meet in person😁)"
+      },
+      {
+        "name": "Bindya",
+        "quote": "Hey Zooq,\nNerathe thenne nee poyi kalanjello. Rekshapettalle."
+      },
+      {
+        "name": "Leon",
+        "quote": "counter strike"
+      },
+      {
+        "name": "Steve",
+        "quote": "Never got to know you properly, but your design stuff is amazing! "
+      },
+      {
+        "name": "Satyalekha",
+        "quote": "Zook! It's insane when I'm reminded that I've known you only for a year (LIKE WHAT!?) One amazing friend and very very sensible. Gonna kill you if you forget us. Also just know that we are going to gatecrash your graduation party (if there's one XD) Love ya!"
+      },
+      {
+        "name": "Pooja",
+        "quote": "You followed your passion and that's the most inspiring thing. Good luck in the future! Keep smiling always! :) "
+      },
+      {
+        "name": "Thomas",
+        "quote": "Miss you man❤️"
+      },
+      {
+        "name": "Akshay",
+        "quote": "Ivan first year exam maati anu paranju allavarayum patichu, A really friendly person"
+      },
+      {
+        "name": "Allen",
+        "quote": "Wherever you are stay the same"
+      },
+      {
+        "name": "Don",
+        "quote": "Zook"
+      },
+      {
+        "name": "Francis",
+        "quote": "Artist"
+      },
+      {
+        "name": "Adarsh R",
+        "quote": "friendly and nice person"
+      },
+      {
+        "name": "Anusree",
+        "quote": "determined"
+      },
+      {
+        "name": "Parvathy",
+        "quote": "Amazing Artist"
+      },
+      {
+        "name": "Betty",
+        "quote": "NID boy"
+      },
+      {
+        "name": "Nikita",
+        "quote": "Someone who left early "
+      },
+      {
+        "name": "Jimmy",
+        "quote": ":)"
+      },
+      {
+        "name": "Aditya",
+        "quote": "When he escapes KTU long before everyone realizes the trap they're in: * I'M FOUR PARALLEL UNIVERSES AHEAD OF YOU *"
+      },
+      {
+        "name": "Kurian",
+        "quote": " Bonevenjoure(nallathe vartte). Appreciate the life choice you took from dropping Enginneering."
+      },
+      {
+        "name": "Ashwin",
+        "quote": "The creative guy who btw left us for a better life at NID."
+      },
+      {
+        "name": "Midu",
+        "quote": "Drawing simham🔥"
+      },
+      {
+        "name": "Arshaad",
+        "quote": "Korach naale indaairunnullu... But avanath polichadukki"
+      },
+      {
+        "name": "Vishnu",
+        "quote": " May all your dreams come true"
+      },
+      {
+        "name": "Amruth",
+        "quote": "I guess I could say you left before we could hit it off? But from what I've seen and heard of you, you're a sweet, fun and amiable... And of course it's great that you made the decision to pursue what you knew your heart wanted. I wish you all the best in life and hope you find what your looking for... Stay awesome dude!"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Marzooq."
+      },
+      {
+        "name": "Asish",
+        "quote": "Marzooq is a vere level talented and amazing person , dint have the time to get to know him more , but those cet days were simply unforgettable."
+      },
+      {
+        "name": "Sarah",
+        "quote": "Looking back, it's funny how we only spent about 4 months together in college and still it means a lot more than the 4 years spent with some others.    "
+      },
+      {
+        "name": "Abhishek",
+        "quote": "Nayinte monneee!\nI still wish you didn't leave to NID but I am happy that you left because I had home and I was getting all your umma's love and foood!\nBut I would thank MEC for giving out the best person I have met so far! \nThank for being there for me fucker!\nBut I am gonna do what umma, if she says something! :\")\nPooko sed akathe!"
+      }
+    ]
+  },
+  {
+    "name": "Akshay A",
+    "quotes": [
+      {
+        "name": "Kuriakose",
+        "quote": "ninte youtube channel oke poli aada"
+      },
+      {
+        "name": "Midhun",
+        "quote": "Bro you're creative as hell. I love your photo concepts. Never stop."
+      },
+      {
+        "name": "Shawn",
+        "quote": "Has integrity and direction."
+      },
+      {
+        "name": "Shruti",
+        "quote": "🦋🦋🦋 - this is soooo you! "
+      },
+      {
+        "name": "Bindya",
+        "quote": "Hey Akshay,\nWhat was that with the butterfly statuses? :D"
+      },
+      {
+        "name": "Leon",
+        "quote": "Thalan"
+      },
+      {
+        "name": "Steve",
+        "quote": "Thallu main! Very helpful and funny!"
+      },
+      {
+        "name": "Pooja",
+        "quote": "really sweet and genuine person. Keep smiling always! :) "
+      },
+      {
+        "name": "Thomas",
+        "quote": "Thallist😂"
+      },
+      {
+        "name": "Akshay",
+        "quote": "The master of thalls, he is said to own a cycle capable of defeating even super cars in a race but overall is a really friendly and kind hearted person"
+      },
+      {
+        "name": "Allen",
+        "quote": "Creative"
+      },
+      {
+        "name": "Don",
+        "quote": "Thallan"
+      },
+      {
+        "name": "Tino",
+        "quote": "Butterflies aanu orkane and cycle racer"
+      },
+      {
+        "name": "Jithin",
+        "quote": "all the best muthe"
+      },
+      {
+        "name": "Francis",
+        "quote": "Akosottu"
+      },
+      {
+        "name": "Aparna",
+        "quote": "Pleasant guy"
+      },
+      {
+        "name": "Sreekumar",
+        "quote": "180 km/h il odana cycle ipolum undo da"
+      },
+      {
+        "name": "Bharath",
+        "quote": "Hello AAA, miss you bruh"
+      },
+      {
+        "name": "Adarsh R",
+        "quote": "friendly and nice person"
+      },
+      {
+        "name": "Anusree",
+        "quote": "creative"
+      },
+      {
+        "name": "Parvathy",
+        "quote": "Best Wishes"
+      },
+      {
+        "name": "Betty",
+        "quote": "Good friend"
+      },
+      {
+        "name": "Nikita",
+        "quote": "Butterfly "
+      },
+      {
+        "name": "Jimmy",
+        "quote": "The specialist is thallu ;)"
+      },
+      {
+        "name": "Aditya",
+        "quote": "*rubs magical lamp* I want a cycle that goes 180MPH.\nThe Genie: Your wish is ... തള്ള്"
+      },
+      {
+        "name": "Kurian",
+        "quote": " Bonevenjoure(nallathe vartte)."
+      },
+      {
+        "name": "Ashwin",
+        "quote": "Mandan aanelum missed you in class bro."
+      },
+      {
+        "name": "Bhairavi",
+        "quote": "Blue butterflies is your favourite. I remember once in the college bus, you took Devashish’s bag home instead of yours because they both were identical."
+      },
+      {
+        "name": "Midu",
+        "quote": "Photographer 😁"
+      },
+      {
+        "name": "Arshaad",
+        "quote": "🤙🏻"
+      },
+      {
+        "name": "Vishnu",
+        "quote": " May all your dreams come true"
+      },
+      {
+        "name": "Navya",
+        "quote": "Very silent person. "
+      },
+      {
+        "name": "Devasish",
+        "quote": "\"Now you're just somebody that I used to know\"-Gotye"
+      },
+      {
+        "name": "Amruth",
+        "quote": "It's too bad we didn't get to know each other at all to be honest. However things may be, hope you're doing okay. All the best!"
+      },
+      {
+        "name": "Akhil",
+        "quote": "Ninte aa cycle enikk oru test-drive nu tharuo??"
+      },
+      {
+        "name": "Sreelakshmi",
+        "quote": "All the best Akshay."
+      },
+      {
+        "name": "Sarah",
+        "quote": "The one with the butterfly obsession."
+      },
+      {
+        "name": "Abhishek",
+        "quote": "The obsessed butterfly guy!\nI still remember you taking some crazy photos back in day.\nI wish you could pass out with us, but I guess theres something bigger waiting for you out there."
       }
     ]
   }

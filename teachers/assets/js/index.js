@@ -28,7 +28,7 @@ function cardDisplay() {
         blockQuote.className = "blockquote mb-0 card-body"
         quote = document.createElement('p')
         quote.style.color = "white"
-        quote.textContent = teachers[0]['teachers'][i]['quote']
+        quote.innerHTML = teachers[0]['teachers'][i]['quote']
         blockQuote.appendChild(quote)
         card.appendChild(imageContainer)
         card.appendChild(blockQuote)

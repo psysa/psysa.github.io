@@ -26,9 +26,6 @@ memes = [{
         "meme": "Meme8.jpg"
       },
       {
-        "meme": "Meme9.jpg"
-      },
-      {
         "meme": "Meme10.jpg"
       },
       {

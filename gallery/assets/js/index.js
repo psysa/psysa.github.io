@@ -54,7 +54,6 @@ function cardDisplay(id) {
             textArea = document.createElement('div')
             textArea.className = 'text'
             textArea.innerHTML = gallery[numbers.indexOf(id)][id][0]['videos'][i]['place']+ '<br><p style="font-family:Monospace;font-weight:400; padding-top:5%;margin-bottom:0;">Tap to play</p>'
-            // textArea.textContent = 'Tap to play!!'
             dateArea = document.createElement('div')
             dateArea.className = 'card-footer date-area'
             dateValue = document.createElement('small')
@@ -72,13 +71,11 @@ function cardDisplay(id) {
                 if($(this).find('.overlay').css('opacity') == 0){
                     console.log('comes here')
                     $(this).find('.overlay').css('opacity', '0.9');
-                    // textArea.textContent = gallery[numbers.indexOf(id)][id][0]['videos'][i]['place']
-                    document.getElementsByTagName("video")[0].pause()
+                    $(this).find('video')[0].pause()
                 }else{
                     console.log('goes here')
                     $(this).find('.overlay').css('opacity', '0');
-                    // textArea.textContent = gallery[numbers.indexOf(id)][id][0]['videos'][i]['place']
-                    document.getElementsByTagName("video")[0].play()
+                    $(this).find('video')[0].play()
                 }
                 console.log($(this).find('.overlay').css('opacity'))
             })

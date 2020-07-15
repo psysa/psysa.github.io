@@ -175,6 +175,10 @@ body {
     display: none;
 }
 
+#pills-questions #accordionContainer button {
+    text-align: left;
+}
+
 #pills-questions #cardsContainer {
     display: block;
 }

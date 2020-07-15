@@ -3,38 +3,36 @@ function awardsDisplay() {
     cardColumns = pillsAwards.querySelector('#cardsColumns')
     if (cardColumns != null) {
         cardColumns.innerHTML = ''
-        for (i = 0; i < 20; i++) {
-            for (i = 0; i < 20; i++) {
-                card = document.createElement('div')
-                card.className = "card p-3"
-                image = document.createElement('div')
-                image.className = 'image'
-                cardImage = document.createElement('img')
-                cardImage.className = 'card-img'
-                cardImage.setAttribute('src', './assets/images/wreath.png')
-                image.appendChild(cardImage)
-                overlay = document.createElement('div')
-                overlay.className = 'overlay'
-                cardImageOverlay = document.createElement('img')
-                cardImageOverlay.className = 'card-img'
-                cardImageOverlay.setAttribute('src', '../yearbook/assets/images/kuri.jpg')
-                overlay.appendChild(cardImageOverlay)
-                cardBody = document.createElement('div')
-                cardBody.className = 'card-body'
-                cardBody.style.color = 'white'
-                cardTitle = document.createElement('h5')
-                cardTitle.className = 'card-title'
-                cardTitle.textContent = 'Best Student'
-                cardText = document.createElement('p')
-                cardText.className = 'card-text'
-                cardText.textContent = 'Kuriakose Eldho'
-                cardBody.appendChild(cardTitle)
-                cardBody.appendChild(cardText)
-                card.appendChild(overlay)
-                card.appendChild(image)
-                card.appendChild(cardBody)
-                cardColumns.appendChild(card)
-            }
+        for (i = 0; i < awards.length; i++) {
+            card = document.createElement('div')
+            card.className = "card p-3"
+            image = document.createElement('div')
+            image.className = 'image'
+            cardImage = document.createElement('img')
+            cardImage.className = 'card-img'
+            cardImage.setAttribute('src', './assets/images/wreath.png')
+            image.appendChild(cardImage)
+            overlay = document.createElement('div')
+            overlay.className = 'overlay'
+            cardImageOverlay = document.createElement('img')
+            cardImageOverlay.className = 'card-img'
+            cardImageOverlay.setAttribute('src', '../yearbook/assets/images/display_pictures/' + awards[i]['rollno'] + '.jpg')
+            overlay.appendChild(cardImageOverlay)
+            cardBody = document.createElement('div')
+            cardBody.className = 'card-body'
+            cardBody.style.color = 'white'
+            cardTitle = document.createElement('h5')
+            cardTitle.className = 'card-title'
+            cardTitle.textContent = awards[i]['award']
+            cardText = document.createElement('p')
+            cardText.className = 'card-text'
+            cardText.textContent = awards[i]['winner']
+            cardBody.appendChild(cardTitle)
+            cardBody.appendChild(cardText)
+            card.appendChild(overlay)
+            card.appendChild(image)
+            card.appendChild(cardBody)
+            cardColumns.appendChild(card)
         }
     }
 }
@@ -44,12 +42,12 @@ function questionsDisplay() {
     cardColumns = questionPills.querySelector('#cardsColumns')
     if (cardColumns != null) {
         cardColumns.innerHTML = ''
-        for (i = 0; i < 5; i++) {
+        for (i = 0; i < questions.length; i++) {
             card = document.createElement('div')
             card.className = "card"
             cardHeader = document.createElement('h5')
             cardHeader.className = 'card-header'
-            cardHeader.textContent = "Who's Kuriakose?"
+            cardHeader.textContent = questions[i]['question']
             cardHeader.style.fontWeight = '600'
             cardBody = document.createElement('card-body')
             cardBody.className = 'card-body'
@@ -57,10 +55,10 @@ function questionsDisplay() {
             listGroup.className = 'list-group list-group-flush'
             listGroup.style.backgroundColor = 'transparent'
             listGroup.style.fontWeight = '400'
-            for (j = 0; j < 5; j++) {
+            for (j = 0; j < questions[i]['answers'].length; j++) {
                 listItem = document.createElement('li')
                 listItem.className = 'list-group-item'
-                listItem.textContent = 'Kuriakose is a Good Boy'
+                listItem.textContent = questions[i]['answers'][j]['answer']
                 listItem.style.backgroundColor = 'transparent'
                 listGroup.appendChild(listItem)
             }
@@ -86,7 +84,7 @@ function questionsDisplay() {
         headerRow = document.createElement('div')
         headerRow.className = 'row justify-content-between'
         titleDiv = document.createElement('div')
-        titleDiv.className = 'col-auto text-left'
+        titleDiv.className = 'col text-left'
         collapse = document.createElement('button')
         if (i == 0) {
             collapse.className = 'btn'
@@ -102,9 +100,9 @@ function questionsDisplay() {
         }
         cardHeader.setAttribute('aria-controls', 'collapse' + numbers[i])
         collapse.style.fontWeight = '600'
-        collapse.textContent = "Who's Kuriakose?"
+        collapse.textContent = questions[i]['question']
         arrowDiv = document.createElement('div')
-        arrowDiv.className = 'col-auto text-right arrow-div'
+        arrowDiv.className = 'col-2 text-right arrow-div'
         darrow = document.createElement('img')
         darrow.setAttribute('id', 'darrow')
         darrow.setAttribute('src', './assets/images/darrow.png')
@@ -130,10 +128,10 @@ function questionsDisplay() {
         listGroup.className = 'list-group list-group-flush'
         listGroup.style.backgroundColor = 'transparent'
         listGroup.style.fontWeight = '400'
-        for (j = 0; j < 5; j++) {
+        for (j = 0; j < questions[i]['answers'].length; j++) {
             listItem = document.createElement('li')
             listItem.className = 'list-group-item'
-            listItem.textContent = 'Kuriakose is a Good Boy'
+            listItem.textContent = questions[i]['answers'][j]['answer']
             listItem.style.backgroundColor = 'transparent'
             listGroup.appendChild(listItem)
         }
