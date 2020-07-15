@@ -68,7 +68,7 @@ teachers = [
       },
       {
         "teacher": "Adharsh Sir",
-        "quote": "While writing this message I can remember and see most of you guys in the class, while reading this if you can see me that's more than enough.😍\nIt's not quote or something it's the true feelings, when ever I saw your message I will think ohh I should give some advice or something but nothing is coming to my mind except our class, all you guys face, it's very innocent at that time😍😍\nI think I can remember most of the students..\nThat was one of the best phase of my life and thank you all especially you and few guys in MH. all my wishes bairavi.",
+        "quote": "While writing this message I can remember and see most of you guys in the class, while reading this if you can see me that's more than enough.😍\nIt's not quote or something it's the true feelings, when ever I saw your message I will think ohh I should give some advice or something but nothing is coming to my mind except our class, all you guys face, it's very innocent at that time😍😍\nI think I can remember most of the students..\nThat was one of the best phase of my life and thank you all especially you and few guys in MH. all my wishes.",
         "photo": "Adharsh.jpg"
       },
       {
