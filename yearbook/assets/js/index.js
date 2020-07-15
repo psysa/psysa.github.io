@@ -1,7 +1,6 @@
 function setTopMargin() {
     imageContainer = document.getElementById('imageContainerOuter')
     cardsContainer = document.getElementById('cardsContainer')
-    console.log(cardsContainer.offsetHeight)
 }
 
 function closeModal() {

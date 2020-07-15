@@ -18,9 +18,7 @@
         $(window).resize(function() {
             var $window = $(this)
             windowWidth = $window.width();
-            // console.log('resized', windowWidth, lastWindowWidth)
             if (lastWindowWidth != windowWidth) {
-                // console.log('width changed')
                 drawLines();
             }
             lastWindowWidth = windowWidth

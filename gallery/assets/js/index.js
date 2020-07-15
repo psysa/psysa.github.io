@@ -4,7 +4,6 @@ function cardDisplay(id) {
     if (cardColumns != null) {
         cardColumns.innerHTML = ''
         for (i = 0; i < gallery[numbers.indexOf(id)][id][0]['photos'].length; i++) {
-            // console.log(gallery[numbers.indexOf(id)][id][0]['photos'])
             card = document.createElement('div')
             card.className = "card p-3"
             image = document.createElement('img')
@@ -25,18 +24,15 @@ function cardDisplay(id) {
             overlay.appendChild(dateArea)
             card.appendChild(image)
             card.appendChild(overlay)
-            card.addEventListener('click', function(e){
-                console.log('tap one')
-                console.log($(this).find('.overlay').css('opacity'))
-                if($(this).find('.overlay').css('opacity') == 0){
-                    console.log('comes here')
-                    $(this).find('.overlay').css('opacity', '0.9');
-                }else{
-                    console.log('goes here')
-                    $(this).find('.overlay').css('opacity', '0');
-                }
-                console.log($(this).find('.overlay').css('opacity'))
-            })
+            if (window.matchMedia("(max-width: 991px)").matches) {
+                card.addEventListener('click', function (e) {
+                    if ($(this).find('.overlay').css('opacity') == 0) {
+                        $(this).find('.overlay').css('opacity', '0.9');
+                    } else {
+                        $(this).find('.overlay').css('opacity', '0');
+                    }
+                })
+            }
             cardColumns.appendChild(card)
         }
         for (i = 0; i < gallery[numbers.indexOf(id)][id][0]['videos'].length; i++) {
@@ -53,7 +49,7 @@ function cardDisplay(id) {
             overlay.style.opacity = '0.9'
             textArea = document.createElement('div')
             textArea.className = 'text'
-            textArea.innerHTML = gallery[numbers.indexOf(id)][id][0]['videos'][i]['place']+ '<br><p style="font-family:Monospace;font-weight:400; padding-top:5%;margin-bottom:0;">Tap to play</p>'
+            textArea.innerHTML = gallery[numbers.indexOf(id)][id][0]['videos'][i]['place'] + '<br><p style="font-family:Monospace;font-weight:400; padding-top:5%;margin-bottom:0;">Tap to play</p>'
             dateArea = document.createElement('div')
             dateArea.className = 'card-footer date-area'
             dateValue = document.createElement('small')
@@ -65,19 +61,14 @@ function cardDisplay(id) {
             card.appendChild(video)
             card.appendChild(overlay)
             video.pause()
-            card.addEventListener('click', function(e){
-                console.log('tap one')
-                console.log($(this).find('.overlay').css('opacity'))
-                if($(this).find('.overlay').css('opacity') == 0){
-                    console.log('comes here')
+            card.addEventListener('click', function (e) {
+                if ($(this).find('.overlay').css('opacity') == 0) {
                     $(this).find('.overlay').css('opacity', '0.9');
                     $(this).find('video')[0].pause()
-                }else{
-                    console.log('goes here')
+                } else {
                     $(this).find('.overlay').css('opacity', '0');
                     $(this).find('video')[0].play()
                 }
-                console.log($(this).find('.overlay').css('opacity'))
             })
             cardColumns.appendChild(card)
         }
