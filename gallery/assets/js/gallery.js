@@ -145,7 +145,7 @@ gallery = [
           {
             "photo": "22 Nov 2018 - It_s nap time!.jpg",
             "date": "22 Nov 2018",
-            "place": "It'''s nap time!"
+            "place": "It's nap time!"
           },
           {
             "photo": "30 Nov 2018 - Girls day out.jpg",
@@ -304,7 +304,7 @@ gallery = [
           {
             "photo": "21 Mar 2019 - St.Mary_s Island.jpg",
             "date": "21 Mar 2019",
-            "place": "St"
+            "place": "St. Mary's Island"
           },
           {
             "photo": "21 Mar 2019 - Udupi Hotel.jpeg",
