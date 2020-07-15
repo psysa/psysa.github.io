@@ -344,14 +344,9 @@ gallery = [
             "place": "Bamboo Forest, Coorg"
           },
           {
-            "video": "24 Mar 2019 - Bamboo Forest, Coorg Song1.mp4",
+            "video": "24 Mar 2019 - Bamboo Forest, Coorg Song.mp4",
             "date": "24 Mar 2019",
-            "place": "Bamboo Forest, Coorg Song1"
-          },
-          {
-            "video": "24 Mar 2019 - Bamboo Forest, Coorg Song2.mp4",
-            "date": "24 Mar 2019",
-            "place": "Bamboo Forest, Coorg Song2"
+            "place": "Bamboo Forest, Coorg Song"
           },
           {
             "video": "24 Mar 2019 - Psy Psy Psy.mp4",

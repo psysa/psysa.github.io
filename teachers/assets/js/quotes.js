@@ -47,7 +47,7 @@ teachers = [
         "photo": "Reshma.jpg"
       },
       {
-        "teacher": "Sarath Sir",
+        "teacher": "Sharath Sir",
         "quote": "My first batch at MEC with least difference of opinion 😄...Happy that I could teach you in a couple of semesters. I still remember your hardships to convince a faculty to accompany you for IV.Also those mentoring hours.😄I am happy  with your efforts for creating good results in STLD(Hope you guys know what that stands for).My prayers will be there with you.Please remember us in your prayers as well.May God almighty bless you people abundantly and all the very best for your future.\n\nWith luv\n\nSHARATH P RAJU",
         "photo": "Sarath.jpg"
       },
