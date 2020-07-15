@@ -106,7 +106,7 @@ gallery = [
           {
             "photo": "11 Mar 2018 - Vagamon Boys.jpg",
             "date": "11 Mar 2018",
-            "place": "Vagamon Boys"
+            "place": "Vagamon"
           },
           {
             "photo": "11 Mar 2018 - Vagamon.jpg",
