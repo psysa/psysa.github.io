@@ -112,6 +112,12 @@ small {
     font-family: 'Montserrat', sans-serif;
 }
 
+#dob svg {
+    filter: invert(1);
+    vertical-align: baseline;
+    margin-right: 5px;
+}
+
 @media only screen and (max-width: 600px) {
     button {
         margin: 1%;

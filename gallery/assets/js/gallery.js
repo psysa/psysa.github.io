@@ -16,7 +16,7 @@ gallery = [
           {
             "photo": "16 Mar 2017 - Adharsh Sir Farewell gift.jpg",
             "date": "16 Mar 2017",
-            "place": "Adharsh Sir Farewell gift"
+            "place": "Farewell Adharsh Sir"
           },
           {
             "photo": "16 Mar 2017 - Farewell Adharsh Sir.jpg",
@@ -66,7 +66,7 @@ gallery = [
           {
             "photo": "30 Aug 2017 - Onam 2017 Amphi.png",
             "date": "30 Aug 2017",
-            "place": "Onam 2017 Amphi"
+            "place": "Onam 2017"
           },
           {
             "photo": "30 Aug 2017 - Onam 2017 Bijumon Sir.jpg",
@@ -76,7 +76,7 @@ gallery = [
           {
             "photo": "30 Aug 2017 - Onam 2017 Girls.JPG",
             "date": "30 Aug 2017",
-            "place": "Onam 2017 Girls"
+            "place": "Onam 2017"
           },
           {
             "photo": "30 Aug 2017 - Onam 2017.JPG",
@@ -96,7 +96,7 @@ gallery = [
           {
             "photo": "11 Mar 2018 - Bamboo Forest Boys.jpg",
             "date": "11 Mar 2018",
-            "place": "Bamboo Forest Boys"
+            "place": "Bamboo Forest"
           },
           {
             "photo": "11 Mar 2018 - Bamboo Forest.jpg",
@@ -124,7 +124,13 @@ gallery = [
             "place": "End of Sem 4 Exams"
           }
         ],
-        "videos": []
+        "videos": [
+          {
+            "video": "28 Jun 2018 - Dab! Dab! Dab!.mp4",
+            "date": "28 Jun 2018",
+            "place": "Dab! Dab! Dab!"
+          }
+        ]
       }
     ]
   },
@@ -185,11 +191,6 @@ gallery = [
             "place": "Jithin Nille Nille"
           },
           {
-            "video": "20 Mar 2019 - Dab! Dab! Dab!.mp4",
-            "date": "20 Mar 2019",
-            "place": "Dab! Dab! Dab!"
-          },
-          {
             "video": "28 Mar 2019 - IV After-effects.mp4",
             "date": "28 Mar 2019",
             "place": "IV After-effects"
@@ -205,12 +206,12 @@ gallery = [
           {
             "photo": "27 Aug 2019 - Anjali Miss Farewell.jpg",
             "date": "27 Aug 2019",
-            "place": "Anjali Miss Farewell"
+            "place": "Farewell Anjali Miss"
           },
           {
             "photo": "7 Sep 2019 - Onam.jpg",
             "date": "7 Sep 2019",
-            "place": "Onam"
+            "place": "Onam 2019"
           },
           {
             "photo": "9 Sep 2019 - Midu_s sister_s wedding.jpg",
@@ -230,7 +231,7 @@ gallery = [
           {
             "photo": "28 Oct 2019 - Chaithanya Miss Farewell.jpg",
             "date": "28 Oct 2019",
-            "place": "Chaithanya Miss Farewell"
+            "place": "Farewell Chaithanya Miss"
           },
           {
             "photo": "3 Jan 2020 - PsySA.jpg",

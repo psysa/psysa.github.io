@@ -20,7 +20,7 @@ awards = [
     "rollno": "16"
   },
   {
-    "award": "Laziest of the lot",
+    "award": "Laziest of the Lot",
     "winner": "Nihal",
     "rollno": "41"
   },
@@ -40,7 +40,7 @@ awards = [
     "rollno": "18"
   },
   {
-    "award": "Most irritating",
+    "award": "Most Irritating",
     "winner": "Abhishek",
     "rollno": "1"
   },
@@ -55,22 +55,22 @@ awards = [
     "rollno": "53"
   },
   {
-    "award": "Most likely to succeed",
+    "award": "Most likely to Succeed",
     "winner": "Adarsh S",
     "rollno": "3"
   },
   {
-    "award": "Best All Rounder",
+    "award": "All Rounder",
     "winner": "Meenakshi",
     "rollno": "54"
   },
   {
-    "award": "Most unforgettable",
+    "award": "Most Unforgettable",
     "winner": "Abhishek",
     "rollno": "1"
   },
   {
-    "award": "Udayipp",
+    "award": "Udayippinte Achan",
     "winner": "Adarsh S",
     "rollno": "3"
   },

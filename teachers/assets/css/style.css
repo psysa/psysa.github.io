@@ -35,7 +35,7 @@ body {
 }
 
 .blockquote {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', 'Manjari', sans-serif;
     font-style: italic;
     padding: 0.75em 0em 0em 0em;
 }

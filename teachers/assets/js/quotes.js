@@ -198,7 +198,7 @@ teachers = [
       },
       {
         "teacher": "Bijumon Sir",
-        "quote": "Excited to hear what you've got to say to CSA 2020 batch! (Once you are free form your busy KTU schedule)",
+        "quote": "Excited to hear what you've got to say to CSA 2020 batch! (Once you are free from your busy KTU schedule)",
         "photo": "Bijumon.jpg"
       }
     ]

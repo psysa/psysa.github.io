@@ -3,7 +3,7 @@ function analyticsDisplay() {
     accordion = pillsAnalytics.querySelector('#accordionAnalytics')
     accordion.innerHTML = ''
     numbers = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine']
-    values = [['mostTalked', 'bar', 'rgb(218,165,32)'], ['mostEmoji', 'bar', 'rgb(218,165,32)'], ['somethingWrong', 'bar', 'rgb(218,165,32)'], ['mostMedia', 'bar', 'rgb(218,165,32)'], ['popularWords', 'bar', 'rgb(218,165,32)'], ['talkingDay', 'bar', 'rgb(218,165,32)'], ['talkingHrs', 'bar', 'rgb(218,165,32)'], ['talkingMonths', 'bar', 'rgb(218,165,32)'], ['semesterWise', 'pie', ['rgb(99, 110, 250)', 'rgb(239, 85, 59)', 'rgb(0, 204, 150)', 'rgb(171, 99, 250)', 'rgb(255, 161, 90)', 'rgb(25, 211, 243)', 'rgb(255, 102, 146)', 'rgb(182, 232, 128)']]]
+    values = [['mostTalked', 'bar', 'rgb(218,165,32)'], ['mostMedia', 'bar', 'rgb(218,165,32)'], ['mostEmoji', 'bar', 'rgb(218,165,32)'], ['somethingWrong', 'bar', 'rgb(218,165,32)'], ['popularWords', 'bar', 'rgb(218,165,32)'], ['talkingDay', 'bar', 'rgb(218,165,32)'], ['talkingHrs', 'bar', 'rgb(218,165,32)'], ['talkingMonths', 'bar', 'rgb(218,165,32)'], ['semesterWise', 'pie', ['rgb(99, 110, 250)', 'rgb(239, 85, 59)', 'rgb(0, 204, 150)', 'rgb(171, 99, 250)', 'rgb(255, 161, 90)', 'rgb(25, 211, 243)', 'rgb(255, 102, 146)', 'rgb(182, 232, 128)']]]
     for (i = 0; i < numbers.length; i++) {
         card = document.createElement('card')
         card.className = 'card'
@@ -80,9 +80,9 @@ function analyticsDisplay() {
 function plotGraph(graphName, type, color) {
     graphNameMap = {
         'mostTalked': 'who_talked_most',
+        'mostMedia': 'most_media',
         'mostEmoji': 'most_emoji',
         'somethingWrong': 'most_del_msg',
-        'mostMedia': 'most_media',
         'popularWords': 'popular_words',
         'talkingDay': 'talking_day',
         'talkingHrs': 'talking_hrs',

@@ -33,7 +33,7 @@ questions = [
         "answer": "random dude gets offended from a whatsapp message and decides to fight"
       },
       {
-        "answer": "For me one of mest moments for me was going to college finally after clearing my three supplies in 4th semester"
+        "answer": "For me one of my best moments was going to college finally after clearing my three supplies in 4th semester"
       },
       {
         "answer": "NSS Camp days"
