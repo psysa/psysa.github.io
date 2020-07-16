@@ -103,7 +103,7 @@ teachers = [
       },
       {
         "teacher": "Jimmy Sir",
-        "quote": "The things that you fear to happen in your life may not happen at all... But the things you think will never happen in your life may happen inevitably... ഇതാണോ ഉദ്ദേശിച്ചത്",
+        "quote": "The things that you fear to happen in your life may not happen at all... But the things you think will never happen in your life may happen inevitably...",
         "photo": "Jimmy.jpg"
       },
       {
