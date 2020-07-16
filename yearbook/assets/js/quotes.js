@@ -187,7 +187,7 @@ quotes = [
         "quote": "Enthoru lag aado? ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna say goodbye"
       },
       {
@@ -444,7 +444,7 @@ quotes = [
         "quote": "Never talked even once. I regret that. ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna give you up"
       },
       {
@@ -693,7 +693,7 @@ quotes = [
         "quote": "The less talk, more action techie."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "(Ooh, give you up)"
       },
       {
@@ -946,7 +946,7 @@ quotes = [
         "quote": "The sleeping beauty. I wish I could sleep like you."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Your heart's been aching, but"
       },
       {
@@ -1199,7 +1199,7 @@ quotes = [
         "quote": "Namuk turf il povaam... ;) "
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna say goodbye"
       },
       {
@@ -1452,7 +1452,7 @@ quotes = [
         "quote": ":|"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Gotta make you understand"
       },
       {
@@ -1709,7 +1709,7 @@ quotes = [
         "quote": "The fact guy and chick magnet. Hehe"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna let you down"
       },
       {
@@ -1962,7 +1962,7 @@ quotes = [
         "quote": "You are an absolute gem. I adore you! Hehe"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Don't tell me you're too blind to see"
       },
       {
@@ -2211,7 +2211,7 @@ quotes = [
         "quote": "PDF aanu ivante main."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna give you up"
       },
       {
@@ -2464,7 +2464,7 @@ quotes = [
         "quote": "I'm sorry for making you ask a lot of things including this form fill up again and again.. :( "
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna run around and desert you"
       },
       {
@@ -2717,7 +2717,7 @@ quotes = [
         "quote": "That vibe maker.."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna run around and desert you"
       },
       {
@@ -2974,7 +2974,7 @@ quotes = [
         "quote": "So innocent and simple. I wish MEC had more people like you.."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna tell a lie and hurt you"
       },
       {
@@ -3223,7 +3223,7 @@ quotes = [
         "quote": "The extreme formal guy ;) "
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna say goodbye"
       },
       {
@@ -3476,7 +3476,7 @@ quotes = [
         "quote": "Don't know much about you. Wish I did. :) :("
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna give, never gonna give"
       },
       {
@@ -3729,7 +3729,7 @@ quotes = [
         "quote": "The psycho kindle-r and padippi. Can't thank enough for the last minute classes just before exams."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna tell a lie and hurt you"
       },
       {
@@ -3986,7 +3986,7 @@ quotes = [
         "quote": "The ultimate solution giver for any tech issues, but breaks down at any instant. ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna run around and desert you"
       },
       {
@@ -4239,7 +4239,7 @@ quotes = [
         "quote": "That simple girl without jaada!"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "e've known each other for so long"
       },
       {
@@ -4488,7 +4488,7 @@ quotes = [
         "quote": "Fuck classes! Let's catch pokemon."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna let you down"
       },
       {
@@ -4741,7 +4741,7 @@ quotes = [
         "quote": "The memist. He has a meme for everything."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna let you down"
       },
       {
@@ -4998,7 +4998,7 @@ quotes = [
         "quote": "That saddist, psycho Linux guy.. ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "I just wanna tell you how I'm feeling"
       },
       {
@@ -5251,7 +5251,7 @@ quotes = [
         "quote": "That kalaakaran and mediator. :)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna give you up"
       },
       {
@@ -5504,7 +5504,7 @@ quotes = [
         "quote": "The musician ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "You wouldn't get this from any other guy"
       },
       {
@@ -5757,7 +5757,7 @@ quotes = [
         "quote": "Ma-Man of House Vypin, first of LET padippis.. "
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "ഹായ് മാമൻ"
       },
       {
@@ -6014,7 +6014,7 @@ quotes = [
         "quote": "Too helpful!! :)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna give you up"
       },
       {
@@ -6267,7 +6267,7 @@ quotes = [
         "quote": "Typical achaayan..."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna run around and desert you"
       },
       {
@@ -6520,7 +6520,7 @@ quotes = [
         "quote": "Great singer!"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna tell a lie and hurt you"
       },
       {
@@ -6773,7 +6773,7 @@ quotes = [
         "quote": "Damn beautiful smile! "
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "You're too shy to say it"
       },
       {
@@ -7030,7 +7030,7 @@ quotes = [
         "quote": "Your drawings are awesome as you!"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna say goodbye"
       },
       {
@@ -7279,7 +7279,7 @@ quotes = [
         "quote": "The specialist in thallu... ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna let you down"
       },
       {
@@ -7532,7 +7532,7 @@ quotes = [
         "quote": "The vibe maker! ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "(Give you up)"
       },
       {
@@ -7789,7 +7789,7 @@ quotes = [
         "quote": "High as hell always! ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Inside, we both know what's been going on"
       },
       {
@@ -8042,7 +8042,7 @@ quotes = [
         "quote": "The talented!"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "We know the game and we're gonna play it"
       },
       {
@@ -8291,7 +8291,7 @@ quotes = [
         "quote": "Pazhukkaatha maanga! ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna make you cry"
       },
       {
@@ -8544,7 +8544,7 @@ quotes = [
         "quote": "I have never seen this girl blink ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna let you down"
       },
       {
@@ -8801,7 +8801,7 @@ quotes = [
         "quote": "Chick Magnet!"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna make you cry"
       },
       {
@@ -9054,7 +9054,7 @@ quotes = [
         "quote": "Penninu pakaram cash back ne pranayichavan! ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna say goodbye"
       },
       {
@@ -9303,7 +9303,7 @@ quotes = [
         "quote": "Kaggle master and paavangalude Ikka... :)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna make you cry"
       },
       {
@@ -9556,7 +9556,7 @@ quotes = [
         "quote": "That creepy girl with google bag ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna say goodbye"
       },
       {
@@ -9809,7 +9809,7 @@ quotes = [
         "quote": "The placement master mind! ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna give you up"
       },
       {
@@ -10066,7 +10066,7 @@ quotes = [
         "quote": "Django boy..."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "You're too shy to say it"
       },
       {
@@ -10315,7 +10315,7 @@ quotes = [
         "quote": "We all could be poetic and loose our minds together. "
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna make you cry"
       },
       {
@@ -10568,7 +10568,7 @@ quotes = [
         "quote": "The assignment source :) Looks so paavam ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "And if you ask me how I'm feeling"
       },
       {
@@ -10821,7 +10821,7 @@ quotes = [
         "quote": "The chef of MEC!"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "We've known each other for so long"
       },
       {
@@ -11074,7 +11074,7 @@ quotes = [
         "quote": "Shebuuuu!!!"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "We know the game and we're gonna play it"
       },
       {
@@ -11331,7 +11331,7 @@ quotes = [
         "quote": "Theevandi ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Your heart's been aching, but"
       },
       {
@@ -11580,7 +11580,7 @@ quotes = [
         "quote": "Kai murinj poi ;) :)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "(Give you up)"
       },
       {
@@ -11833,7 +11833,7 @@ quotes = [
         "quote": "The oracle boy. The secret padippi. ;) Thanks for the rides.. "
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna make you cry"
       },
       {
@@ -12086,7 +12086,7 @@ quotes = [
         "quote": "Evide kond ittaalum jeevich pokkolum :|"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "You know the rules and so do I"
       },
       {
@@ -12339,7 +12339,7 @@ quotes = [
         "quote": "Nice :)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "I just wanna tell you how I'm feeling"
       },
       {
@@ -12592,7 +12592,7 @@ quotes = [
         "quote": "The assignment source ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna run around and desert you"
       },
       {
@@ -12845,7 +12845,7 @@ quotes = [
         "quote": "Let me say Hi! :)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna make you cry"
       },
       {
@@ -13102,7 +13102,7 @@ quotes = [
         "quote": "The hard worker to be inspired from :)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "(Ooh, give you up)"
       },
       {
@@ -13355,7 +13355,7 @@ quotes = [
         "quote": "The vibe-ist :)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "We're no strangers to love"
       },
       {
@@ -13604,7 +13604,7 @@ quotes = [
         "quote": "The soft talker :)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna let you down"
       },
       {
@@ -13857,7 +13857,7 @@ quotes = [
         "quote": "The James and her sons ..."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "A full commitment's what I'm thinking of"
       },
       {
@@ -14110,7 +14110,7 @@ quotes = [
         "quote": "Padathalavan of Adho!"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Inside, we both know what's been going on"
       },
       {
@@ -14363,7 +14363,7 @@ quotes = [
         "quote": "Late aayittaanu samsaarich thudangiyath... :("
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna tell a lie and hurt you"
       },
       {
@@ -14616,7 +14616,7 @@ quotes = [
         "quote": "Cute boiii ..."
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna tell a lie and hurt you"
       },
       {
@@ -14869,7 +14869,7 @@ quotes = [
         "quote": "Too helpful! :)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna run around and desert you"
       },
       {
@@ -15122,7 +15122,7 @@ quotes = [
         "quote": "The Imbaraj of MEC ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Gotta make you understand"
       },
       {
@@ -15375,7 +15375,7 @@ quotes = [
         "quote": "Awwwwwsome!"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna tell a lie and hurt you"
       },
       {
@@ -15628,7 +15628,7 @@ quotes = [
         "quote": "The gamer and winner ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna give, never gonna give"
       },
       {
@@ -15881,7 +15881,7 @@ quotes = [
         "quote": "Delightful"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna tell a lie and hurt you"
       },
       {
@@ -16138,7 +16138,7 @@ quotes = [
         "quote": "Don't be late pls ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "Never gonna let you down"
       },
       {
@@ -16283,7 +16283,7 @@ quotes = [
         "quote": ":)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "When he escapes KTU long before everyone realizes the trap they're in: * I'M FOUR PARALLEL UNIVERSES AHEAD OF YOU *"
       },
       {
@@ -16428,7 +16428,7 @@ quotes = [
         "quote": "The specialist is thallu ;)"
       },
       {
-        "name": "Aditya",
+        "name": "Adithya",
         "quote": "*rubs magical lamp* I want a cycle that goes 180MPH.\nThe Genie: Your wish is ... തള്ള്"
       },
       {
