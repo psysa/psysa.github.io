@@ -1,0 +1,31 @@
+{
+    "name": "PSYSA 2020",
+    "short_name": "PSYSA 2020",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "start_url": "/",
+    "theme_color": "black",
+    "background_color": "black",
+    "icons": [{
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "apple-touch-icon": [{
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

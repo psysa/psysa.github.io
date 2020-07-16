@@ -9529,7 +9529,7 @@ quotes = [
       },
       {
         "name": "Diya",
-        "quote": "girl, the many times I ve come at your home, video calls with sreepriya, some of the aligning thoughts, all were nice. now go to mumbai."
+        "quote": "girl, the many times I ve come to your house, video calls with sreepriya, some of the aligning thoughts, all were nice. now go to mumbai."
       },
       {
         "name": "Parvathy",
