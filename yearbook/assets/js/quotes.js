@@ -2028,7 +2028,7 @@ quotes = [
     ]
   },
   {
-    "name": "Akshay",
+    "name": "Akshay P",
     "quotes": [
       {
         "name": "Adheep",
