@@ -99,7 +99,7 @@ quotes = [
         "quote": "Kanimangalam queen 😍❤️"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Alla divasavum vazhkunaram varupikum lag adichu, enthu chayanam bhayankara lag aanu but is a really good hearted person"
       },
       {
@@ -356,7 +356,7 @@ quotes = [
         "quote": "Makes me realize that i am next one to receive my answer sheet and attendance 😅"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Really sweet person, always cheerful"
       },
       {
@@ -429,7 +429,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Thannimathan "
+        "quote": "We have countless memories together both at hostel and college.. But apart from that you are the most sweetest and good hearted person that I have ever seen in my life!! ❤️ You were there whenever I needed help and through my lows!! Thank you for sahikkaling my songs and chalis bestie!! Namukku pondicherry pokande 😉 Badly missing your chitchats, palli stories and puchams Puchist Mary!! 😏😏"
       },
       {
         "name": "Michelle",
@@ -605,7 +605,7 @@ quotes = [
         "quote": "He is pretty sincere at his work but priorities himself than others."
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "He is a really good person, he has the most number of whatsapp stickers to his name(credit to akhil)"
       },
       {
@@ -678,7 +678,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Tech main "
+        "quote": "Tech main and thank you for the help during arts, Still remember bringing 12 juniors in your car.. 😂"
       },
       {
         "name": "Michelle",
@@ -858,7 +858,7 @@ quotes = [
         "quote": "A person who can consistently sleep😌"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "I always used to find him sleeping in the morning session, doesnt give a damn about sleeping at the first bench"
       },
       {
@@ -931,7 +931,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Sleeping beauty "
+        "quote": "Sleeping beauty!! Always imagined how peacefully you could sleep in the first bench!! 😂.. And thanks for being a wonderful lab partner!! "
       },
       {
         "name": "Michelle",
@@ -1115,7 +1115,7 @@ quotes = [
         "quote": "Who is always passionate about studying out of syllabus and most of us still believe that he is not following Ktu syllabus 🤣🤣😌,well at least according to jaimon sir😂."
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "He is a really good hearted person, Always claims at the start of each sem that he will never cut classes again, but starts cutting classes from evening itself. Vaada turfil pokam"
       },
       {
@@ -1184,7 +1184,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Franco "
+        "quote": "A person with a pleasant smile 😄"
       },
       {
         "name": "Michelle",
@@ -1364,7 +1364,7 @@ quotes = [
         "quote": "A pet lover and I believe she loves dogs and cats😍"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Really active in all the activities, apozhum fund chodichondu varum"
       },
       {
@@ -1621,7 +1621,7 @@ quotes = [
         "quote": "He started to understand Malayalam better😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "He is super chill about everything"
       },
       {
@@ -1694,7 +1694,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "The one with attendance shortage in the early semesters. "
+        "quote": "The one with attendance shortage in the early semesters and the only person who answers in Maths class!! 😅"
       },
       {
         "name": "Michelle",
@@ -1874,7 +1874,7 @@ quotes = [
         "quote": "The one who submits all our assignments and also the one who runs to call teachers whenever the class is free😂."
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "She is always ready to help others and is a really good person"
       },
       {
@@ -1947,7 +1947,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Rep "
+        "quote": "SI main!! 😍😍 One of the most responsible and patient person I've met in MEC!! Had a wonderful time working with you during Excel and IBeTo "
       },
       {
         "name": "Michelle",
@@ -2376,7 +2376,7 @@ quotes = [
         "quote": "Sattelite🛰️🛰️"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "She is a really cheerful person, I always used to find her smiling"
       },
       {
@@ -2449,7 +2449,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Content main "
+        "quote": "Miss the thallu we used to do during project presentation and always a huge fan of your content writing 😍"
       },
       {
         "name": "Michelle",
@@ -2633,7 +2633,7 @@ quotes = [
         "quote": "A really cool attitude towards everyone and I believe all are his friends."
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "He has a really unique personality, orikalum veripikila"
       },
       {
@@ -2702,7 +2702,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "JJ "
+        "quote": "Rose ne parichayapedande 😅"
       },
       {
         "name": "Michelle",
@@ -2886,7 +2886,7 @@ quotes = [
         "quote": "I sometimes borrows her computer record for completing."
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "She can be always seen having a really anxious face"
       },
       {
@@ -2959,7 +2959,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Paavam... Very innocent "
+        "quote": "Paavam... Very innocent!! Always love talking with you.. ❤️"
       },
       {
         "name": "Michelle",
@@ -3135,7 +3135,7 @@ quotes = [
         "quote": "The guy who threaten us by hacking claims 😆"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "He was the first person I met at college, is a really sweet and helpful person"
       },
       {
@@ -3392,7 +3392,7 @@ quotes = [
         "quote": "A calm , silent and friendly student 😉❤️"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Really good hearted and friendly person"
       },
       {
@@ -3465,7 +3465,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Cutie 😍😍"
+        "quote": "Kandal bhayangara paavam and quiet ayi thonnumenkilum, you're a very bold person!! Michelle kannu thurichu nokkana kand enikk thanne pedi ayittundu 😅!! We became friends from 2nd year and have a lot of memories.. Can never forget the ambience work you gave me (tile art and stone art 😂) Also miss your chocolate cake 😋"
       },
       {
         "name": "Krishnaprasad",
@@ -3645,7 +3645,7 @@ quotes = [
         "quote": "Very responsible and sincere student\nAssignments 👍\nSeries 👍\nUniversity exams👍\nProject work👍\nSeminar 👍\nOther study activities 👍😄"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Once he showed me about fork bomb and I immediately crashed his laptop by testing it. He is a really helpful and caring person I have only seen him getting angry twice in 4 years."
       },
       {
@@ -3718,7 +3718,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Kp"
+        "quote": "A very helpful person!! "
       },
       {
         "name": "Michelle",
@@ -3898,7 +3898,7 @@ quotes = [
         "quote": "Well we used to talk about laptops and other hardware stuffs sometimes 😄"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "goto person for fixing computers, he never says no and he is quite frank always"
       },
       {
@@ -3971,7 +3971,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Techie "
+        "quote": "Techie and very helpful "
       },
       {
         "name": "Michelle",
@@ -4151,7 +4151,7 @@ quotes = [
         "quote": "Even though she is a quiet student , when the situation demands she could raise her voice 😉"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Really quiet and sweet"
       },
       {
@@ -4224,7 +4224,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Chala "
+        "quote": "Chala Midhu, enikku anthaksharikku tight competition tharunna eka aalu 😘😘"
       },
       {
         "name": "Michelle",
@@ -4404,7 +4404,7 @@ quotes = [
         "quote": "I believe he is obsessed with computer games and I have a advice for him to get atleast his sleeping hours right and that too in the night 😁"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Once I saw him sleeping in an extremely crowded bus standing. He is a really good person, always ready to go to turf"
       },
       {
@@ -4657,7 +4657,7 @@ quotes = [
         "quote": "He sets the benchmark for late assignment submission 😅😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "He is a really creative as well as a really lazy person"
       },
       {
@@ -4910,7 +4910,7 @@ quotes = [
         "quote": "I think we share the same no of backlogs😅"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "He is a really helpful person, never shy on expressing his feelings through words and actions, really good at lab work"
       },
       {
@@ -4996,10 +4996,6 @@ quotes = [
       {
         "name": "Jimmy",
         "quote": "That saddist, psycho Linux guy.. ;)"
-      },
-      {
-        "name": "Adithya",
-        "quote": "I just wanna tell you how I'm feeling"
       },
       {
         "name": "Theres",
@@ -5163,7 +5159,7 @@ quotes = [
         "quote": "Karthaaa❤️😍"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "I remember him coming with a broken leg with a heavy tabala for arts audition in first year, he is always ready to help, apol chodichalum carinda key tharum, a really good hearted person"
       },
       {
@@ -5236,7 +5232,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Mimicry main "
+        "quote": "Mimicry and udayippu main!! Miss watching your drama rehearsals and asking you enikku pournami ne tharo!! 😂"
       },
       {
         "name": "Michelle",
@@ -5416,7 +5412,7 @@ quotes = [
         "quote": "Obsessed with rain than music.Is it true😂?"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "The musician of our class I find his personality to be quite unique especially his way of talking"
       },
       {
@@ -5489,7 +5485,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Come on mec!! "
+        "quote": "Come on mec!! (P. S you have a lot of fans in my hostel) "
       },
       {
         "name": "Michelle",
@@ -5673,7 +5669,7 @@ quotes = [
         "quote": "Classille karnnavar👴👴"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really friendly and helpful person, gets really pumped up when talking about politics"
       },
       {
@@ -5742,7 +5738,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Maaman"
+        "quote": "Maamante vasu ne sherikkum miss cheyyunund!! Thank you for all the help during arts!! 😘😘"
       },
       {
         "name": "Michelle",
@@ -5926,7 +5922,7 @@ quotes = [
         "quote": "Talkative and friendly 🤗"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really friendly person always likes to initiate conversations"
       },
       {
@@ -6183,7 +6179,7 @@ quotes = [
         "quote": "Maxiii😍😍"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really friendly person always cheerful, always active"
       },
       {
@@ -6252,7 +6248,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Achayan 😂"
+        "quote": "Achayan 😂  and miss your thallu "
       },
       {
         "name": "Michelle",
@@ -6436,7 +6432,7 @@ quotes = [
         "quote": "A great singer😍"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really good singer, she was also in my team during first year electrical lab, a really friendly person"
       },
       {
@@ -6505,7 +6501,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Singer 😘"
+        "quote": "Sweet Singer 😘"
       },
       {
         "name": "Michelle",
@@ -6689,7 +6685,7 @@ quotes = [
         "quote": "Offers a helping hand while completing my records😅"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really sweet and friendly person"
       },
       {
@@ -6942,7 +6938,7 @@ quotes = [
         "quote": "Oru paavam kutti🤗"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really friendly person and a really good artist"
       },
       {
@@ -7015,7 +7011,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "The artist "
+        "quote": "The artist , Huge fan of your drawings 😍 and miss getting cinema prints from you!!! "
       },
       {
         "name": "Michelle",
@@ -7191,7 +7187,7 @@ quotes = [
         "quote": "A very calm and composed person. Keep smiling always! :) "
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "First year apozhum chalavu chayum, mandhi illatha oru jeevidham illa ivanu, a really good hearted and kind person"
       },
       {
@@ -7444,7 +7440,7 @@ quotes = [
         "quote": "Pwoli machan🤟🤟"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Apozhum mind aakanda anu parayum, always cheerful"
       },
       {
@@ -7701,7 +7697,7 @@ quotes = [
         "quote": "Very active and responsible student 😉"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really friendly person, always helps others"
       },
       {
@@ -7954,7 +7950,7 @@ quotes = [
         "quote": "A good friend and sincere student ❤️"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Ivan paranju tudangiyal pinna nirthila, bhyankara friendly aanu"
       },
       {
@@ -8027,7 +8023,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Dancer "
+        "quote": "Dancer  "
       },
       {
         "name": "Michelle",
@@ -8207,7 +8203,7 @@ quotes = [
         "quote": "He is a very active boy 😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "I remember ascar sir giving him nickname 'maanga', he used to be quite violent when calling that name during first year, a really cheerful person"
       },
       {
@@ -8276,7 +8272,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Maanga"
+        "quote": "Thanks for all the help during arts 😘"
       },
       {
         "name": "Michelle",
@@ -8456,7 +8452,7 @@ quotes = [
         "quote": "The most studious girl😉"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Classila padippi, her notes have been really helpful"
       },
       {
@@ -8529,7 +8525,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Topper, teacher's pet"
+        "quote": "Topper, teacher's pet and thanks a lot for teaching me the rules of basketball!! And for all the help during oppana 😍"
       },
       {
         "name": "Michelle",
@@ -8713,7 +8709,7 @@ quotes = [
         "quote": "Rider , Max speed 40kmph😂😂😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Was one of the first whom i met in college, a really friendly and helpful person"
       },
       {
@@ -8786,7 +8782,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": ". "
+        "quote": "Very helpful "
       },
       {
         "name": "Michelle",
@@ -8966,7 +8962,7 @@ quotes = [
         "quote": "Dosa and chammandi😆"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Always brings dosa as luch, only junk food he has is sweet porota, apozhum KSRTCil kazharumbol driver aayi samsarichirunu enna post aakum, valara nanayitu verupikum"
       },
       {
@@ -9039,7 +9035,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Seshan "
+        "quote": "IEEE main!! Than kannunapole oru aale alla!! 😅 Nalla udayippu annu but still thanks a lot for making me VC, for all the helps during project, sahikkaling my thallu, for all the movies 😍. Will never forget your akhilseshan.me link 😂, treats, veruppikaling, duranthams grp and the hope you give about exams postponement 😘😘"
       },
       {
         "name": "Michelle",
@@ -9215,7 +9211,7 @@ quotes = [
         "quote": "That Oss friend 😂😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "he is very friendly, aalkara varupikan nalla ishtamanu, good at organizing things"
       },
       {
@@ -9288,7 +9284,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Ikka "
+        "quote": "Ml simham and thanks for being the IV coordinator.. "
       },
       {
         "name": "Michelle",
@@ -9472,7 +9468,7 @@ quotes = [
         "quote": "She is humble and kind"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really good person, we were in the same group during electrical lab in first year"
       },
       {
@@ -9529,7 +9525,7 @@ quotes = [
       },
       {
         "name": "Diya",
-        "quote": "girl, the many times I ve come to your house, video calls with sreepriya, some of the aligning thoughts, all were nice. now go to mumbai."
+        "quote": "girl, the many times I ve come at your home, video calls with sreepriya, some of the aligning thoughts, all were nice. now go to mumbai."
       },
       {
         "name": "Parvathy",
@@ -9721,7 +9717,7 @@ quotes = [
         "quote": "Went through a lot of hardships while managing placement and conducting placement activities🤟😁.Really appreciate it👍. Thank u so much👍"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really sweet person , always likes to help others"
       },
       {
@@ -9794,7 +9790,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Chitti "
+        "quote": "Chitti 😘!! Miss our oppana practices "
       },
       {
         "name": "Michelle",
@@ -9978,7 +9974,7 @@ quotes = [
         "quote": "The guy who used to lend his glasses in the second year, remember 😂😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "we had together gone for hunting jio sim when it was just released. A really friendly and pure hearted person"
       },
       {
@@ -10227,7 +10223,7 @@ quotes = [
         "quote": "Mr Systematic"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Always on the lookout for helping people, I have never seen anyone else who comes forward without requesting to help"
       },
       {
@@ -10300,7 +10296,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "The only person who listens to class "
+        "quote": "The only person who listens to class and a extremely helpful person. "
       },
       {
         "name": "Michelle",
@@ -10484,7 +10480,7 @@ quotes = [
         "quote": "Very calm, studious and sincere"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really quite person"
       },
       {
@@ -10553,7 +10549,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Padipi "
+        "quote": "Padipi and love listening to your Kottayam slang 😍 "
       },
       {
         "name": "Michelle",
@@ -10733,7 +10729,7 @@ quotes = [
         "quote": "Dope"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "The cook of our class, always brings various dishes and distributes during lunchbreak"
       },
       {
@@ -10806,7 +10802,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Chef 🍰"
+        "quote": "Chef 🍰,  enikk tharaam enn paranje onnum thanilla 😅"
       },
       {
         "name": "Michelle",
@@ -10986,7 +10982,7 @@ quotes = [
         "quote": "🤟Shebash🤟"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Shebu is a really good hearted person, always likes to help others, always comes along when going to canteen"
       },
       {
@@ -11059,7 +11055,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Sabash"
+        "quote": "Sabash, my classmate from 6 years "
       },
       {
         "name": "Michelle",
@@ -11243,7 +11239,7 @@ quotes = [
         "quote": "Bismi"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "He plays football and is rarely seen in class"
       },
       {
@@ -11492,7 +11488,7 @@ quotes = [
         "quote": "Danger awaits you my friend when you speak in Malayalam 😂😂😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "I remember him being really afraid of dogs and not coming near college because of dogs during first excel, a really good person, always hepful"
       },
       {
@@ -11749,7 +11745,7 @@ quotes = [
         "quote": "Main😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really good hearted person, likes to help everyone . He is the padippi who claims himself to be a ozhapan. Always drops me off to bus stop"
       },
       {
@@ -11818,7 +11814,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Padipi "
+        "quote": "Padipi and helpful "
       },
       {
         "name": "Michelle",
@@ -12002,7 +11998,7 @@ quotes = [
         "quote": "Padippist😂😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Pollu is a really good and friendly person"
       },
       {
@@ -12255,7 +12251,7 @@ quotes = [
         "quote": "Calm and quiet 😊"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really quite person"
       },
       {
@@ -12324,7 +12320,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Sweetheart "
+        "quote": "Sweetheart 😍,  miss sitting with you on the same bench and sharing gossips, playing games and singing. Thanks for tolerating all my songs 😘. Badly missing our thallu during project presentations and our routine 3pm cold coffee at royals ❤️"
       },
       {
         "name": "Michelle",
@@ -12504,7 +12500,7 @@ quotes = [
         "quote": "A good friend"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really sweet person"
       },
       {
@@ -12577,7 +12573,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Padipi "
+        "quote": "Padipi and miss coming with you to the staff room to ask about the important questions 😂"
       },
       {
         "name": "Michelle",
@@ -12757,7 +12753,7 @@ quotes = [
         "quote": "Ansys😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really friendly person gets angry quite easily"
       },
       {
@@ -12830,7 +12826,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Padipi "
+        "quote": "Dilliwalli Padipi, very sweet and very adventurous (PS. IV times) "
       },
       {
         "name": "Michelle",
@@ -13014,7 +13010,7 @@ quotes = [
         "quote": "Django"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "He is always seen doing one thing or another, also motivates others to do things which are not in curriculum, is a really helpful person"
       },
       {
@@ -13267,7 +13263,7 @@ quotes = [
         "quote": "OruMandanDude"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "One of the most dynamic persons I have met and he has a really good personality"
       },
       {
@@ -13340,7 +13336,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "All in all"
+        "quote": "All in all, psy SA is definitely incomplete without you... "
       },
       {
         "name": "Michelle",
@@ -13520,7 +13516,7 @@ quotes = [
         "quote": "Went through a lot of hardships while managing placement and conducting placement activities🤟😁.Also systematic 😉😅"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really sweet and helpful person, replies quickly"
       },
       {
@@ -13589,7 +13585,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "The one who used to be rarely seen in class during final semesters "
+        "quote": "The one who used to be rarely seen in class during final semesters and remember the late night MS during arts practice... "
       },
       {
         "name": "Michelle",
@@ -13773,7 +13769,7 @@ quotes = [
         "quote": "Thundappu😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really dynamic person, odukatha thall aanu"
       },
       {
@@ -14022,7 +14018,7 @@ quotes = [
         "quote": "Pada thallavan😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really friendly person"
       },
       {
@@ -14095,7 +14091,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Someone who is very helpful "
+        "quote": "Someone who is there whenever you need help!! ❤️"
       },
       {
         "name": "Michelle",
@@ -14275,7 +14271,7 @@ quotes = [
         "quote": "G😊A😁Y😉A🤟3"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really friendly person"
       },
       {
@@ -14348,7 +14344,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Very helpful "
+        "quote": "Very helpful and a person whom I know from a long period of time!! I remember us pouring water on each other during entrance class!! The race for 2nd bench 😂 Stay the same genuine person!! 😍😍"
       },
       {
         "name": "Michelle",
@@ -14528,7 +14524,7 @@ quotes = [
         "quote": "Eda mwonusse 😉😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really friendly person, always plays a prank on someone or gets pranked"
       },
       {
@@ -14601,7 +14597,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Sed aakkalle "
+        "quote": "Sed aakkalle,  ente blue color bottle kandupidichu thannathu orkunundo during arts 😅"
       },
       {
         "name": "Michelle",
@@ -14785,7 +14781,7 @@ quotes = [
         "quote": "U speak up openly and that's good🤟"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really sweet and good hearted person, really active at literature related activities"
       },
       {
@@ -14854,7 +14850,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Energetic dancer 😍. Ps. IV "
+        "quote": "Energetic dancer 😍 Ps. IV.. Will always remember the fun we had during our oppana practice sessions 😘😘 Remember the names we kept for the steps 😂"
       },
       {
         "name": "Michelle",
@@ -15034,7 +15030,7 @@ quotes = [
         "quote": "🐘🐘🐘🐘🐘🐘"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Adrian Gabriel Mathew ana peru kaatal valliya sambhavam aananu thongum, paksha aalu paavamanu. Theri vilichu tudangiyal paksha vaara aalanu"
       },
       {
@@ -15107,7 +15103,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Imbaraj"
+        "quote": "Imbaraj, the unique person in mec whom I will definitely miss!! Miss all your chalis, water bottles and expressions (Ps ninne njagalde hostelil kathakali enn annu vilikkane) "
       },
       {
         "name": "Michelle",
@@ -15287,7 +15283,7 @@ quotes = [
         "quote": "Helping hand👏"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really sweet person , always pleasant and smiling"
       },
       {
@@ -15360,7 +15356,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Aww 😘"
+        "quote": "Aww 😘 you are a sweetheart and a very friendly person!! "
       },
       {
         "name": "Michelle",
@@ -15544,7 +15540,7 @@ quotes = [
         "quote": "Hey Anachi😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A reaaly good friend , really good at chess"
       },
       {
@@ -15797,7 +15793,7 @@ quotes = [
         "quote": "Android Jimmy 🤟"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "A really quite person but never says no when we need any help"
       },
       {
@@ -16050,7 +16046,7 @@ quotes = [
         "quote": "Another term for \"being late\"😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "apozhum classil late aayi varum, but is really friendly"
       },
       {
@@ -16123,7 +16119,7 @@ quotes = [
       },
       {
         "name": "Nikita",
-        "quote": "Latecomer"
+        "quote": "Latecomer 😂!! I miss chatting to you late-nights and remember all the thallu we used to do during project presentations 😍"
       },
       {
         "name": "Michelle",
@@ -16243,7 +16239,7 @@ quotes = [
         "quote": "Miss you man❤️"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "Ivan first year exam maati anu paranju allavarayum patichu, A really friendly person"
       },
       {
@@ -16368,7 +16364,7 @@ quotes = [
         "quote": "Thallist😂"
       },
       {
-        "name": "Akshay",
+        "name": "Akshay P",
         "quote": "The master of thalls, he is said to own a cycle capable of defeating even super cars in a race but overall is a really friendly and kind hearted person"
       },
       {
